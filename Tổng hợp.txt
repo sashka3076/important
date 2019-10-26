@@ -1303,6 +1303,9 @@ Web down trình giả lập iOS:
 
 
 Extensions:
+Youtube Recommend Removal   =>  xóa video đề xuất của ytb
+https://www.facebook.com/groups/j2team.community/permalink/1000629116935875/?hc_location=ufi
+
 User-Agent Switcher   =>    quick and easy way to switch between user-agents.
 
 Project Naptha	=>	Highlight, copy, edit, and translate text from any image on the web.
@@ -1356,6 +1359,7 @@ Copyfish 🐟 Free OCR Software   =>   Get Text from Image
 Toolkit For FB by PlugEx   =>  Tools FB
 
 React Developer Tools =>  Check web use ReactJS
+
 Dark Reader  =>  Dark Web 
 
 Getlink thư mục video Google Drive  =>  getlink tất cả video trong 1 thư mục Google Drive khi bị khóa quyền download.
