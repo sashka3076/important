@@ -15,6 +15,7 @@ Tools:
 netattack2
 kickthemout
 Th3inspector	=>  https://github.com/Moham3dRiahi/Th3inspector
-morpheus	=>  https://github.com/r00t-3xp10it/morpheus
-lscript1	=>  https://github.com/arismelachroinos/lscript
-fluxion		=>  https://github.com/FluxionNetwork/fluxion
+morpheus	    =>  https://github.com/r00t-3xp10it/morpheus
+lscript1	    =>  https://github.com/arismelachroinos/lscript
+fluxion		    =>  https://github.com/FluxionNetwork/fluxion
+Tool-X		    =>  https://github.com/Rajkumrdusad/Tool-X
