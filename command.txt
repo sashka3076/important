@@ -1,6 +1,11 @@
 https://ss64.com/bash/
 
+API:	https://reqres.in/
+
 tar xvfz
+
+find path -name filename
+
 apt purge package_name
 	- Delete file config of package and remove package
 eog
@@ -39,6 +44,10 @@ adduser --home /home/kali kali
 fdisk -l
 	thu thập thông tin về các file phân vùng hệ thống
 
+parted -l
+gdisk -l /dev/sda
+	Check disk MBR or GPT
+
 find / -type s
 	find all socket files on your system
 
@@ -58,6 +67,7 @@ wc -mlw	  =>  Count words, lines, chars of file
 
 xdg-open  =>  Open current folder in terminal
 
+netdiscover -r range-ip
 
 Ubuntu fix broken package (best solution)
 http://www.iasptk.com/ubuntu-fix-broken-package-best-solution/
