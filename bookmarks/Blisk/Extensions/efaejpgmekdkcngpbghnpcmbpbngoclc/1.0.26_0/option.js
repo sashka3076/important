@@ -1,0 +1,1 @@
+window.location.href="https://www.canvasflip.com/visual-inspector/welcome/";

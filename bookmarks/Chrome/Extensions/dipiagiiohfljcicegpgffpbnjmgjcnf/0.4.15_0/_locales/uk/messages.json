@@ -1,0 +1,723 @@
+{
+   "Deck_name_cant_be_empty": {
+      "message": "Ім'я колоди не може бути порожнім"
+   },
+   "Deck_with_given_name_already_exists": {
+      "message": "Колода з таким іменем вже існує"
+   },
+   "Nothing_to_learn": {
+      "message": "Немає що вчити"
+   },
+   "OK": {
+      "message": "ОК"
+   },
+   "add_new_translation": {
+      "message": "додати новий переклад"
+   },
+   "additional": {
+      "message": "додатково"
+   },
+   "adjective": {
+      "message": "прикметник"
+   },
+   "adverb": {
+      "message": "прислівник"
+   },
+   "ago": {
+      "message": "тому"
+   },
+   "all": {
+      "message": "усі"
+   },
+   "alphabetically": {
+      "message": "алфавітом"
+   },
+   "ankiFix_message": {
+      "message": "Експорт знову доступний!"
+   },
+   "ankiFix_title": {
+      "message": "Експорт в Anki"
+   },
+   "answer": {
+      "message": "відповідь"
+   },
+   "antonym": {
+      "message": "антонім"
+   },
+   "article": {
+      "message": "артикль"
+   },
+   "auxiliary_verb": {
+      "message": "допоміжне дієслово"
+   },
+   "back": {
+      "message": "назад"
+   },
+   "cancel": {
+      "message": "скасувати"
+   },
+   "card_edit": {
+      "message": "редагування картки"
+   },
+   "cardsRipeningExplanation": {
+      "message": "Після повторення картки стають тимчасово недоступними. Через деякий час Вам буде запропоновано повторити їх, щоб утримати знання в пам'яті."
+   },
+   "cardsWaiting": {
+      "message": "Час вивчати картки! Доступно: $1"
+   },
+   "cards_per_session": {
+      "message": "карток у сесії"
+   },
+   "cards_sorting": {
+      "message": "сортування карток"
+   },
+   "checkBrowserVersion": {
+      "message": "Перевірити версію браузера"
+   },
+   "check_all": {
+      "message": "виділити всі"
+   },
+   "classic": {
+      "message": "класичний"
+   },
+   "collapse": {
+      "message": "згорнути"
+   },
+   "configureSync": {
+      "message": "Налаштувати синхронізацію"
+   },
+   "conjunction": {
+      "message": "сполучник"
+   },
+   "correct": {
+      "message": "вірно"
+   },
+   "correct_answer": {
+      "message": "вірна відповідь"
+   },
+   "custom": {
+      "message": "інший"
+   },
+   "cut": {
+      "message": "вирізати"
+   },
+   "cutNPasteRelease": {
+      "message": "Відтепер Ви можете переміщати картки між колодами."
+   },
+   "cutNPasteTip": {
+      "message": "Тепер оберіть колоду, в яку Ви б хотіли перемістити вирізані картки, і натисніть кнопку Вставити."
+   },
+   "days": {
+      "message": "дні"
+   },
+   "deck": {
+      "message": "колода"
+   },
+   "deckMenuActions_activate": {
+      "message": "Зробити цільовою"
+   },
+   "deckMenuActions_activate_tip": {
+      "message": "Зберігати нові картки в цю колоду"
+   },
+   "deckMenuActions_activated": {
+      "message": "Цільова"
+   },
+   "deckMenuActions_activated_tip": {
+      "message": "Нові картки зберігатимуться в цю колоду"
+   },
+   "deckMenuActions_backup": {
+      "message": "Резервна копія"
+   },
+   "deckMenuActions_backup_create": {
+      "message": "Створити"
+   },
+   "deckMenuActions_backup_create_tip": {
+      "message": "Збережіть всі свої колоди і прогрес"
+   },
+   "deckMenuActions_backup_restore": {
+      "message": "Відновити"
+   },
+   "deckMenuActions_create": {
+      "message": "Створити колоду"
+   },
+   "deckMenuActions_export": {
+      "message": "Експортувати"
+   },
+   "deckMenuActions_exportAs": {
+      "message": "Зберегти як"
+   },
+   "deckMenuActions_export_anki": {
+      "message": "Сумісний з Anki"
+   },
+   "deckMenuActions_export_disabled_tip": {
+      "message": "Колода пуста"
+   },
+   "deckMenuActions_import": {
+      "message": "Імпортувати"
+   },
+   "deckMenuActions_import_tip": {
+      "message": "JSON, CSV"
+   },
+   "deckMenuActions_remove": {
+      "message": "Видалити колоду"
+   },
+   "deckMenuActions_remove_last_tip": {
+      "message": "Неможливо видалити останню колоду"
+   },
+   "deckMenuActions_remove_target_tip": {
+      "message": "Неможливо видалити цільову колоду"
+   },
+   "deckMenuActions_title": {
+      "message": "Дії"
+   },
+   "deck_description": {
+      "message": "опис колоди"
+   },
+   "decks": {
+      "message": "колоди"
+   },
+   "definition": {
+      "message": "визначення"
+   },
+   "delete": {
+      "message": "видалити"
+   },
+   "detect": {
+      "message": "автовизначення"
+   },
+   "detectedAs": {
+      "message": "Перекладено з $1"
+   },
+   "disableReminders": {
+      "message": "Вимкнути нагадування"
+   },
+   "dontNotifyOnUpdates": {
+      "message": "Більше не сповіщати мене про оновлення"
+   },
+   "easy": {
+      "message": "легко"
+   },
+   "edit": {
+      "message": "редагувати"
+   },
+   "enable": {
+      "message": "увімкнути/вимкнути"
+   },
+   "ensureSyncIsOn1st": {
+      "message": "Переконайтесь, що синхронізація розширень увімкнена в "
+   },
+   "ensureSyncIsOn2nd": {
+      "message": "налаштуваннях Chrome"
+   },
+   "error": {
+      "message": "помилка"
+   },
+   "example": {
+      "message": "приклад"
+   },
+   "expand": {
+      "message": "розгорнути"
+   },
+   "export": {
+      "message": "експортувати"
+   },
+   "ext_author": {
+      "message": "Сергій skye Муригін, Юрчишин Мирослава"
+   },
+   "ext_description": {
+      "message": "Перекладайте слова та фрази під час перегляду веб-сторінок, та з легкістю вивчайте іноземні мови за допомогою двосторонніх карток."
+   },
+   "ext_name": {
+      "message": "Rememberry - Перекладайте та Запам'ятовуйте"
+   },
+   "ext_short_name": {
+      "message": "Rememberry"
+   },
+   "failedToReadFile": {
+      "message": "Помилка при зчитуванні файлу"
+   },
+   "fileTypeIsNotAllowed": {
+      "message": "Обраний файл не JSON чи CSV формату"
+   },
+   "filter": {
+      "message": "фільтр"
+   },
+   "forward": {
+      "message": "вперед"
+   },
+   "goToOptionsPage": {
+      "message": "Перейти на сторінку налаштувань"
+   },
+   "hard": {
+      "message": "складно"
+   },
+   "hotkey": {
+      "message": "гаряча клавіша"
+   },
+   "hours": {
+      "message": "години"
+   },
+   "improvedTranslationRelease": {
+      "message": "Відтепер при перекладі англійських слів через спливаюче вікно Ви бачитимете їхні синоніми, антоніми, приклади використання, та визначення."
+   },
+   "in": {
+      "message": "в"
+   },
+   "incorrect": {
+      "message": "невірно"
+   },
+   "incorrectFileContent": {
+      "message": "Некоректний вміст файлу"
+   },
+   "info": {
+      "message": "Інформація"
+   },
+   "initialTab": {
+      "message": "Початкова вкладка"
+   },
+   "interjection": {
+      "message": "вигук"
+   },
+   "just_now": {
+      "message": "щойно"
+   },
+   "key_modifier": {
+      "message": "клавіша модифікатор"
+   },
+   "languages": {
+      "message": "мови"
+   },
+   "learn": {
+      "message": "вивчати"
+   },
+   "learned": {
+      "message": "додано"
+   },
+   "learningInSwitchTo": {
+      "message": "вивчення"
+   },
+   "learning_mode": {
+      "message": "режим вивчення"
+   },
+   "listening": {
+      "message": "прослуховування"
+   },
+   "loading": {
+      "message": "завантаження"
+   },
+   "loadingSemantization": {
+      "message": "Завантажується сементизація"
+   },
+   "localFilesTip": {
+      "message": "Щоб мати можливість перекладу тексту з локальних сторінок, відмітьте флажок 'Надавати доступ до URL-адрес файлу' під Rememberry на сторінці розширень."
+   },
+   "log_in": {
+      "message": "увійти"
+   },
+   "log_out": {
+      "message": "вийти"
+   },
+   "login": {
+      "message": "логін"
+   },
+   "maxCardTextLengthExceeded": {
+      "message": "Неможливо зберегти картку з текстом оригіналу довшим ніж $1 символів."
+   },
+   "menuDecks": {
+      "message": "Колоди"
+   },
+   "menuLanguages": {
+      "message": "Мови"
+   },
+   "menuOther": {
+      "message": "Інші"
+   },
+   "menuShare": {
+      "message": "Поширити"
+   },
+   "menuSubscription": {
+      "message": "Підписка"
+   },
+   "menuTriggers": {
+      "message": "Тригери"
+   },
+   "minutes": {
+      "message": "хвилини"
+   },
+   "model": {
+      "message": "модель"
+   },
+   "modifiers": {
+      "message": "модифікатори"
+   },
+   "months": {
+      "message": "місяці"
+   },
+   "more_than_a_month": {
+      "message": "більше місяця"
+   },
+   "more_than_year_ago": {
+      "message": "більше року тому"
+   },
+   "most_repeated": {
+      "message": "к-стю повторень"
+   },
+   "most_useful": {
+      "message": "корисністю"
+   },
+   "mutualLanguagesSetting": {
+      "message": "Використовувати ті ж мови при перекладі через спливаюче вікно та веб-сторінку"
+   },
+   "newFeatureReleased": {
+      "message": "Оновлення. Нова можливість"
+   },
+   "new_first": {
+      "message": "новизною"
+   },
+   "noAvailableCards": {
+      "message": "Немає доступних карток у обраній колоді"
+   },
+   "normal": {
+      "message": "середньо"
+   },
+   "notifyOnUpdates": {
+      "message": "Сповіщати мене про важливі оновлення"
+   },
+   "noun": {
+      "message": "іменник"
+   },
+   "number_of_available_cards": {
+      "message": "загальну кількість доступних карток"
+   },
+   "number_of_available_cards_in_active_deck": {
+      "message": "кількість доступних карток в активній колоді"
+   },
+   "of": {
+      "message": "з"
+   },
+   "off": {
+      "message": "вимкнено"
+   },
+   "offlineMessage": {
+      "message": "Немає з'єднання з Інтернетом"
+   },
+   "on": {
+      "message": "увімкнено"
+   },
+   "openDecksMenu": {
+      "message": "Управління колодами"
+   },
+   "openExtensionsManager": {
+      "message": "Перейти до сторінки розширень"
+   },
+   "openTranslatorSite": {
+      "message": "Перекласти через веб-сайт"
+   },
+   "original_term": {
+      "message": "оригінальний термін"
+   },
+   "other": {
+      "message": "інші"
+   },
+   "particle": {
+      "message": "частка"
+   },
+   "password": {
+      "message": "пароль"
+   },
+   "paste": {
+      "message": "вставити"
+   },
+   "per_month": {
+      "message": "в місяць"
+   },
+   "plan": {
+      "message": "план"
+   },
+   "popup": {
+      "message": "вікно додатку"
+   },
+   "popup_type": {
+      "message": "тип вікна"
+   },
+   "preposition": {
+      "message": "прийменник"
+   },
+   "preserve_credentials": {
+      "message": "запам'ятати дані авторизації"
+   },
+   "pronoun": {
+      "message": "займенник"
+   },
+   "pronunciation_loading_error": {
+      "message": "Сталась помилка під час спроби завантаження вимови"
+   },
+   "randomly": {
+      "message": "випадково"
+   },
+   "rateIn": {
+      "message": "Оцінити в"
+   },
+   "recentlyUsed": {
+      "message": "Нещодавні"
+   },
+   "reminder": {
+      "message": "нагадування"
+   },
+   "reminders": {
+      "message": "нагадування"
+   },
+   "repeated": {
+      "message": "повторено"
+   },
+   "return": {
+      "message": "повернутись"
+   },
+   "reverse": {
+      "message": "реверсний"
+   },
+   "ripened_cards": {
+      "message": "доступних карток"
+   },
+   "save": {
+      "message": "зберегти"
+   },
+   "saveCardToDeck": {
+      "message": "Зберегти як картку"
+   },
+   "seconds": {
+      "message": "секунди"
+   },
+   "sentence": {
+      "message": "речення"
+   },
+   "settings": {
+      "message": "налаштування"
+   },
+   "settingsSyncReleaseMessage": {
+      "message": "З радістю повідомляємо, що тепер Ви маєте змогу синхронізувати налаштування Rememberry між усіма вашими Chrome браузерами."
+   },
+   "shareForeword": {
+      "message": "Якщо Вам до вподоби користуватись Rememberry, будь ласка поділіться ним зі своїми друзями. Допоможіть їм ефективно вивчати іноземні мови!"
+   },
+   "shareWithFriends": {
+      "message": "Поділитись Rememberry з друзями"
+   },
+   "showInsideBadge": {
+      "message": "Показувати в Іконці"
+   },
+   "show_answer": {
+      "message": "показати відповідь"
+   },
+   "signInToSync1st": {
+      "message": "Увійдіть в Chrome"
+   },
+   "signInToSync2nd": {
+      "message": " щоб використовувати синхронізацію"
+   },
+   "sort_by": {
+      "message": "сортувати за"
+   },
+   "sort_direction": {
+      "message": "напрямок сортування"
+   },
+   "source_language": {
+      "message": "мова оригіналу"
+   },
+   "start": {
+      "message": "старт"
+   },
+   "subAfterPlan": {
+      "message": "режим, який надає Вам повний доступ до всіх базових та додаткових можливостей."
+   },
+   "subBasic": {
+      "message": "Безкоштовний"
+   },
+   "subBeforePlan": {
+      "message": "Ви використовуєте"
+   },
+   "subCustomText": {
+      "message": "Переклад довільного тексту"
+   },
+   "subExportTo": {
+      "message": "Експорт в"
+   },
+   "subLearningModes": {
+      "message": "Режими вивчення"
+   },
+   "subLearningSessions": {
+      "message": "Сесії вивчень"
+   },
+   "subNewCards": {
+      "message": "Нові картки"
+   },
+   "subReminders": {
+      "message": "Нагадування"
+   },
+   "subSemantizations": {
+      "message": "Методи семантизації"
+   },
+   "subSubscriber": {
+      "message": "Підписник"
+   },
+   "subTranslateSynNAnt": {
+      "message": "Переклад синонімів і антонімів"
+   },
+   "subTranslations": {
+      "message": "Переклади"
+   },
+   "subTrial": {
+      "message": "Пробний"
+   },
+   "switchLanguages": {
+      "message": "Поміняти місцями мови"
+   },
+   "switchPopupType": {
+      "message": "Переключити вікно в режим $1"
+   },
+   "syncDecksLabel": {
+      "message": "Синхронізувати колоди"
+   },
+   "syncDecksNotAvailable": {
+      "message": "Поки не доступно. Ми повідомимо Вас!"
+   },
+   "syncSectionTitle": {
+      "message": "Синхронізація"
+   },
+   "syncSettings": {
+      "message": "Сихронізувати налаштування розширення"
+   },
+   "syncSettingsDescription": {
+      "message": "Сихронізувати налаштування Rememberry між усіма Вашими браузерами Chrome з поточним профілем"
+   },
+   "synonym": {
+      "message": "синонім"
+   },
+   "target_language": {
+      "message": "мова перекладу"
+   },
+   "termsPerPartOfSpeech": {
+      "message": "Кількість перекладів на частину мови"
+   },
+   "text_to_translate": {
+      "message": "текст для перекладу"
+   },
+   "thanksForBeingWithUs": {
+      "message": "Дякуємо що Ви з нами"
+   },
+   "time_left": {
+      "message": "залишилось"
+   },
+   "tooLongOriginalsAreSkipped": {
+      "message": "Вимова доступна лише для тексту довжиною менше $1 символів. Деякі картки були відфільтровані."
+   },
+   "tooLongTTT": {
+      "message": "Будь-ласка користуйтесь веб-сайтами перекладачами щоб перекладати великі за розміром тексти"
+   },
+   "total_cards": {
+      "message": "всього карток"
+   },
+   "transcription_loading_error": {
+      "message": "Сталась помилка під час спроби завантаження транскрипції"
+   },
+   "translate": {
+      "message": "перекласти"
+   },
+   "translateRequestError": {
+      "message": "Помилка при отриманні перекладу"
+   },
+   "translateWith": {
+      "message": "Перекласти за допомогою $1"
+   },
+   "translation": {
+      "message": "переклад"
+   },
+   "translationIconBesideSelection": {
+      "message": "Показувати іконку перекладу при виділенні тексту"
+   },
+   "translationInSwitchTo": {
+      "message": "перекладу"
+   },
+   "translations": {
+      "message": "переклади"
+   },
+   "trigger_action": {
+      "message": "тип запуску"
+   },
+   "trigger_click": {
+      "message": "клік"
+   },
+   "trigger_dblclick": {
+      "message": "подвійний клік"
+   },
+   "trigger_none": {
+      "message": "відсутній"
+   },
+   "trigger_selection": {
+      "message": "виділення тексту"
+   },
+   "triggers": {
+      "message": "тригери"
+   },
+   "try_again": {
+      "message": "повторити спробу"
+   },
+   "typing": {
+      "message": "друк"
+   },
+   "undo": {
+      "message": "відмінити останню дію"
+   },
+   "unlimited": {
+      "message": "необмежено"
+   },
+   "updateChromeToLatest": {
+      "message": "Ви використовуєте застарілу версію браузера. Будь-ласка оновіться до останньої версії браузера щоб мати можливість повноцінно користуватись усіма можливостями розширення."
+   },
+   "verb": {
+      "message": "дієслово"
+   },
+   "warning": {
+      "message": "попередження"
+   },
+   "weAreSorry": {
+      "message": "Вибачте"
+   },
+   "webpage": {
+      "message": "веб-сторінка"
+   },
+   "welcomeAction": {
+      "message": "Утримуючи $modifier$ зробіть $action$",
+      "placeholders": {
+         "action": {
+            "content": "$2"
+         },
+         "modifier": {
+            "content": "$1"
+         }
+      }
+   },
+   "welcomeActionWithoutModifier": {
+      "message": "Зробіть $action$",
+      "placeholders": {
+         "action": {
+            "content": "$1"
+         }
+      }
+   },
+   "welcomeConfigure": {
+      "message": "Налаштувати мову, гарячі клавіші та інше"
+   },
+   "welcomeHowToLink": {
+      "message": "Переглянути коротку відеопрезентацію"
+   },
+   "welcomeMessage": {
+      "message": "Тепер Ви можете перекладати будь-який текст та зберегти його для подальшого вивчення.\n$1 на будь-якому слові на сторінці."
+   },
+   "welcomeTitle": {
+      "message": "Ласкаво просимо!"
+   },
+   "your_answer": {
+      "message": "ваша відповідь"
+   }
+}

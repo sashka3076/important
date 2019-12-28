@@ -1,0 +1,638 @@
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet"/>
+<style type="text/css">
+    html {
+        position: relative;
+    }
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background: #fff;
+        color: #707172;
+        font-family: Helvetica;
+        font-size: 12px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-weight: 400;
+        overflow: hidden;
+        line-height: 1.42857143;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    #cfCommentBox {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .cf-comment-items::-webkit-scrollbar {
+        width: 6px;
+    }
+    .cf-comment-items::-webkit-scrollbar-track {
+        border-radius: 0;
+        background-color: #F7F8F8;
+    }
+    .cf-comment-items::-webkit-scrollbar-thumb {
+        margin: 2px;
+        border-radius: 0;
+        background: rgba(0,0,0,0.2);
+    }
+    .cf-comment-items-empty {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        float: left;
+        padding: 25px 15px;
+        text-align: center;
+    }
+
+    /*Cf comment modal*/
+    #cfCommentContainer {
+        color: #525E79;
+        font-size: 14px;
+    }
+    #cfCommentContainer.cf-comment-modal{
+        text-align: left;
+        padding: 0;
+    }
+    #cfCommentResolve {
+        float: left;
+        width: 86px!important;
+        line-height: 28px;
+        border-radius: 100px;
+        background-color: #F9F9F9;
+        border: solid 1px #E5E5E5;
+        font-size: 12px;
+        text-align: center;
+        color: #9FA3AB;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+    #cfCommentResolve[data-resolved="1"] {
+        border: solid 1px #4EBA46;
+        color: #4EBA46;
+    }
+    #cfCommentBackToInspect{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 125px;
+        margin: 16px;
+        font-size: 14px;
+        line-height: 28px;
+        cursor: pointer;
+    }
+    #cfCommentBackToInspect:hover{
+        color: #00AEEE;
+    }
+    #cfCommentBackToInspect:hover svg{
+        fill: #00AEEE;
+    }
+    #cfCommentBackToInspect svg{
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 5px;
+        position: relative;
+        top: -2px;
+    }
+    #cfCommentHeader{
+        cursor: move;
+        height: 50px;
+        padding: 16px;
+    }
+
+    #cfCommentShowOriginal {
+        float: right;
+        width: 86px!important;
+        line-height: 28px;
+        border-radius: 100px;
+        background-color: #F9F9F9;
+        border: solid 1px #E5E5E5;
+        font-size: 12px;
+        text-align: center;
+        color: #9FA3AB;
+        cursor: pointer;
+    }
+    #cfCommentShowOriginal[data-original="1"] {
+        border: solid 1px #4EBA46;
+        color: #4EBA46;
+    }
+    .cf-comment-items-container {
+        padding: 0;
+        display: inline-block;
+        left: 0;
+        top: 62px;
+        width: 100%;
+        height: auto;
+        overflow: auto;
+    }
+    .cf-comment-items {
+        position: relative;
+        display: inline-block;
+        max-height: 375px;
+        width: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .cf-comment-footer {
+        position: relative;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        float: left;
+    }
+    .cf-comment-footer-textarea {
+        position: relative;
+        display: inline-block;
+        float: left;
+        width: 100%;
+    }
+    .cf-comment-footer-btns {
+        position: relative;
+        display: inline-block;
+        float: left;
+        width: 100%;
+    }
+    .cf-comment-item {
+        padding: 18px 0 0 0;
+        background-color: #F7F8F8;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        float: left;
+    }
+    .cf-comment-item:first-child {
+        padding-top: 0;
+        padding-bottom: 18px;
+        background-color: #FFF;
+    }
+    .cf-comment-item:last-child {
+        padding-bottom: 18px;
+    }
+    .cf-comment-item-top{
+        margin-top: 8px;
+    }
+    .cf-comment-item-avatar {
+        width: 41px;
+        line-height: 41px;
+        background-color: #C3CDE1;
+        border-radius: 50%;
+        text-align: center;
+        float: left;
+        color: #65728C;
+        margin-left: 16px;
+    }
+    .cf-comment-item-right {
+        margin-left: 72px;
+        margin-right: 16px;
+    }
+    .cf-comment-item-actions{
+        display: none;
+        margin-top: 14px;
+    }
+    .cf-comment-item-actions.active{
+        display: block;
+    }
+    .cf-comment-item-text {
+        width: 300px;
+        margin-top: 3px;
+        transition: all 0.5s ease;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .cf-comment-item-text[contenteditable="false"] {
+        border: none;
+    }
+    .cf-comment-item-text[contenteditable="true"] {
+        width: 280px;
+        border-radius: 3px;
+        border: solid 1px #ACB2BD;
+        padding: 12px;
+    }
+    .cf-comment-item-text[contenteditable="true"] + .cf-comment-item-actions {
+        display: block;
+    }
+    .cf-comment-item-name {
+        font-weight: 600;
+        margin-right: 12px;
+    }
+    .cf-comment-item-time {
+        color: #A0A9AC;
+    }
+    .cf-comment-item-options-container {
+        float: right;
+    }
+    .cf-comment-item-options-container svg{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .cf-comment-item-options{
+        padding: 10px 0px 10px 10px;
+        cursor: pointer;
+    }
+    .cf-comment-item-options-edit{
+        display: none;
+        padding: 10px 0px 10px 14px;
+        cursor: pointer;
+    }
+    .cf-comment-item-options-delete{
+        display: none;
+        padding: 10px 0px 10px 14px;
+        cursor: pointer;
+    }
+    .cf-comment-item-submit {
+        width: 72px;
+        line-height: 28px;
+        border-radius: 100px;
+        background-color: #00AEEE;
+        color: #FFF;
+        font-size: 12px;
+        display: inline-block;
+        text-align: center;
+        float: right;
+    }
+    .cf-comment-item-cancel {
+        color: #A0A9AC;
+        font-size: 12px;
+        float: right;
+        display: inline-block;
+        line-height: 28px;
+        margin-right: 12px;
+    }
+    .cf-comment-item-cancel,
+    .cf-comment-item-submit{
+        text-decoration: none;
+        cursor: pointer;
+    }
+    #cfCommentTextarea{
+        width: 330px;
+        height: 37px;
+        border-radius: 3px;
+        border: solid 1px #ACB2BD;
+        margin: 22px 35px 14px;
+        display: block;
+        padding: 10px 22px;
+        overflow: hidden;
+        color: #97A1B3;
+        resize: none;
+    }
+    #cfCommentTextarea.active {
+        height: 80px;
+        color: #525E79;
+    }
+    .cf-comment-submit {
+        width: 72px;
+        line-height: 28px;
+        border-radius: 100px;
+        background-color: #00AEEE;
+        color: #FFF;
+        font-size: 12px;
+        display: inline-block;
+        text-align: center;
+        float: right;
+        margin-right: 35px;
+        margin-bottom: 16px;
+    }
+    .cf-comment-cancel {
+        color: #A0A9AC;
+        font-size: 12px;
+        float: right;
+        display: inline-block;
+        line-height: 28px;
+        margin-right: 14px;
+        margin-bottom: 16px;
+    }
+    .cf-comment-cancel,
+    .cf-comment-submit{
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .cf-comment-modal{
+        text-align: center;
+        color: #65728C;
+        display: none;
+        padding: 16px;
+    }
+    .cf-comment-modal.active{
+        display: block;
+    }
+    .cf-comment-modal-error{
+        font-size: 12px;
+        color: #ED6969;
+    }
+    .cf-comment-back{
+        position: absolute;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .cf-comment-vertical {
+        display: table;
+        height: -webkit-fill-available;
+        width: 100%;
+    }
+    .cf-comment-vertical > div {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .cf-comment-back svg{
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+    .cf-comment-title{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .cf-comment-sub-title{
+        font-size: 14px;
+        padding-top: 41px;
+        padding-top: 8px; 
+    }
+    .cf-comment-input{
+        width: 240px;
+        height: 38px;
+        border-radius: 2px;
+        opacity: 1;
+        border: solid 1px #65728C;
+        background-color: #FFF!important;
+        display: block;
+        margin: 0 auto;
+        margin-top: 12px;
+        padding: 0 12px;
+        font-size: 14px;
+    }
+    .cf-comment-btn{
+        width: 130px;
+        line-height: 38px;
+        display: inline-block;
+        margin: 0 auto;
+        margin-top: 16px;
+        font-size: 14px;
+        color: #FFF;
+        border-radius: 100px;
+        background-image: linear-gradient(to left,#00AEEE 0%,#5BC4EA 100%);
+        cursor: pointer;
+    }
+    .cf-comment-btn:hover{
+        text-decoration: none;
+        color: #FFF;
+    }
+    .cf-comment-modal-vertical {
+        height: -webkit-fill-available;
+    }
+    #cfCommentNoLoginBtnGuest{
+        font-size: 12px;
+        padding-top: 14px;
+        margin-top: 14px;
+        border-top: 1px solid #D8D8D8;
+        cursor: pointer;
+    }
+    #cfCommentNoLoginLoginBtn{
+        margin-right: 16px;
+    }
+
+    /******SPINNER CSS*******************************/
+    .cf-spinner {
+        width: 65px;
+        height: 65px;
+        margin: 25px auto;
+        position: relative;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: +10000;
+        overflow: hidden;
+    }
+    .cf-spinner.small {
+        width: 40px;
+        height: 40px;
+    }
+    .cf-spinner .spinner {
+        -webkit-animation: rotator 1.4s linear infinite;
+        animation: rotator 1.4s linear infinite;
+        position: absolute;
+        background-position: 50% 50%!important;
+        top: 0;
+        left: 0;
+    }
+    @-webkit-keyframes rotator {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+        100% {
+            -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+        }
+    }
+    @keyframes rotator {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+        100% {
+            -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+        }
+    }
+    .spinner .path {
+        stroke-dasharray: 187;
+        stroke-dashoffset: 0;
+        -webkit-transform-origin: center;
+        -ms-transform-origin: center;
+        transform-origin: center;
+        -webkit-animation: dash 1.4s ease-in-out infinite, colors 5.6s ease-in-out infinite;
+        animation: dash 1.4s ease-in-out infinite, colors 5.6s ease-in-out infinite;
+    }
+    @-webkit-keyframes colors {
+        0% {
+            stroke: #4285F4;
+        }
+        25% {
+            stroke: #DE3E35;
+        }
+        50% {
+            stroke: #F7C223;
+        }
+        75% {
+            stroke: #1B9A59;
+        }
+        100% {
+            stroke: #4285F4;
+        }
+    }
+    @keyframes colors {
+        0% {
+            stroke: #4285F4;
+        }
+        25% {
+            stroke: #DE3E35;
+        }
+        50% {
+            stroke: #F7C223;
+        }
+        75% {
+            stroke: #1B9A59;
+        }
+        100% {
+            stroke: #4285F4;
+        }
+    }
+    @-webkit-keyframes dash {
+        0% {
+            stroke-dashoffset: 187;
+        }
+        50% {
+            stroke-dashoffset: 46.75;
+            -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+        }
+        100% {
+            stroke-dashoffset: 187;
+            -webkit-transform: rotate(450deg);
+            transform: rotate(450deg);
+        }
+    }
+    @keyframes dash {
+        0% {
+            stroke-dashoffset: 187;
+        }
+        50% {
+            stroke-dashoffset: 46.75;
+            -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+        }
+        100% {
+            stroke-dashoffset: 187;
+            -webkit-transform: rotate(450deg);
+            transform: rotate(450deg);
+        }
+    }
+</style>
+
+<div id="cfCommentBox">
+    <div id="cfCommentContainer" class="cf-comment-modal active">
+        <div id="cfCommentHeader">
+            <div id="cfCommentBackToInspect" data-resolved="0">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="16px" opacity="0.5" viewBox="0 0 7 13" version="1.1">
+                        <g transform="translate(0,-3)">
+                            <path d="M0.175257333,9.95861637 L5.56763908,15.7982422 C5.80425318,16.053919 6.18760588,16.053919 6.4248175,15.7982422 C6.66143161,15.5425654 6.66143161,15.1272794 6.4248175,14.8716026 L1.4601536,9.49532353 L6.42421999,4.1190445 C6.6608341,3.8633677 6.6608341,3.44808169 6.42421999,3.1917576 C6.18760588,2.9360808 5.80365567,2.9360808 5.56704157,3.1917576 L0.174659823,9.03132946 C-0.0583194303,9.28436319 -0.0583194303,9.70617598 0.175257333,9.95861637 Z"></path>
+                        </g>
+                    </svg>
+                </span>
+                <span>Back to Inspect</span>
+            </div>
+            <div id="cfCommentShowOriginal" data-original="0">Show Original</div>
+        </div>
+        <div class="cf-comment-items-container">
+            <div class="cf-comment-spinner cf-spinner">
+                <svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="path" fill="none" stroke-width="3" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+                </svg>
+            </div>
+            <div class="cf-comment-items"></div>
+        </div>
+        <div class="cf-comment-footer">
+            <div class="cf-comment-footer-textarea">
+                <textarea id="cfCommentTextarea" placeholder="Add a new comment"></textarea>
+            </div>
+            <div class="cf-comment-footer-btns active">
+                <div id="cfCommentResolve" data-resolved="0">Resolved</div>
+                <a class="cf-comment-submit">Submit</a>
+                <a class="cf-comment-cancel">Cancel</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="cfCommentNoLogin" class="cf-comment-modal cf-comment-modal-vertical">
+        <div class="cf-comment-back">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="7px" height="13px" opacity="0.5" viewBox="0 0 7 13" version="1.1">
+                    <g transform="translate(0,-3)">
+                        <path d="M0.175257333,9.95861637 L5.56763908,15.7982422 C5.80425318,16.053919 6.18760588,16.053919 6.4248175,15.7982422 C6.66143161,15.5425654 6.66143161,15.1272794 6.4248175,14.8716026 L1.4601536,9.49532353 L6.42421999,4.1190445 C6.6608341,3.8633677 6.6608341,3.44808169 6.42421999,3.1917576 C6.18760588,2.9360808 5.80365567,2.9360808 5.56704157,3.1917576 L0.174659823,9.03132946 C-0.0583194303,9.28436319 -0.0583194303,9.70617598 0.175257333,9.95861637 Z"/>
+                    </g>
+                </svg>
+            </span>
+            <span>Back</span>
+        </div>
+        <div class="cf-comment-vertical">
+            <div>
+                <div class="cf-comment-title">Signup First</div>
+                <div class="cf-comment-sub-title">You will also be able to collaborate these changes remotly</div>
+                <a id="cfCommentNoLoginBtnLogin" class="cf-comment-btn">Login</a>
+                <a id="cfCommentNoLoginBtnSignup" class="cf-comment-btn">Signup</a>
+                <div id="cfCommentNoLoginBtnGuest">Continue as a Guest</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="cfCommentLogin" class="cf-comment-modal cf-comment-modal-vertical">
+        <div class="cf-comment-back">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="7px" height="13px" opacity="0.5" viewBox="0 0 7 13" version="1.1">
+                    <g transform="translate(0,-3)">
+                        <path d="M0.175257333,9.95861637 L5.56763908,15.7982422 C5.80425318,16.053919 6.18760588,16.053919 6.4248175,15.7982422 C6.66143161,15.5425654 6.66143161,15.1272794 6.4248175,14.8716026 L1.4601536,9.49532353 L6.42421999,4.1190445 C6.6608341,3.8633677 6.6608341,3.44808169 6.42421999,3.1917576 C6.18760588,2.9360808 5.80365567,2.9360808 5.56704157,3.1917576 L0.174659823,9.03132946 C-0.0583194303,9.28436319 -0.0583194303,9.70617598 0.175257333,9.95861637 Z"/>
+                    </g>
+                </svg>
+            </span>
+            <span>Back</span>
+        </div>
+        <div class="cf-comment-vertical">
+            <div>
+                <div class="cf-comment-title">Login</div>
+                <div id="cfCommentLoginError" class="cf-comment-modal-error"></div>
+                <input id="cfCommentLoginEmail" type="text" class="cf-comment-input" placeholder="Enter email"/>
+                <input id="cfCommentLoginPwd" type="password" class="cf-comment-input" placeholder="Enter password"/>
+                <a id="cfCommentLoginBtn" class="cf-comment-btn">Login</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="cfCommentSignup" class="cf-comment-modal cf-comment-modal-vertical">
+        <div class="cf-comment-back">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="7px" height="13px" opacity="0.5" viewBox="0 0 7 13" version="1.1">
+                    <g transform="translate(0,-3)">
+                        <path d="M0.175257333,9.95861637 L5.56763908,15.7982422 C5.80425318,16.053919 6.18760588,16.053919 6.4248175,15.7982422 C6.66143161,15.5425654 6.66143161,15.1272794 6.4248175,14.8716026 L1.4601536,9.49532353 L6.42421999,4.1190445 C6.6608341,3.8633677 6.6608341,3.44808169 6.42421999,3.1917576 C6.18760588,2.9360808 5.80365567,2.9360808 5.56704157,3.1917576 L0.174659823,9.03132946 C-0.0583194303,9.28436319 -0.0583194303,9.70617598 0.175257333,9.95861637 Z"/>
+                    </g>
+                </svg>
+            </span>
+            <span>Back</span>
+        </div>
+        <div class="cf-comment-vertical">
+            <div>
+                <div class="cf-comment-title">Signup</div>
+                <div id="cfCommentSignupError" class="cf-comment-modal-error"></div>
+                <input id="cfCommentSignupEmail" type="text" class="cf-comment-input" placeholder="Enter email"/>
+                <input id="cfCommentSignupPwd" type="password" class="cf-comment-input" placeholder="Enter password"/>
+                <a id="cfCommentSignupBtn" class="cf-comment-btn">Signup</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="cfCommentGuest" class="cf-comment-modal cf-comment-modal-vertical">
+        <div class="cf-comment-back">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="7px" height="13px" opacity="0.5" viewBox="0 0 7 13" version="1.1">
+                    <g transform="translate(0,-3)">
+                        <path d="M0.175257333,9.95861637 L5.56763908,15.7982422 C5.80425318,16.053919 6.18760588,16.053919 6.4248175,15.7982422 C6.66143161,15.5425654 6.66143161,15.1272794 6.4248175,14.8716026 L1.4601536,9.49532353 L6.42421999,4.1190445 C6.6608341,3.8633677 6.6608341,3.44808169 6.42421999,3.1917576 C6.18760588,2.9360808 5.80365567,2.9360808 5.56704157,3.1917576 L0.174659823,9.03132946 C-0.0583194303,9.28436319 -0.0583194303,9.70617598 0.175257333,9.95861637 Z"/>
+                    </g>
+                </svg>
+            </span>
+            <span>Back</span>
+        </div>
+        <div class="cf-comment-vertical">
+            <div>
+                <div class="cf-comment-title">Continue as Guest</div>
+                <div class="cf-comment-sub-title">Please provide your name</div>
+                <div id="cfCommentGuestError" class="cf-comment-modal-error"></div>
+                <input id="cfCommentGuestEmail" type="text" class="cf-comment-input" placeholder="Enter name"/>
+                <a id="cfCommentGuestBtn" class="cf-comment-btn">Go</a>
+            </div>
+        </div>
+    </div>
+</div>

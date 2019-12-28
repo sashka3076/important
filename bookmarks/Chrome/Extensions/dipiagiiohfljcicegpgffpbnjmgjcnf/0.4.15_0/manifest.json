@@ -1,0 +1,32 @@
+{
+   "author": "__MSG_ext_author__",
+   "background": {
+      "page": "html/background.html"
+   },
+   "browser_action": {
+      "default_popup": "html/popup.html",
+      "default_title": "__MSG_ext_short_name__"
+   },
+   "content_security_policy": "default-src 'self'; connect-src * blob:; script-src https://ssl.google-analytics.com/ 'self'; style-src * 'unsafe-inline'; media-src 'self'; img-src 'self' data:;",
+   "default_locale": "en",
+   "description": "__MSG_ext_description__",
+   "icons": {
+      "128": "ico/card128.png",
+      "16": "ico/card16.png",
+      "48": "ico/card48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArlVJcRh93FsmhSo/Fe/5ibqCcZYx0WmiJGiw8SSyKEmMXknt67ONOZa4uPjd3Svq2K3c0EkS+L7DOoZfe0I8/Y5B64O2r3i6ihIW5Ul2DdOU47QbPixJYUYxqMtXVC5w1EhQ9hyMBDGoTagEvK8HdRHYvwp3yatgV+5AXFT43jSQ4qxdUYL+hOYkYOKQchmR69g11sfkCT/q5DgutJGPBL3wKUTAvvTi+31ichasBdeakuX7HYvmkuRphveHfMwTulaQDtA003Kg7BWbWW1f4xiIUnKR6XsoNHlm+9ISA6N5inroTnf4QFzefD1q4+9aAb4L2UDHLV1WVAKHt1FZ2wIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_ext_name__",
+   "offline_enabled": true,
+   "optional_permissions": [ "downloads" ],
+   "options_ui": {
+      "chrome_style": true,
+      "page": "html/options.html"
+   },
+   "permissions": [ "*://*/*", "file:///", "storage", "unlimitedStorage", "tabs", "contextMenus", "notifications", "identity", "identity.email", "webNavigation" ],
+   "short_name": "__MSG_ext_short_name__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.4.15",
+   "web_accessible_resources": [ "fonts/*" ]
+}

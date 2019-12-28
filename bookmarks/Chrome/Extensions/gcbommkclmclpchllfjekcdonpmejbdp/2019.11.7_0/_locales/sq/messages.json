@@ -1,0 +1,191 @@
+{
+    "about_add_new_rule": {
+        "message": "Shto nj\u00eb regull t\u00eb re"
+    },
+    "about_ext_description": {
+        "message": "Shifroni Uebin! Shfryt\u00ebzoni automatikisht sigurin\u00eb HTTPS n\u00eb shum\u00eb uebfaqe."
+    },
+    "about_ext_name": {
+        "message": "HTTPS Kudo"
+    },
+    "about_rulesets_version": {
+        "message": "Versioni i rregullave p\u00ebr"
+    },
+    "about_title": {
+        "message": "Rreth HTTPS Kudo"
+    },
+    "about_version": {
+        "message": "Version"
+    },
+    "cancel_he_blocking_explainer": {
+        "message": "HTTPS Kudo vuri re se ju po lundroni n\u00eb nj\u00eb faqe jo-HTTPS, dhe u mundua t'ju d\u00ebrgonte tek versioni HTTPS nd\u00ebrkoh\u00eb. Versioni HTTPS nuk \u00ebsht\u00eb i disponuesh\u00ebm. Me shum\u00eb gjasa kjo faqe nuk ofron lidhje me HTTPS, por gjithashtu \u00ebsht\u00eb e mundur q\u00eb nj\u00eb keqdash\u00ebs po bllokon versionin HTTPS. N\u00ebse d\u00ebshironi t\u00eb shihni verionin e pa-koduar t\u00eb k\u00ebsaj faqeje, ju keni mund\u00ebsi ta b\u00ebni k\u00ebt\u00eb duke \u00e7aktivizuar opsionin &quot;Kodo t\u00eb Gjitha Faqet e Mundshme&quot; (KGjFM) n\u00eb shtes\u00ebn HTTPS Kudo. B\u00ebni kujdes, sepse \u00e7aktivizimi i k\u00ebtij opsioni mund ta b\u00ebj\u00eb shfletuesin tuaj t\u00eb ndjesh\u00ebm ndaj sulmeve t\u00eb tipit  p\u00ebrkeq\u00ebsues bazuar n\u00eb rrjet, p\u00ebr faqet q\u00eb ju vizitoni."
+    },
+    "cancel_he_blocking_network": {
+        "message": "sulme p\u00ebrkeq\u00ebsues t\u00eb bazuara n\u00eb rrjet"
+    },
+    "cancel_http_once": {
+        "message": "Open insecure page for this session only"
+    },
+    "cancel_open_page": {
+        "message": "Hap faqe t\u00eb pasigurt\u00eb "
+    },
+    "chrome_add_new_rule": {
+        "message": "Shtoni nj\u00eb rregull t\u00eb ri p\u00ebr k\u00ebt\u00eb webfaqe"
+    },
+    "chrome_add_rule": {
+        "message": "Shtoni nj\u00eb rregull p\u00ebr k\u00ebt\u00eb webfaqe"
+    },
+    "chrome_always_https_for_host": {
+        "message": "P\u00ebrdorni gjithmon\u00eb https p\u00ebr k\u00ebt\u00eb prit\u00ebs"
+    },
+    "chrome_disable_on_this_site": {
+        "message": "Pamund\u00ebso HTTPS kudo n\u00eb k\u00ebt\u00eb faqe"
+    },
+    "chrome_enable_on_this_site": {
+        "message": "Mund\u00ebso HTTPS kudo n\u00eb k\u00ebt\u00eb faqe"
+    },
+    "chrome_experimental_rules": {
+        "message": "Rregulla eksperimentale"
+    },
+    "chrome_experimental_rules_description": {
+        "message": "Mund t\u00eb shkaktoj\u00eb paralajm\u00ebrime apo thyerje. Paaft\u00ebsuar me parazgjedhje."
+    },
+    "chrome_hide_advanced": {
+        "message": "Fshihini t\u00eb p\u00ebrparuarat"
+    },
+    "chrome_host": {
+        "message": "Prit\u00ebsi:"
+    },
+    "chrome_redirect_to": {
+        "message": "E ridrejtuar tek"
+    },
+    "chrome_regex": {
+        "message": "P\u00ebrputhshm\u00ebri me shprehjet e rregullta"
+    },
+    "chrome_rule_name": {
+        "message": "Em\u00ebrtimi i rregullit"
+    },
+    "chrome_settings_for_this_site_explained": {
+        "message": "P\u00ebrderisa shfletoni faqe t\u00eb ndryshme, mund t\u00eb ndryshoni parap\u00eblqimet p\u00ebr secil\u00ebn uebfaqe"
+    },
+    "chrome_settings_for_this_site_header": {
+        "message": "Parap\u00eblqimet p\u00ebr k\u00ebt\u00eb faqe"
+    },
+    "chrome_settings_for_this_site_subheader": {
+        "message": "Ndryshoni parap\u00eblqimet tuaja p\u00ebr lidhjet e koduara."
+    },
+    "chrome_show_advanced": {
+        "message": "Shfaqni t\u00eb p\u00ebrparuarat"
+    },
+    "chrome_stable_rules": {
+        "message": "Rregulla t\u00eb q\u00ebndrueshme"
+    },
+    "chrome_stable_rules_description": {
+        "message": "Lidhje t\u00eb shifruara paraprakisht me k\u00ebto webfaqe:"
+    },
+    "chrome_status_cancel_button": {
+        "message": "Hiqeni"
+    },
+    "menu_donate_eff_imperative": {
+        "message": "Donatoni p\u00ebr EFF"
+    },
+    "menu_encryptAllSitesEligibleOff": {
+        "message": "Shifrimi i t\u00eb gjitha faqeve t\u00eb pranueshme \u00ebsht\u00eb ndaluar"
+    },
+    "menu_encryptAllSitesEligibleOn": {
+        "message": "Shifrimi i t\u00eb gjitha faqeve t\u00eb pranueshme \u00ebsht\u00eb aktiv"
+    },
+    "menu_globalDisable": {
+        "message": "HTTPS Gjithkund \u00ebsht\u00eb \u00e7ky\u00e7ur"
+    },
+    "menu_globalEnable": {
+        "message": "HTTPS Everywhere \u00ebsht\u00eb aktive"
+    },
+    "menu_httpNoWhereExplainedAllowed": {
+        "message": "Rezultatet e pakoduara momentalisht jan\u00eb leuar"
+    },
+    "menu_httpNoWhereExplainedBlocked": {
+        "message": "Rezultatet e pakoduara momentalisht jan\u00eb bllokuar"
+    },
+    "menu_httpNoWhereMore": {
+        "message": "Kjo form\u00eb bllokon p\u00ebrmbajtjen dhe k\u00ebrkesat e pakoduara."
+    },
+    "menu_observatory": {
+        "message": "Parap\u00eblqimet p\u00ebr V\u00ebzhguesin SSL"
+    },
+    "menu_seeLess": {
+        "message": "Shih m\u00eb pak"
+    },
+    "menu_seeMore": {
+        "message": "Shih m\u00eb tep\u00ebr"
+    },
+    "menu_showCounter": {
+        "message": "Shfaqeni Llogarit\u00ebsin"
+    },
+    "menu_viewAllRules": {
+        "message": "Shihini t\u00eb Gjitha Rregullat"
+    },
+    "options_addUpdateChannel": {
+        "message": "Shto Kanal P\u00ebrdit\u00ebsimi"
+    },
+    "options_advancedSettings": {
+        "message": "Rregullime t\u00eb M\u00ebtejshme"
+    },
+    "options_autoUpdateRulesets": {
+        "message": "Rregullat e p\u00ebrdit\u00ebsimit automatik"
+    },
+    "options_debuggingRulesets": {
+        "message": "Grup-rregullat e Inspektimit"
+    },
+    "options_delete": {
+        "message": "Fshije"
+    },
+    "options_disabledUrlsListed": {
+        "message": "HTTPS Kudo p\u00ebr Faqet \u00c7aktivizuar "
+    },
+    "options_enableMixedRulesets": {
+        "message": "Lejo rezultatet e p\u00ebrziera t\u00eb p\u00ebrmbajtjes"
+    },
+    "options_enterUpdateChannelName": {
+        "message": "Shto emrin e kanalit t\u00eb p\u00ebrdit\u00ebsimit"
+    },
+    "options_generalSettings": {
+        "message": "Parap\u00eblqimet e P\u00ebrgjithshme"
+    },
+    "options_settings": {
+        "message": "Rregullime"
+    },
+    "options_showDevtoolsTab": {
+        "message": "Shfaq Panelin Mjete Zhvilluesish"
+    },
+    "options_storedRulesetsVersion": {
+        "message": "Versioni i rezultateve t\u00eb ruajtura:"
+    },
+    "options_update": {
+        "message": "P\u00ebrdit\u00ebso"
+    },
+    "options_updateChannels": {
+        "message": "Kanalet e P\u00ebrdit\u00ebsimit"
+    },
+    "options_updateChannelsWarning": {
+        "message": "Kujdes: Shtimi i kanaleve t\u00eb p\u00ebrdit\u00ebsimit mund t\u00eb u mund\u00ebsoj\u00eb sulmueseve t\u00eb rr\u00ebmbejn\u00eb shfletuesin tuaj. Redaktoni k\u00ebt\u00eb faqe vet\u00ebm n\u00ebse jeni duke e ditur \u00e7far\u00eb po b\u00ebni."
+    },
+    "options_updatesLastChecked": {
+        "message": "P\u00ebrdit\u00ebsimet s\u00eb fundi kontrolluar:"
+    },
+    "options_updatesLastCheckedNever": {
+        "message": "kurr\u00eb"
+    },
+    "options_userRulesListed": {
+        "message": "HTTPS Kudo Rregullat e P\u00ebrdoruesit"
+    },
+    "prefs_export_settings": {
+        "message": "Eksporto Parap\u00eblqimet"
+    },
+    "prefs_reset_defaults": {
+        "message": "Rivendoseni n\u00eb Parazgjedhje"
+    },
+    "prefs_reset_defaults_message": {
+        "message": "Kjo do t\u00eb rikthej\u00eb t\u00eb rregullat n\u00eb gjendjen fillestare. Vazhdoni?"
+    }
+}

@@ -1,0 +1,28 @@
+{
+   "background": {
+      "scripts": [ "Js/jquery.min.js", "Js/jquery.mousewheel.js", "Js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "Images/icon16v1.3.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "css": [ "Css/content.css" ],
+      "js": [ "Js/jquery.min.js", "Js/jquery.mousewheel.js", "Js/content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Test responsive web designs or mobile pages that detect specific user agents. Test multiple devices at the same time!",
+   "icons": {
+      "128": "Images/icon128v1.3.png",
+      "16": "Images/icon16v1.3.png",
+      "48": "Images/icon48v1.3.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDojR/K4EfPxVixnEW25urptmI9n6NGwG2CEWgJNaGkIN/QJKL8ri15FxfiOHTTO6/4foNkd7EnKoSNpA7L5JEdw9XOzfKwfzTCR7OXXKp6jh0/fTBKQ2kkFQ2jmd84cclQ5wKmrE9fz1fXHsspR3IBe5OeeZe2n6bqKM/P9LUmUQIDAQAB",
+   "manifest_version": 2,
+   "name": "Mobile/Responsive Web Design Tester",
+   "permissions": [ "webRequest", "webRequestBlocking", "*://*/*", "tabs" ],
+   "short_name": "Mobile/RWD Tester",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2"
+}

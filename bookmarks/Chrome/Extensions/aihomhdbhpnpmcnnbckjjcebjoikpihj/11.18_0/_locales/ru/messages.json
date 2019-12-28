@@ -1,0 +1,110 @@
+{
+   "appDesc": {
+      "message": "Не тратьте зря своё время на уступчивость. Universal Bypass автоматически пропускает раздражающие сокращатели ссылок."
+   },
+   "beforeNavigate": {
+      "message": "Вы почти достигли адреса назначения."
+   },
+   "beforeNavigateDestination": {
+      "message": "Ваш адрес назначения - %"
+   },
+   "beforeNavigateOptions": {
+      "message": "Вы хотите переходить сразу или через несколько секунд?"
+   },
+   "beforeNavigateTimer": {
+      "message": "Вы будете автоматически перенаправлены через % сек."
+   },
+   "beforeNavigateTimerSingular": {
+      "message": "Вы будете автоматически перенаправлены через 1 секунду."
+   },
+   "blockedSubtitle": {
+      "message": "Не хотите, чтобы Universal Bypass предотвращал получение Вашего IP нежелательными лицами?"
+   },
+   "blockedTitle": {
+      "message": "Universal Bypass предотвратил запись Вашего IP."
+   },
+   "bypassCounter": {
+      "message": "Universal Bypass обошёл сайтов: %."
+   },
+   "crowdBypassed": {
+      "message": "Вы можете не ждать!"
+   },
+   "crowdBypassedIgnore": {
+      "message": "Это было неправильно?"
+   },
+   "crowdBypassedInfo": {
+      "message": "Другие пользователи Universal Bypass уже подождали за Вас и сообщили, что это ведёт на %"
+   },
+   "crowdBypassedOptions": {
+      "message": "Вы хотите, чтобы это открывалось в новой вкладке сразу или через несколько секунд?"
+   },
+   "crowdBypassedTimer": {
+      "message": "Это будет открыто в новой вкладке через % сек."
+   },
+   "crowdBypassedTimerSingular": {
+      "message": "Это будет открыто в новой вкладке через 1 секунду."
+   },
+   "crowdDisabled": {
+      "message": "Для обхода этого сайта применяется пользовательский метод, который Вы отключили в настройках."
+   },
+   "crowdWait": {
+      "message": "К сожалению, Вы первые, кому встретилась эта ссылка, но после Вашего ожидания другим пользователям Universal Bypass ждать больше не придётся."
+   },
+   "faq": {
+      "message": "Часто задаваемые вопросы (FAQ)"
+   },
+   "firstrunNoScript": {
+      "message": "Тем не менее, похоже, что Вы используете NoScript или что-то подобное, с чем Universal Bypass несовместим."
+   },
+   "firstrunSubtitle": {
+      "message": "Вы восхитительны!"
+   },
+   "firstrunTitle": {
+      "message": "Спасибо за установку Universal Bypass!"
+   },
+   "infoBoxHide": {
+      "message": "Щёлкните по этому сообщению, чтобы скрыть его. Вы можете отключить функцию \"информационное сообщение\" в настройках Universal Bypass."
+   },
+   "options": {
+      "message": "Настройки"
+   },
+   "optionsBlockIPLoggers": {
+      "message": "Блокировать всех сохраняющих IP, если их нельзя обойти."
+   },
+   "optionsCrowdAutoOpen": {
+      "message": "Открывать добавленные пользователями адреса назначения в новой вкладке через % сек. (0 = сразу)"
+   },
+   "optionsCrowdBypass": {
+      "message": "Отправлять и принимать адреса назначения сокращателей, которых невозможно обойти."
+   },
+   "optionsEnabled": {
+      "message": "Включить обходы веб-сайтов."
+   },
+   "optionsInfoBox": {
+      "message": "Показывать на некоторых сайтах информационные сообщения."
+   },
+   "optionsInstantNavigationTrackers": {
+      "message": "Сразу переходить по адресу средств слежки."
+   },
+   "optionsLink": {
+      "message": "Изменить настройки Universal Bypass."
+   },
+   "optionsNavigationDelay": {
+      "message": "Переходить по адресу назначения через % сек. (Задайте 0 для перехода сразу.)"
+   },
+   "optionsTrackerBypass": {
+      "message": "Обходить средства слежки, используя Apimon.de."
+   },
+   "optionsUserscripts": {
+      "message": "Пользовательские обходы"
+   },
+   "optionsUserscriptsDescription": {
+      "message": "Это расширенная функция для разработчиков, чтобы они создавали свои собственные скрипты для обхода сайтов. После завершения отладки их можно будет отправлять на GitHub для добавления в Universal Bypass, чтобы они стали доступны всем."
+   },
+   "privacyPolicy": {
+      "message": "Политика конфиденциальности"
+   },
+   "support": {
+      "message": "Поддержать Universal Bypass."
+   }
+}

@@ -1,0 +1,26 @@
+{
+   "allpage": {
+      "message": "Скриншот всей страницы"
+   },
+   "captureregion": {
+      "message": "Скриншот области страницы"
+   },
+   "description": {
+      "message": "Full page screen capture, capture visible content of a tab, full screen, download in different formats. "
+   },
+   "editcontent": {
+      "message": "Редактировать страницу"
+   },
+   "history": {
+      "message": "Показать историю"
+   },
+   "name": {
+      "message": "Full page simple screen capture"
+   },
+   "noall": {
+      "message": "Не может сфотографировать эту страницу (Расширения не могут воздействовать на внутренние Хромовые страницы)"
+   },
+   "visiblescreenshot": {
+      "message": "Скриншот видимой части"
+   }
+}

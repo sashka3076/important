@@ -1,0 +1,12 @@
+.tippy-tooltip{background-color:#eee;padding:.25rem .4375rem;font-size:.8125rem;font-weight:600}
+.tippy-tooltip[x-placement^=top] .tippy-arrow{border-top:8px solid #505355;border-right:8px solid transparent;border-left:8px solid transparent}
+.tippy-tooltip[x-placement^=bottom] .tippy-arrow{border-bottom:8px solid #505355;border-right:8px solid transparent;border-left:8px solid transparent}
+.tippy-tooltip[x-placement^=left] .tippy-arrow{border-left:8px solid #505355;border-top:8px solid transparent;border-bottom:8px solid transparent}
+.tippy-tooltip[x-placement^=right] .tippy-arrow{border-right:8px solid #505355;border-top:8px solid transparent;border-bottom:8px solid transparent}
+.tippy-tooltip .tippy-backdrop{background-color:#eee}
+.tippy-tooltip .tippy-roundarrow{fill:#505355}
+.tippy-tooltip[data-animatefill]{background-color:transparent}
+.tippy-tooltip[data-size=small]{font-size:.75rem;padding:.1875rem .375rem}
+.tippy-tooltip[data-size=large]{font-size:1rem;padding:.375rem .75rem}
+
+.tippy-content {color:#222;}

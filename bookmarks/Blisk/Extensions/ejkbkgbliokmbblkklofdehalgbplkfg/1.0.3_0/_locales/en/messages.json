@@ -1,0 +1,26 @@
+{
+   "allpage": {
+      "message": "Whole page screenshot"
+   },
+   "captureregion": {
+      "message": "Capture area"
+   },
+   "description": {
+      "message": "ScreenShot and capture the whole Page, the whole tab and save it in PDF, PNG or copy to the clipboard"
+   },
+   "editcontent": {
+      "message": "Edit content"
+   },
+   "history": {
+      "message": "Show History"
+   },
+   "name": {
+      "message": "Easy Screen Capture - save & send screenshots"
+   },
+   "noall": {
+      "message": "Cannot scroll on this page (extensions do not work on internal Chrome pages nor in the Chrome extensions gallery)."
+   },
+   "visiblescreenshot": {
+      "message": "Capture visible zone"
+   }
+}

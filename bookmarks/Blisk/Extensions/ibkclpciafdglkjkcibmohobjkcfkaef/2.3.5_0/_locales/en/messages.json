@@ -1,0 +1,169 @@
+{
+   "characters": {
+      "message": "characters"
+   },
+   "clickdonate": {
+      "message": "Click here to donate via PayPal"
+   },
+   "descriptiontoolong": {
+      "message": "description too long (&gt;170 characters)"
+   },
+   "descriptiontooshort": {
+      "message": "description too short (&lt;50 characters)"
+   },
+   "doctypeis": {
+      "message": "Doctype is"
+   },
+   "donationtitle": {
+      "message": "Help Us With a Donation"
+   },
+   "empty": {
+      "message": "empty"
+   },
+   "extDescription": {
+      "description": "Chrome extension description.",
+      "message": "Useful to inspect the meta data found inside web pages, usually not visible while browsing."
+   },
+   "extName": {
+      "description": "Chrome extension name.",
+      "message": "META SEO inspector"
+   },
+   "headtitle": {
+      "message": "head title"
+   },
+   "html4tags": {
+      "message": "but there are obsolete HTML4 tags too"
+   },
+   "html5tags": {
+      "message": "there are HTML5 tags"
+   },
+   "info": {
+      "message": "INFO"
+   },
+   "invalidvalue": {
+      "message": "invalid 'value' attribute"
+   },
+   "items": {
+      "message": "items"
+   },
+   "justthink": {
+      "message": "Just think about how much time you have saved with this tool, so fast that you only need one click to get all the information you want.\u003Cbr>Also think about how much you saved by not buying similar but slower and paid tools."
+   },
+   "keywordsuseless": {
+      "message": "'keywords' meta tag is obsolete"
+   },
+   "menu_about": {
+      "message": "info"
+   },
+   "menu_onlinetools": {
+      "message": "on-line tools"
+   },
+   "menu_options": {
+      "message": "options"
+   },
+   "menu_pagedata": {
+      "message": "page data"
+   },
+   "missing": {
+      "message": "missing"
+   },
+   "missingaltp1": {
+      "message": "images (out of"
+   },
+   "missingaltp2": {
+      "message": "with missing ALT attribute"
+   },
+   "missingdescription": {
+      "message": "missing description"
+   },
+   "missingh1tag": {
+      "message": "missing &lt;h1&gt; tag"
+   },
+   "missingh2tag": {
+      "message": "missing &lt;h2&gt; tag"
+   },
+   "missingheadtitle": {
+      "message": "missing head TITLE"
+   },
+   "missinghtmltag": {
+      "message": "missing &lt;html&gt; tag"
+   },
+   "missingloadingp1": {
+      "message": "images (out of"
+   },
+   "missingloadingp2": {
+      "message": "with missing LOADING attribute"
+   },
+   "missingtitlep1": {
+      "message": "images (out of"
+   },
+   "missingtitlep2": {
+      "message": "with missing TITLE attribute"
+   },
+   "nohtml5tags": {
+      "message": "there are no HTML5 tags"
+   },
+   "noobsoletetags": {
+      "message": "and no obsolete HTML tags were found"
+   },
+   "notdefined": {
+      "message": "not defined"
+   },
+   "nothtml5": {
+      "message": "not HTML5"
+   },
+   "pleaseconsider": {
+      "message": "Thank you for considering making a donation to support this Chrome extension."
+   },
+   "section_common": {
+      "message": "COMMON"
+   },
+   "section_commontags": {
+      "message": "COMMON TAGS"
+   },
+   "section_htmlreport": {
+      "message": "HTML5 REPORT"
+   },
+   "section_htmltags": {
+      "message": "OVERVIEW"
+   },
+   "section_othermetadata": {
+      "message": "OTHER META DATA"
+   },
+   "section_presentation": {
+      "message": "PRESENTATION"
+   },
+   "section_resourcehints": {
+      "message": "RESOURCE HINTS"
+   },
+   "section_siteverification": {
+      "message": "SITE VERIFICATION"
+   },
+   "section_structureddata": {
+      "message": "STRUCTURED DATA"
+   },
+   "sectionscloseall": {
+      "message": "close all"
+   },
+   "sectionsopenall": {
+      "message": "open all"
+   },
+   "streaming": {
+      "message": "streaming, not downloadable"
+   },
+   "titlenotinhead": {
+      "message": "TITLE found, but not inside HEAD"
+   },
+   "titletoolong": {
+      "message": "head TITLE too long (>65 characters)"
+   },
+   "toomanyh1": {
+      "message": "too many &lt;h1&gt; tags"
+   },
+   "warning": {
+      "message": "WARNING"
+   },
+   "wepromise": {
+      "message": "We promise to keep this extension updated following the latest SEO trends and hearing any feedback from you."
+   }
+}

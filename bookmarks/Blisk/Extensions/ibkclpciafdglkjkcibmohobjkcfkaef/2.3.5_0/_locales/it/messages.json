@@ -1,0 +1,163 @@
+{
+   "characters": {
+      "message": "caratteri"
+   },
+   "clickdonate": {
+      "message": "Clicca qui per donare tramite PayPal"
+   },
+   "descriptiontoolong": {
+      "message": "descrizione troppo lunga (&gt;170 caratteri)"
+   },
+   "descriptiontooshort": {
+      "message": "descrizione troppo corta (&lt;50 caratteri)"
+   },
+   "doctypeis": {
+      "message": "Il Doctype è"
+   },
+   "donationtitle": {
+      "message": "Aiutateci con una donazione"
+   },
+   "empty": {
+      "message": "vuoto"
+   },
+   "extDescription": {
+      "description": "Chrome extension description.",
+      "message": "Utile per ispezionare i meta dati trovati all'interno delle pagine web, di solito non visibili durante la navigazione."
+   },
+   "extName": {
+      "description": "Chrome extension name.",
+      "message": "META SEO inspector"
+   },
+   "headtitle": {
+      "message": "head title"
+   },
+   "html4tags": {
+      "message": "ma ci sono anche tag HTML4 obsoleti"
+   },
+   "html5tags": {
+      "message": "ci sono tag HTML5"
+   },
+   "info": {
+      "message": "INFO"
+   },
+   "invalidvalue": {
+      "message": "attributo 'value' non valido"
+   },
+   "items": {
+      "message": "elementi"
+   },
+   "justthink": {
+      "message": "Pensa solo a quanto tempo hai risparmiato con questo tool così rapido, che basta un solo clic per avere tutte le informazioni che desideri.\u003Cbr>Pensa anche a quanto hai risparmiato evitando di acquistare strumenti simili ma più lenti e a pagamento."
+   },
+   "keywordsuseless": {
+      "message": "il meta tag 'keywords' è obsoleto"
+   },
+   "menu_about": {
+      "message": "info"
+   },
+   "menu_onlinetools": {
+      "message": "strumenti on-line"
+   },
+   "menu_options": {
+      "message": "opzioni"
+   },
+   "menu_pagedata": {
+      "message": "dati della pagina"
+   },
+   "missing": {
+      "message": "mancante"
+   },
+   "missingaltp1": {
+      "message": "immagini (su"
+   },
+   "missingaltp2": {
+      "message": "con l'attributo ALT mancante"
+   },
+   "missingdescription": {
+      "message": "descrizione mancante"
+   },
+   "missingh1tag": {
+      "message": "tag &lt;h1&gt; mancante"
+   },
+   "missingh2tag": {
+      "message": "tag &lt;h2&gt; mancante"
+   },
+   "missingheadtitle": {
+      "message": "manca il TITLE dentro HEAD"
+   },
+   "missinghtmltag": {
+      "message": "tag &lt;html&gt; mancante"
+   },
+   "missingloadingp1": {
+      "message": "immagini (su"
+   },
+   "missingloadingp2": {
+      "message": "con l'attributo LOADING mancante"
+   },
+   "missingtitlep1": {
+      "message": "immagini (su"
+   },
+   "missingtitlep2": {
+      "message": "con l'attributo TITLE mancante"
+   },
+   "nohtml5tags": {
+      "message": "non ci sono tag HTML5"
+   },
+   "noobsoletetags": {
+      "message": "e nessun tag obsoleto è stato trovato"
+   },
+   "notdefined": {
+      "message": "non definito"
+   },
+   "nothtml5": {
+      "message": "non HTML5"
+   },
+   "pleaseconsider": {
+      "message": "Grazie per aver considerato di fare una donazione per supportare questa estensione di Chrome."
+   },
+   "section_common": {
+      "message": "COMUNI"
+   },
+   "section_commontags": {
+      "message": "TAGS COMUNI"
+   },
+   "section_htmlreport": {
+      "message": "RESOCONTO HTML5"
+   },
+   "section_htmltags": {
+      "message": "OVERVIEW"
+   },
+   "section_othermetadata": {
+      "message": "ALTRI META DATI"
+   },
+   "section_presentation": {
+      "message": "PRESENTAZIONE"
+   },
+   "section_resourcehints": {
+      "message": "SUGGERIMENTI SULE RISORSE"
+   },
+   "section_siteverification": {
+      "message": "VERIFICA SITO"
+   },
+   "section_structureddata": {
+      "message": "DATI STRUTTURATI"
+   },
+   "streaming": {
+      "message": "streaming, non scaricabile"
+   },
+   "titlenotinhead": {
+      "message": "TITLE trovato, ma non dentro HEAD"
+   },
+   "titletoolong": {
+      "message": "tag TITLE in HEAD troppo lungo (>65 caratteri)"
+   },
+   "toomanyh1": {
+      "message": "troppi tag &lt;h1&gt;"
+   },
+   "warning": {
+      "message": "ATTENZIONE"
+   },
+   "wepromise": {
+      "message": "Ci impegniamo a mantenere questa estensione aggiornata seguendo le ultime tendenze SEO e ascoltando eventuali feedback da parte tua."
+   }
+}

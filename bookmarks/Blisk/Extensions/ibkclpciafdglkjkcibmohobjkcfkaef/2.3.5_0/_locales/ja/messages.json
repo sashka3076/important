@@ -1,0 +1,157 @@
+{
+   "characters": {
+      "message": "文字"
+   },
+   "clickdonate": {
+      "message": "PayPalで寄付するにはここをクリック"
+   },
+   "descriptiontoolong": {
+      "message": "説明が長すぎます（&gt; &gt;文字）"
+   },
+   "descriptiontooshort": {
+      "message": "説明が短すぎます（&lt; 50文字）"
+   },
+   "doctypeis": {
+      "message": "Doctype is"
+   },
+   "donationtitle": {
+      "message": "寄付で私たちを助けて"
+   },
+   "empty": {
+      "message": "空の"
+   },
+   "extDescription": {
+      "description": "Chrome extension description.",
+      "message": "通常は閲覧中に表示されない、Webページ内にあるメタデータを調べるのに役立ちます。"
+   },
+   "extName": {
+      "description": "Chrome extension name.",
+      "message": "META SEO inspector"
+   },
+   "headtitle": {
+      "message": "head title"
+   },
+   "html4tags": {
+      "message": "but there are obsolete HTML4 tags too"
+   },
+   "html5tags": {
+      "message": "there are HTML5 tags"
+   },
+   "info": {
+      "message": "情報"
+   },
+   "invalidvalue": {
+      "message": "無効な 'value'属性"
+   },
+   "items": {
+      "message": "箇条"
+   },
+   "justthink": {
+      "message": "このツールでどれだけの時間を節約できるかを考えると、必要な情報をすべて1回クリックするだけで十分です。\u003Cbr>同様の、遅いツールや有料のツールを購入しないことで、どれだけ節約できるかを考えてください。"
+   },
+   "keywordsuseless": {
+      "message": "'keywords'メタタグは廃止されました"
+   },
+   "menu_about": {
+      "message": "情報"
+   },
+   "menu_onlinetools": {
+      "message": "on-line tools"
+   },
+   "menu_options": {
+      "message": "options"
+   },
+   "menu_pagedata": {
+      "message": "ページデータ"
+   },
+   "missing": {
+      "message": "欠落"
+   },
+   "missingaltp1": {
+      "message": "images (out of"
+   },
+   "missingaltp2": {
+      "message": "with missing ALT attribute"
+   },
+   "missingdescription": {
+      "message": "説明がありません"
+   },
+   "missingh1tag": {
+      "message": "&lt;h1&gt; タグがありません"
+   },
+   "missingh2tag": {
+      "message": "&lt;h2&gt; タグがありません"
+   },
+   "missingheadtitle": {
+      "message": "HEAD TITLEが見つかりません"
+   },
+   "missinghtmltag": {
+      "message": "&lt;html&gt; タグがありません"
+   },
+   "missingtitlep1": {
+      "message": "images (out of"
+   },
+   "missingtitlep2": {
+      "message": "with missing TITLE attribute"
+   },
+   "nohtml5tags": {
+      "message": "there are no HTML5 tags"
+   },
+   "noobsoletetags": {
+      "message": "and no obsolete HTML tags were found"
+   },
+   "notdefined": {
+      "message": "未定義"
+   },
+   "nothtml5": {
+      "message": "not HTML5"
+   },
+   "pleaseconsider": {
+      "message": "このChrome拡張機能をサポートするための寄付を検討していただきありがとうございます。"
+   },
+   "section_common": {
+      "message": "一般"
+   },
+   "section_commontags": {
+      "message": "一般的なタグ"
+   },
+   "section_htmlreport": {
+      "message": "HTML5 REPORT"
+   },
+   "section_htmltags": {
+      "message": "OVERVIEW"
+   },
+   "section_othermetadata": {
+      "message": "その他のメタデータ"
+   },
+   "section_presentation": {
+      "message": "プレゼンテーション"
+   },
+   "section_resourcehints": {
+      "message": "ソースヒント"
+   },
+   "section_siteverification": {
+      "message": "SITE VERIFICATION"
+   },
+   "section_structureddata": {
+      "message": "構造化データ"
+   },
+   "streaming": {
+      "message": "streaming, not downloadable"
+   },
+   "titlenotinhead": {
+      "message": "TITLEが見つかりましたが、HEADの中にはありません"
+   },
+   "titletoolong": {
+      "message": "タイトルが長すぎます（> 65文字）"
+   },
+   "toomanyh1": {
+      "message": "&lt;h1&gt;タグが多すぎます"
+   },
+   "warning": {
+      "message": "警告"
+   },
+   "wepromise": {
+      "message": "最新のSEOトレンドに従い、あなたからのフィードバックを聞いて、この拡張機能を最新の状態に保つことをお約束します。"
+   }
+}

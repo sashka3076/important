@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Mobile/RWD Tester</title>
+    <style>
+		body {
+			min-width: 400px;
+			min-height: 550px;
+			overflow-x:hidden;
+			color: #555;
+			font-size: 8pt !important;
+		}
+		.main-div {
+			padding:10px;
+			font-family:arial;
+			font-size:11pt;
+			color:#555;
+			height: 450px;
+			overflow: auto;
+		}
+		fieldset {
+			font-size: 8pt !important;
+			margin: 10px 0 10px 0;
+			border-color: #efefef;
+		}
+		a {
+			font-size: 11pt !important;
+		}
+		div {
+			margin: 2px 0 5px 0;
+		}
+		.header-div {
+			width: 350px;
+			border: solid 1px #335273;
+			background-image: linear-gradient(#82C2FF, #9BCEFF);
+			height: 35px;
+			padding: 5px;
+		}
+		.header-div img {
+			float: right;
+			width: 32px;
+			height: 32px;
+			display: block;
+		}
+		h1 {
+			float: left;
+			margin: 0;
+			font-size: 14pt;
+			width: 300px;
+			position: relative;
+			top: 7px;
+			text-align: center;
+			color: #000;
+		}
+		.intro-p {
+			margin: 0 0 5px 0;
+			font-size: 9pt;
+		}		
+		.url-div {
+			margin-top: 5px;
+			width: 350px;
+		}
+		.url-div span {
+			display: block;
+			float: left;
+			width: 40px;
+			margin-top: 5px;
+		}
+		.url-div div {
+			float: left;
+			width: 310px;
+		}
+		.url-txt {
+			width: 310px;
+		}
+		span {
+			font-size: 10pt;
+		}
+		.options-div
+		{
+			margin: 3px 0 0 0;
+			clear: both;
+			position: relative;
+			left: -3px;
+		}
+		.options-div span {
+			font-size: 8pt;
+			position: relative;
+			top: -3px;
+		}
+		.options-div input {
+			transform: scale(.8);
+		}
+		.useragent-txt
+		{
+			width: 340px;
+			font-size: 8pt;
+			color: #555;
+		}
+		.width-txt
+		{
+			width: 60px;
+			font-size: 8pt;
+			color: #555;
+		}
+		.height-txt
+		{
+			width: 60px;
+			font-size: 8pt;
+			color: #555;
+		}
+		.footer-div
+		{
+			font-size: 8pt;
+			background-color: #eee;
+			padding: 5px;
+			border: solid 1px #ccc;
+			overflow: hidden;
+		}
+		.footer-div a
+		{
+			font-size: 8pt !important;
+			color: #0000ff;
+		}
+		.footer-div ul
+		{
+			margin: 0;
+			padding-left: 20px;
+		}	
+		.donate-div {
+			font-weight: bold;
+			margin-top: 5px;
+		}
+		.donate-div p {
+			width: 280px;
+			float: left;
+			margin: 0;
+			padding: 5px 0 0 0;			
+		}
+		.donate-div a {
+			float: right;
+			width: 80px;
+			display: block			
+		}
+		.mobile-div {
+			font-size: 11pt !important;
+			clear: both;
+			overflow: hidden;
+			border: solid 1px #aaa;
+			border-bottom: none;
+			padding: 5px 0 0 5px;
+			background-image: linear-gradient(#ccc, #eee);			
+			margin: 0;			
+		}
+		.mobile-last-div {
+			border-bottom: solid 1px #aaa;
+		}
+		.mobile-div div {
+			float: left;
+			padding-top: 5px;
+			color: #000;
+		}
+		.mobile-portrait-a, .mobile-landscape-a {
+			border: solid 2px #000;
+			border-radius: 5px;
+			text-align: center;
+			float: right;	
+			display: block;
+			height: 20px;
+			text-decoration: none;
+			padding-right: 5px;		
+			background-image: linear-gradient(#82C2FF, #9BCEFF);
+		}
+		.mobile-portrait-a {
+			width: 10px;
+			height: 15px;
+			padding-top: 10px;	
+			margin: 0 20px 5px 0;
+			border-bottom-width: 5px;
+		}
+		.mobile-landscape-a {
+			width: 25px;
+			height: 15px;
+			margin: 6px 20px 0 0;
+			border-right-width: 5px;
+		}
+	</style>
+  </head>
+  <body>
+		<div class="main-div">
+			<div class="header-div">
+				<h1>
+					Mobile/RWD Tester
+				</h1>
+				<img src="Images/icon48v1.3.png" />
+			</div>
+			<p class="intro-p">
+				Click one or more devices below to launch in a separate window.
+			</p>			
+			<div class="options-div">
+				<input type="checkbox" name="chkSwipe" id="chkSwipe" checked="checked" /><span>Imitate Swipe (hide scrollbars)</span>
+			</div>
+			<fieldset class="phones-fs">
+				<legend>Phones</legend>				
+			</fieldset>				
+			<fieldset class="phablets-fs">
+				<legend>Phablets</legend>					
+			</fieldset>	
+			<fieldset class="tablets-fs">
+				<legend>Tablets</legend>				
+			</fieldset>		
+			<fieldset>
+				<legend>Custom User Agent/Resolution</legend>
+				<div>
+					User Agent:
+				</div>
+				<div>
+					<input type="text" name="txtUserAgent" id="txtUserAgent" class="useragent-txt" value="Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3" />
+				</div>
+				<div>
+					Width:
+				</div>
+				<div>
+					<input type="text" name="txtWidth" id="txtWidth" class="width-txt" /> px
+				</div>
+				<div>
+					Height:
+				</div>
+				<div>
+					<input type="text" name="txtHeight" id="txtHeight" class="height-txt" /> px
+				</div>
+				<div class="submit-div">
+					<a class="submit-a" href="javascript:void(0);">
+						Submit
+					</a>
+				</div>
+			</fieldset>
+		</div>
+		<div class="footer-div">			
+			<div class="url-div">
+				<span>URL:</span>
+				<div>
+					<input type="text" name="txtUrl" id="txtUrl" class="url-txt" />
+				</div>
+			</div>
+			*Resolution based on <a href="http://alistapart.com/article/a-pixel-identity-crisis" target="_blank">CSS/reference pixels</a>. 
+			<div class="donate-div">
+				<p>
+				</p>
+				<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=QX6SZBC4NVY5U&lc=US&item_name=Mobile%2fRWD%20Tester&item_number=rwd&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted" target="_blank">
+					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif">
+				</a>
+			</div>
+		</div>	
+
+	<!-- JavaScript and HTML must be in separate files for security. -->
+	<script src="Js/jquery.min.js"></script>
+	<script src="Js/jquery.mousewheel.js"></script>
+    <script src="Js/popup.js"></script>
+  </body>
+</html>

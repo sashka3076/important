@@ -1,0 +1,36 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "scripts/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/32.png",
+         "48": "images/48.png"
+      },
+      "default_popup": "views/popup.html",
+      "default_title": "__MSG_extName__"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "styles/inject.css" ],
+      "js": [ "scripts/service.js", "scripts/content_script.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "images/128.png",
+      "16": "images/16.png",
+      "48": "images/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDoEdr1vJjDE4f0OwtN7HKpu4cC9cx4kaUsGq7MqOoygpZOiLihK2cW70IlPvtbXFcMx6bIRA9QnI6bABc/q7w4Rc30lX8HSYC8bihxi4M9xcwMqNIjB7ra9b2cOm/AAjyYWvIzzl3pzDvUUl245Glh7QlWXa3IF7Gpb9CW0uDxNwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "permissions": [ "http://*/*", "https://*/*", "tabs", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.3.5",
+   "web_accessible_resources": [ "styles/inject.css" ]
+}

@@ -1,0 +1,116 @@
+{
+   "appDesc": {
+      "message": "Zamanınızı karmaşa ile harcamayın. Universal Bypass, rahatsız edici bağlantı kısaltıcıları kendiliğinden geçer."
+   },
+   "beforeNavigate": {
+      "message": "Neredeyse vardınız."
+   },
+   "beforeNavigateDestination": {
+      "message": "Hedefiniz %"
+   },
+   "beforeNavigateOptions": {
+      "message": "Hemen mi yoksa x saniye içinde mi yönlendirilmek istersiniz?"
+   },
+   "beforeNavigateTimer": {
+      "message": "% saniye içinde otomatik olarak yönlendirileceksiniz."
+   },
+   "beforeNavigateTimerSingular": {
+      "message": "1 saniye içinde otomatik olarak yönlendirileceksiniz."
+   },
+   "blockedSubtitle": {
+      "message": "Universal Bypass'ın sizi kötü kişilerin IP adresinizi almasından korumasını istemiyor musunuz?"
+   },
+   "blockedTitle": {
+      "message": "Universal Bypass, IP adresinizin kayıtlara eklenmesini engelledi."
+   },
+   "bypassCounter": {
+      "message": "Universal Bypass sizin için şimdiye kadar % siteyi es geçti."
+   },
+   "changelog": {
+      "message": "Değişiklik kütüğü"
+   },
+   "crowdBypassed": {
+      "message": "Beklemeniz gerekmeyebilir!"
+   },
+   "crowdBypassedIgnore": {
+      "message": "Bu doğru değil miydi?"
+   },
+   "crowdBypassedInfo": {
+      "message": "Diğer Universal Bypass kullanıcıları sizin yerinize zaten beklediler ve bunun şuraya yönlendiğini bildirdiler: %"
+   },
+   "crowdBypassedOptions": {
+      "message": "Bu adresin hemen mi yoksa x saniye sonra mı yeni bir sekmede açılmasını istersiniz?"
+   },
+   "crowdBypassedTimer": {
+      "message": "Bu, % saniye içinde yeni bir sekmede açılacaktır."
+   },
+   "crowdBypassedTimerSingular": {
+      "message": "Bu, 1 saniye içinde yeni bir sekmede açılacaktır."
+   },
+   "crowdDisabled": {
+      "message": "Bu web sitesi, seçeneklerde devre dışı bıraktığınız kitle bypass tarafından bypass edilmektedir."
+   },
+   "crowdWait": {
+      "message": "Maalesef, bu bağlantıyla ilk karşılaşan sizsiniz, ancak siz bekledikten sonra, diğer Universal Bypass kullanıcılarının artık buna ihtiyacı kalmayacak."
+   },
+   "faq": {
+      "message": "Sıkça Sorulan Sorular (SSS)"
+   },
+   "firstrunNoScript": {
+      "message": "Ancak görünen o ki Universal Baypass'in uyumlu olmadığı NoScript veya benzeri bir betik kullanıyorsunuz."
+   },
+   "firstrunSubtitle": {
+      "message": "Harikasınız!"
+   },
+   "firstrunTitle": {
+      "message": "Universal Bypass'i kurduğunuz için çok teşekkürler!"
+   },
+   "infoBoxHide": {
+      "message": "Gizlemek için bu kutuyu tıklayın. Bilgi kutusu özelliğini Universal Bypass'ın seçeneklerinden devre dışı bırakabilirsiniz."
+   },
+   "options": {
+      "message": "Seçenekler"
+   },
+   "optionsBlockIPLoggers": {
+      "message": "Eğer es geçilemezse IP kayıtçılarını engelle."
+   },
+   "optionsCrowdAutoOpen": {
+      "message": "Kitle kaynaklı hedefleri % saniye sonra yeni bir sekmede aç. (0 = hemen.)"
+   },
+   "optionsCrowdBypass": {
+      "message": "Es geçilemeyen adres kısaltıcıların hedeflerini geliştiriciyle paylaş."
+   },
+   "optionsEnabled": {
+      "message": "Web sayfalarını es geçmeyi etkinleştir."
+   },
+   "optionsInfoBox": {
+      "message": "Bazı sitelerde bilgilendirme mesajlarını göster."
+   },
+   "optionsInstantNavigationTrackers": {
+      "message": "Beni anında izleyicilerin hedeflerine götür."
+   },
+   "optionsLink": {
+      "message": "Universal Bypass'ın seçeneklerini değiştir."
+   },
+   "optionsNavigationDelay": {
+      "message": "Beni hedeflere % saniye sonra yönlendir. (Hemen yönlendirilmek için 0 yazın.)"
+   },
+   "optionsTrackerBypass": {
+      "message": "Apimon.de kullanarak izleyicileri es geçin."
+   },
+   "optionsUserscripts": {
+      "message": "Özel Es Geçmeler"
+   },
+   "optionsUserscriptsDescription": {
+      "message": "Bu, geliştiricilerin siteleri atlamak için kendi komut dosyalarını oluşturmaları için gelişmiş bir özelliktir. Kusursuz çalıştığında, GitHub'a Universal Bypass'a eklenmesi için gönderilebilirsiniz, böylece herkesin kullanımına açık olur."
+   },
+   "privacyPolicy": {
+      "message": "Gizlilik Politikası"
+   },
+   "support": {
+      "message": "Universal Bypass'ı Destekleyin"
+   },
+   "version": {
+      "message": "Sürüm"
+   }
+}

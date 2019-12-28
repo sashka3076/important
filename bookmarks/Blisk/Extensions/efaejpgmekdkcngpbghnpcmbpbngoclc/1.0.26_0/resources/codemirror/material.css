@@ -1,0 +1,200 @@
+/*
+
+    Name:       material
+    Author:     Michael Kaminsky (http://github.com/mkaminsky11)
+
+    Original material color scheme by Mattia Astorino (https://github.com/equinusocio/material-theme)
+
+*/
+
+.cm-s-material {
+    height: auto;
+    background-color: #474e5d;
+    font-size: 12px;
+    color: #fff;
+    transform: translate3d(0, 0, 0);
+}
+
+.cm-s-material * {
+    font-family: Roboto Mono, Menlo, monospace;
+}
+
+.cm-s-material .CodeMirror-gutters {
+    /*commented by Manish*/
+    /*height: 100% !important;*/
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(243, 243, 243, 0.6);
+    border: none;
+}
+
+.cm-s-material .CodeMirror-guttermarker,
+.cm-s-material .CodeMirror-guttermarker-subtle,
+.cm-s-material .CodeMirror-linenumber {
+    min-width: 15px;
+    padding: 0;
+    line-height: 16px;
+    font-size: 6px;
+    text-align: center;
+    color: rgba(243, 243, 243, 0.6);
+}
+
+.cm-s-material .CodeMirror-cursor { border-left: 1px solid #f8f8f0; }
+
+.cm-s-material .CodeMirror-lines {
+    padding: 20px 0;
+}
+
+#generatorContainer .cm-s-material .CodeMirror-lines {
+    padding-bottom: 70px;
+}
+
+.cm-s-material .CodeMirror-line {
+    text-indent: -4ch;
+    padding-left: calc(20px + 4ch);
+}
+
+.cm-s-material .CodeMirror-activeline-background { background: rgba(0, 0, 0, 0); }
+
+.cm-s-material .cm-operator { color: rgba(233, 237, 237, 1); }
+
+.cm-s-material .cm-def,
+.cm-s-material .cm-mixin {
+    color: #f69833;
+}
+
+.cm-s-material .cm-variable-2,
+.cm-s-material .cm-variable-3 {
+    white-space: nowrap;
+    color: #fff;
+}
+
+.cm-s-material .cm-builtin { color: #DECB6B; }
+
+.cm-s-material .cm-atom,
+.cm-s-material .cm-attribute,
+.cm-s-material .cm-keyword,
+.cm-s-material .cm-string,
+.cm-s-material .cm-variable {
+    white-space: nowrap;
+    color: #ff7587;
+}
+
+.cm-s-material .cm-hex-color,
+.cm-s-material .cm-number,
+.cm-s-material .cm-unit {
+    color: #c3ff5b;
+}
+
+.cm-s-material .cm-string-2 { color: #80CBC4; }
+.cm-s-material .cm-comment { color: #bcb5b9; }
+
+.cm-s-material .cm-meta,
+.cm-s-material .cm-tag,
+.cm-s-material .cm-property {
+    color: #27f4ff;
+}
+
+.cm-s-material .cm-qualifier {
+    color: #fecf33;
+}
+
+.cm-s-material .cm-error {
+  color: rgba(255, 255, 255, 1.0);
+}
+
+body[data-project-type="web"] .cm-s-material .cm-variable-2 {
+    white-space: normal;
+}
+body[data-project-type="web"] .cm-s-material .cm-property + .cm-variable {
+    color: #ff7587;
+}
+
+/* XML Mode */
+body[data-project-type="android"] .cm-s-material .cm-attribute {
+    color: #27f4ff;
+}
+
+body[data-project-type="android"] .cm-s-material .cm-string {
+    white-space: normal;
+    color: #c3ff5b;
+}
+
+body[data-project-type="ios"] .cm-s-material .cm-variable,
+body[data-project-type="osx"] .cm-s-material .cm-variable,
+body[data-project-type="ios"] .cm-s-material .cm-string,
+body[data-project-type="osx"] .cm-s-material .cm-string,
+body[data-project-type="ios"] .cm-s-material .cm-def,
+body[data-project-type="osx"] .cm-s-material .cm-def {
+    white-space: normal;
+}
+
+.cm-s-material .cm-tag {
+    color: #fecf33;
+}
+
+.cm-value {
+
+}
+/* clike Mode */
+body[data-project-type="ios"] .cm-s-material .cm-variable,
+body[data-project-type="osx"] .cm-s-material .cm-variable {
+    color: #27f4ff;
+}
+
+.cm-s-material .CodeMirror-line .cm-variable:last-of-type {
+    color: #fff;
+}
+
+body[data-project-type="ios"] .cm-s-material .cm-string,
+body[data-project-type="osx"] .cm-s-material .cm-string {
+    color: #fecf33;
+}
+
+/* swift mode */
+.cm-s-material .CodeMirror-line .cm-number + .cm-variable + .cm-variable,
+.cm-s-material .CodeMirror-line .cm-punctuation + .cm-variable + .cm-variable {
+    color: #c3ff5b;
+}
+
+.cm-s-material .cm-hex-color, .cm-s-material .cm-number, .cm-s-material .cm-unit {
+    white-space: nowrap;
+}
+
+.cm-s-material .cm-keyword + .cm-def {
+    color: #27f4ff;
+}
+
+.cm-s-material .cm-keyword + .cm-keyword + .cm-def {
+    color: #fff;
+}
+
+.cm-s-material .CodeMirror-matchingbracket {
+    text-decoration: underline;
+    color: white !important;
+}
+
+.cm-s-material .CodeMirror-selected,
+.cm-s-material.CodeMirror-focused .CodeMirror-selected {
+    color: white !important;
+    background-color: #ee6723;
+}
+
+.cm-s-material .CodeMirror-line::selection,
+.cm-s-material .CodeMirror-line > span::selection,
+.cm-s-material .CodeMirror-line > span > span::selection {
+    background-color: transparent;
+    -webkit-text-fill-color: inherit;
+    color: inherit;
+}
+
+.cm-s-material .CodeMirror-line::-moz-selection,
+.cm-s-material .CodeMirror-line > span::-moz-selection,
+.cm-s-material .CodeMirror-line > span > span::-moz-selection {
+    background-color: transparent;
+    -webkit-text-fill-color: inherit;
+    color: inherit;
+}
+
+.cm-s-material .CodeMirror-selectedtext {
+    color: white !important;
+}

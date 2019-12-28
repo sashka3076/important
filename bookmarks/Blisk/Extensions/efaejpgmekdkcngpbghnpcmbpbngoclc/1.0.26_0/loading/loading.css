@@ -1,0 +1,23 @@
+#cfInspectorLoader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: +999999999;
+    display: none;
+}
+#cfInspectorLoader > div {
+    display: table;
+    height: -webkit-fill-available;
+    width: 100%;
+}
+#cfInspectorLoader > div > div {
+    text-align: center;
+    font-size: 32px;
+    line-height: 60px;
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+}

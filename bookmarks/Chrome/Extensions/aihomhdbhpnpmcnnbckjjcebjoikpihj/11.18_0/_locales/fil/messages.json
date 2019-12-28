@@ -1,0 +1,50 @@
+{
+   "beforeNavigateTimer": {
+      "message": "Ikaw ay ididirektang awtomatiko sa loob ng % segundo."
+   },
+   "beforeNavigateTimerSingular": {
+      "message": "Ikaw ay ididirektang awtomatiko sa loob ng % segundo."
+   },
+   "crowdBypassed": {
+      "message": "Maaaring hindi mo na kailangang maghintay!"
+   },
+   "crowdBypassedIgnore": {
+      "message": "Hindi ba ito tama?"
+   },
+   "crowdBypassedOptions": {
+      "message": "Nais mo bang mabuksan ito sa isang bagong tab kaagad o sa x segundo?"
+   },
+   "crowdBypassedTimer": {
+      "message": "Ito ay bubuksan sa isang bagong tab sa % segundo."
+   },
+   "crowdBypassedTimerSingular": {
+      "message": "Ito ay bubuksan sa isang bagong tab sa 1 segundo."
+   },
+   "faq": {
+      "message": "Mga Madalas na Tanong"
+   },
+   "firstrunSubtitle": {
+      "message": "Ikaw ay kamangha-manghang!"
+   },
+   "firstrunTitle": {
+      "message": "Salamat sa iyong pag i-install ng Universal Bypass!"
+   },
+   "options": {
+      "message": "Pagpipilian"
+   },
+   "optionsEnabled": {
+      "message": "Paganahin ang website bypasses."
+   },
+   "optionsLink": {
+      "message": "Baguhin ang mga pagpipilian sa Universal Bypass."
+   },
+   "optionsTrackerBypass": {
+      "message": "I-bypass ang trackers gamit ang Apimon.de.\n"
+   },
+   "privacyPolicy": {
+      "message": "Patakaran sa Pagkapribado"
+   },
+   "support": {
+      "message": "Suportahan ang Universal Bypass"
+   }
+}

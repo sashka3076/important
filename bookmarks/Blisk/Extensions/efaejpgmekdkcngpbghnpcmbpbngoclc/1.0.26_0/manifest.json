@@ -1,0 +1,36 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "img/logo_inspector_16x16.png",
+      "default_title": "Visual Inspector by CanvasFlip"
+   },
+   "content_scripts": [ {
+      "css": [ "loading/loading.css" ],
+      "js": [ "loading/loading.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
+   "description": "Collaboration tool for website feedback and fixing design bugs.",
+   "devtools_page": "devtools.html",
+   "externally_connectable": {
+      "matches": [ "*://*.canvasflip.com/*", "*://localhost/*" ]
+   },
+   "icons": {
+      "16": "img/logo_inspector_16x16.png",
+      "22": "img/logo_inspector_22x22.png",
+      "24": "img/logo_inspector_24x24.png",
+      "32": "img/logo_inspector_32x32.png",
+      "48": "img/logo_inspector_48x48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5FB2s0IBz7msC1TlrGcK8sUkUlMMuEDz5f8rUukkyTay+yicpj6ChrLs4sasUzkAOfiqfua8e6jNwI6TL4SslbcxqOWY6aIw6Cy3vCzGQfr5jMkWhfm0nU13varHijSx5H+H3q0nsZ5LPTvZXx6Actoy+rbRp5MJrfEl4Q8Qiw9qDwE+4kH1V1nU1Z0JF2v/HHAt68khBfpVW7qcK/DhR6E+HTnES9IXECpISEHyEIwbIjmU6PuXlR1WaNRxYHH1jNjA0acOIbdSDZh885W4DQvYmwvlFBcDd6F+hYvGyxyw8zDmsyDXJLAYiEe/QEiftrtcZQPWuUONgmQb5+ZjIwIDAQAB",
+   "manifest_version": 2,
+   "name": "Visual Inspector by CanvasFlip",
+   "options_page": "option.html",
+   "permissions": [ "tabs", "activeTab", "http://*/*", "https://*/*", "file://*/*", "contextMenus", "storage", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.26",
+   "web_accessible_resources": [ "resources/commentbox.html", "resources/editor.html", "resources/editor.css", "resources/codemirror/codemirror.css", "resources/codemirror/material.css", "img/logo_inspector.png", "img/logo_inspector_blue.png", "img/power.svg", "img/icon-fb.svg", "img/icon-fb-2.svg", "img/icon-google.svg", "img/icon-google-2.svg" ]
+}

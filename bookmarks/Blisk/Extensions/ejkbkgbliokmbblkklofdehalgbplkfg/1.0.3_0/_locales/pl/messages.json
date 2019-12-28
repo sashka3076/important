@@ -1,0 +1,26 @@
+{
+   "allpage": {
+      "message": "Zrzut całej strony"
+   },
+   "captureregion": {
+      "message": "Capture region of the screen"
+   },
+   "description": {
+      "message": "Capture the screen, edit the capture, save the screenshot in the format you need PNG, PDF, buffer."
+   },
+   "editcontent": {
+      "message": "Edytuj zawartość"
+   },
+   "history": {
+      "message": "Pokaż historię"
+   },
+   "name": {
+      "message": "Full page simple screen capture"
+   },
+   "noall": {
+      "message": "Nie mogę przewinąć tej strony (Rozszerzenie może nie działać na wewnętrznych stronach przeglądarki lub w galerii z rozszerzeniami"
+   },
+   "visiblescreenshot": {
+      "message": "Zrzut widocznej części strony"
+   }
+}

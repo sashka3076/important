@@ -1,0 +1,116 @@
+{
+   "appDesc": {
+      "message": "Jangan habiskan waktu anda dengan menaati aturan. Universal Bypass secara otomatis akan melompati link pemendek yang menyebalkan."
+   },
+   "beforeNavigate": {
+      "message": "Anda hampir sampai pada tujuan anda."
+   },
+   "beforeNavigateDestination": {
+      "message": "Tujuan anda adalah %"
+   },
+   "beforeNavigateOptions": {
+      "message": "Apakah anda ingin dialihkan secara langsung atau dalam x detik?"
+   },
+   "beforeNavigateTimer": {
+      "message": "Anda akan dialihkan secara otomatis dalam % detik."
+   },
+   "beforeNavigateTimerSingular": {
+      "message": "Anda akan dialihkan secara otomatis dalam 1 detik."
+   },
+   "blockedSubtitle": {
+      "message": "Tidak ingin Universal Bypass untuk mencegah situs berbahaya dari mendapatkan IP Anda?"
+   },
+   "blockedTitle": {
+      "message": "Universal Bypass mencegah IP anda supaya tidak terlog."
+   },
+   "bypassCounter": {
+      "message": "Universal Bypass sudah membypass % situs untuk anda."
+   },
+   "changelog": {
+      "message": "Catatan perubahan"
+   },
+   "crowdBypassed": {
+      "message": "Anda mungkin tidak perlu melewati !"
+   },
+   "crowdBypassedIgnore": {
+      "message": "Apakah ini tidak benar ?"
+   },
+   "crowdBypassedInfo": {
+      "message": "Pengguna Universal Bypass lainnya sudah melewatinya untuk anda dan melaporkan bahwa tautan ini menuju ke %"
+   },
+   "crowdBypassedOptions": {
+      "message": "Apakah anda ingin ini dibuka di tab baru secara langsung atau dalam x detik?"
+   },
+   "crowdBypassedTimer": {
+      "message": "Ini akan dibuka di tab baru dalam % detik."
+   },
+   "crowdBypassedTimerSingular": {
+      "message": "Ini akan dibuka di tab baru dalam 1 detik."
+   },
+   "crowdDisabled": {
+      "message": "Situs web ini telah ter-bypass oleh fitur crowd bypass, yang mana telah anda nonaktifkan fiturnya didalam opsi pengaturan."
+   },
+   "crowdWait": {
+      "message": "Sayangnya, anda adalah orang yang pertama kali mengakses tautan ini, akan tetapi setelah anda melewatinya, pengguna Universal Bypass lainnya tidak perlu lagi melakukannya."
+   },
+   "faq": {
+      "message": "Pertanyaan yang Sering Diajukan\n(FAQ)"
+   },
+   "firstrunNoScript": {
+      "message": "Akan tetapi, anda sepertinya menggunakan ekstensi NoScript atau yang menyerupai itu, Karena itu Universal Bypass tidak kompatibel dengannya."
+   },
+   "firstrunSubtitle": {
+      "message": "Anda benar-benar luar biasa !"
+   },
+   "firstrunTitle": {
+      "message": "Terima kasih anda sudah menginstal Universal Bypass!"
+   },
+   "infoBoxHide": {
+      "message": "Klik kotak pesan ini untuk menyembunyikannya. Anda dapat menonaktifkan fitur kotak pesan informasi di pengaturan Universal Bypass."
+   },
+   "options": {
+      "message": "Opsi"
+   },
+   "optionsBlockIPLoggers": {
+      "message": "Memblokir IP Logger jika tidak dapat dilewati."
+   },
+   "optionsCrowdAutoOpen": {
+      "message": "Membuka halaman tujuan crowd bypass di tab baru setelah % detik. (0 = instan.)"
+   },
+   "optionsCrowdBypass": {
+      "message": "Memberi dan mendapatkan tujuan dari pemendek link yang tidak dapat dibypass. (Crowd bypass)"
+   },
+   "optionsEnabled": {
+      "message": "Aktifkan bypass website."
+   },
+   "optionsInfoBox": {
+      "message": "Menampilkan pesan informasi di beberapa situs."
+   },
+   "optionsInstantNavigationTrackers": {
+      "message": "Langsung arahkan ke halaman tujuan pelacak."
+   },
+   "optionsLink": {
+      "message": "Ganti pengaturan Universal Bypass."
+   },
+   "optionsNavigationDelay": {
+      "message": "Arahkan ke halaman tujuan setelah % detik. (Gunakan 0 untuk diarahkan secara langsung.)"
+   },
+   "optionsTrackerBypass": {
+      "message": "Bypass pelacak menggunakan Apimon.de."
+   },
+   "optionsUserscripts": {
+      "message": "Atur Bypass sesuai keinginan"
+   },
+   "optionsUserscriptsDescription": {
+      "message": "Ini adalah fitur khusus bagi para pengembang untuk membuat skrip sendiri untuk mem-bypass situs. Setelah disempurnakan, dapat diajukan di GitHub untuk ditambahkan ke Universal Bypass, sehingga bypass tersebut tersedia untuk semua orang."
+   },
+   "privacyPolicy": {
+      "message": "Kebijakan Pribadi"
+   },
+   "support": {
+      "message": "Dukungan untuk Universal Bypass."
+   },
+   "version": {
+      "message": "Versi"
+   }
+}

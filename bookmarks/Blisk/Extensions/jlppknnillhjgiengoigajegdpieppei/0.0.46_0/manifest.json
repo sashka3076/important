@@ -1,0 +1,27 @@
+{
+   "background": {
+      "scripts": [ "global.js", "global-chrome.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "IconDisabled.png",
+         "38": "IconDisabled@2x.png"
+      },
+      "default_title": "Enable LiveReload"
+   },
+   "content_scripts": [ {
+      "js": [ "injected.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhdvQ5cHII5j4gcjFWxObAh8P6iJVf51YfI/khlr4BvHA56Gkk+FzAVdXsSSk2oR6P5LpeVdx1GWslWHla2LekIkMDlv7TcgoM3gKv/ws28JGduXeOdt9Jf80kQ5e7q2pgFvYyri+iV/YBXji9vi2yHJMDjPgDEzy7KpXd6BBZYi2GrSiB9vHQy5GuTseqiwk6zqqerc1Gi8Ojk7OeXb504ujb+COJAde2vvGVZp651amSrWt3/jZ4HVsmjFHb0g/heE28v/3c7yvmwIvtNzHgYCOTWLQL5vynnbp05OGL76pSr7xIrV6pE5gykTEZ0FVI0DCyUZO20yA+wL3jMi5OwIDAQAB",
+   "manifest_version": 2,
+   "name": "RemoteLiveReload",
+   "permissions": [ "tabs", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.46",
+   "web_accessible_resources": [ "livereload.js" ]
+}

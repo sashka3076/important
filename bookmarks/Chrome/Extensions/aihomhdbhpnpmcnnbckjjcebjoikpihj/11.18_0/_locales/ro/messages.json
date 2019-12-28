@@ -1,0 +1,77 @@
+{
+   "appDesc": {
+      "message": "Nu-ți pierde timpul așteptând după ei. Universal Bypass te scapă de linkurile scurtate, ducându-te direct la destinație."
+   },
+   "beforeNavigate": {
+      "message": "Sunteți aproape de destinație."
+   },
+   "beforeNavigateDestination": {
+      "message": "Mai sunt doar %"
+   },
+   "beforeNavigateOptions": {
+      "message": "Vrei sa fi redirecționat instantaneu sau in x secunde?"
+   },
+   "beforeNavigateTimer": {
+      "message": "Vei fi redirectionat automat in % secunde."
+   },
+   "beforeNavigateTimerSingular": {
+      "message": "Vei fi redirectionat automat in 1 secundă."
+   },
+   "bypassCounter": {
+      "message": "Universal Bypass a evitat deja % site-uri pentru tine."
+   },
+   "crowdBypassedIgnore": {
+      "message": "Asta nu a fost corect?"
+   },
+   "crowdBypassedTimer": {
+      "message": "Aceasta va fi deschisă într-o nouă fila in % secunde."
+   },
+   "faq": {
+      "message": "Întrebări populare"
+   },
+   "firstrunNoScript": {
+      "message": "Totuși, se pare că folosești NoScript, care interferează cu Universal Bypass."
+   },
+   "firstrunSubtitle": {
+      "message": "Ești fantastic(ă)!"
+   },
+   "firstrunTitle": {
+      "message": "Vă mulțumim că ați instalat Universal Bypass!"
+   },
+   "options": {
+      "message": "Opțiuni"
+   },
+   "optionsBlockIPLoggers": {
+      "message": "Blochează urmăritorii de IP dacă nu poți scăpa de ei."
+   },
+   "optionsCrowdBypass": {
+      "message": "Arată destinațiile scurtăturilor ce nu pot fi păcălite."
+   },
+   "optionsEnabled": {
+      "message": "Pornește bypassul."
+   },
+   "optionsInfoBox": {
+      "message": "Arată mesaje informative pe unele site-uri."
+   },
+   "optionsInstantNavigationTrackers": {
+      "message": "Du-mă instant la destinația urmăritorilor."
+   },
+   "optionsLink": {
+      "message": "Schimbă setările Universal Bypass."
+   },
+   "optionsTrackerBypass": {
+      "message": "Scapă de urmăritori folosind Apimon.de."
+   },
+   "optionsUserscripts": {
+      "message": "Bypassuri personalizate"
+   },
+   "privacyPolicy": {
+      "message": "Politică de confidențialitate"
+   },
+   "support": {
+      "message": "Ajută Universal Bypass"
+   },
+   "version": {
+      "message": "Versiunea"
+   }
+}

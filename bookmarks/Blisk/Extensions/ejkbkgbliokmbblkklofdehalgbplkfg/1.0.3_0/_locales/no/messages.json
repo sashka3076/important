@@ -1,0 +1,26 @@
+{
+    "name": {
+        "message": "Full page simple screen capture"
+    },
+    "description": {
+        "message": "Capture the whole page, part of the page or just selected part of the page, and save it in the format you need."
+    },
+    "allpage": {
+        "message": "Whole page screenshot"
+    },
+    "visiblescreenshot": {
+        "message": "Capture visible zone"
+    },
+    "captureregion": {
+        "message": "Capture area"
+    },
+    "editcontent": {
+        "message": "Edit content"
+    },
+    "history": {
+        "message": "Show History"
+    },
+    "noall": {
+        "message": "Cannot scroll on this page (extensions do not work on internal Chrome pages nor in the Chrome extensions gallery)."
+    }
+}

@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta http-equiv = "Content-Type" content = "text/html; charset = UTF-8">
+	<script src = "/scripts/jquery-2.0.3.min.js"></script>
+	<link rel="stylesheet" href="/styles/widgets.css"/>
+	<link rel="stylesheet" href="/styles/popup.css"/>
+	<link rel="stylesheet" href="/styles/tipped.css"/>
+	<style>
+		.tpd-content, .tpd-title, .tpd-close { color: black !important; }
+		.tpd-background-content { background-color: white !important; }
+		.tpd-background {
+		  border-width: 0px !important;
+		}
+		.tpd-background-title { background-color: #5b45e3 !important; }
+		/* line below the title */
+		.tpd-title-wrapper { border-bottom: 1px solid #2a1fb4 !important; }
+		/* shadow */
+		.tpd-background-shadow { box-shadow: 0 0 8px rgba(0,0,0,.15) !important; }
+		/* spinner */
+		.tpd-spinner-spin {
+		  border-color: rgba(255,255,255,.2) !important;
+		  border-left-color: #fff !important;
+		}
+		.tpd-content, .tpd-title {
+		  padding: 10px !important;
+		  font-size: 12px !important;
+		  line-height: 13px !important;
+		}
+		.tpd-content a {
+			color:#1c6d94 !important;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div id="topBar">
+		<!-- <div id='appTitle'><a href='http://www.omiod.com/meta-inspector.php'>META SEO Inspector v2.3</a></div> -->
+		<div class="minitoolbar">
+			<span data-trans="sectionscloseall" id="closeAll"></span>
+			<span data-trans="sectionsopenall" id="openAll"></span>
+		</div>		
+		<div id='menu'>
+			<span class='active' data-target='pagedata' data-trans='menu_pagedata'></span>
+			<span data-target='onlinetools' data-trans='menu_onlinetools'></span>
+			<span data-target='options' data-trans='menu_options'></span>
+			<span data-target='about'><b data-trans='menu_about'></b> v2.3.5</span>
+		</div>
+	</div>
+
+	<div id="outer">
+		<div id="main">
+
+			<div id="out" class="panel" >
+
+				<div id="out-inner" >
+					computing ... please wait
+				</div>
+			</div>
+
+			<div id="tools" class="panel">
+				<div class="container padding">
+					<div id="linksinfo"></div>
+					<table cellspacing=0 cellpadding=0 class="w100">
+						<tr>
+							<td class="w33" style="padding-bottom:15px;">
+								<div class="ad_seo_title">SITE TESTER</div>
+								<div id="links1"></div>
+							</td>
+							<td class="w33">
+								<div class="ad_seo_title">SAFETY</div>
+								<div id="links2"></div>
+							</td>
+						</tr>
+						<tr>
+							<td class="w33">
+								<div class="ad_seo_title">SOCIAL / PAGE TESTER</div>
+								<div id="links4"></div>
+							</td>
+							<td class="w33">
+								<div class="ad_seo_title">OTHER</div>
+								<div id="links3"></div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+			<div id="options" class="panel">
+				<div class="container padding">
+					<label><input type='checkbox' id="showNofollow"> Show nofollow links (pink outline)</label>
+					<label><input type='checkbox' id="isDebug"> Debug mode</label>
+				</div>
+			</div>
+
+			<div id="about" class="panel">
+
+				<div class="container padding">
+
+					<h2><a href='http://www.omiod.com/meta-inspector.php?utm_source=MSI_app&utm_medium=about_link' data-trans="extName"></a></h2>
+
+					<h2 data-trans="donationtitle"></h2>
+					<p class="big" data-trans="pleaseconsider"></p>
+	
+					<p class="big" data-trans="justthink"></p>
+					<p class="big" style="color:#bfb" data-trans="wepromise"></p>
+					<p style="text-align:center"><a data-trans="clickdonate" class="bigbutton" style="color:white; font-weight:bold" href="https://paypal.me/omiod?locale.x=en_US" target="_blank"></a></p>
+					<p>&nbsp;</p>
+	
+					<h2>History</h2>
+					<ul class="">
+						<li>2.3.5 - moved apple-touch-icon, shortcut icon, mask-icon and apple-touch-startup-image in "presentation" section; some new translations; added "article", "video" and "music" to opengraph, new vieport checker</li>
+					</ul>
+					<ul class="previous">
+						<li>2.3.4 - added image lazy loading detection</li>
+						<li>2.3.3 - full image listing with alt and title attributes check, better image count, fixed tags section</li>
+						<li>2.3.2 - fixed geo and security sections, added canvas to detected tags, improved large image handling, improved empty tag detection, grouped various html tags in the new "markup" section, "opengraph" and "twitter" in the new "social" section, "large images" and "videos" in the new media section.</li>
+						<li>2.3.1 - fix to collapsible sections</li>
+						<li>2.3 - overall layout update, collapsible sections to let you focus on specific tasks, more visible tips</li>
+						<li>2.2.7 - minor update - charset, mssmarttags prevent parsing and googlebot better handling</li>
+						<li>2.2.6 - more translated UI text - improved doctype detection - removed missing H2 tag</li>
+						<li>2.2.5 - more info about heading tags issues - cms detection improvements - JSON-LD parse fix</li>
+						<li>2.2.4 - translations improvement - fixed GEO data layout - new presentation section - small fixes</li>
+						<li>2.2.3 - fixed the issue with structured data</li>
+						<li>2.2.2 - structured data temporarily disabled</li>
+						<li>2.2.1 - small fixes</li>
+						<li>2.2 - much improved JSON-LD detection - improved tooltips visibility</li>
+						<li>2.1.10 - JSON-LD improvements, new SECURITY section</li>
+						<li>2.1.9 - fixed small UI issues - "description too short" no more a warning - better handling of empty H tags - better headings layout</li>
+						<li>2.1.8 - fixed messages in console - fixed small UI issues</li>
+						<li>2.1.7 - Introduced tooltips in UI, detailed list of header tags, more H1 tips, fixed issue with with twitter description containing html tags, initial japanese translation</li>
+						<li>2.1.6.1 - fixed a layout issue</li>
+						<li>2.1.6 - fixed video links - styles fix - handled yandex-verification, ahrefs-site-verification, p:domain_verify and bitly-verification - fixed issue in detecting large images - new CMS section - new Mobile section</li>
+						<li>2.1.5 - resource hints tags - handled baidu-site-verification</li>
+						<li>2.1.4 - large images detection - fixed issue with JSON-LD - styles fix</li>
+						<li>2.1.3 - JSON-LD recognized</li>
+						<li>2.1.2 - layout improvements - video link discovery - fixed rare issues with malformed meta tags - keywords info - italian and spanish translation</li>
+						<li>2.1.1 - video tag discovery and download - layout improvements - online-tools cleanup</li>
+						<li>2.1.0 - improved page title detection - code optimizations - showing "alternate", "shortcut icon", "icon" and "archives" link tags - Added APP LINK section - increased the max description lenght to 230 - minor layout fixes - new about section - missing keywords meta tag is not a warning anymore</li>
+						<li>2.0.9 - minor fixes</li>
+						<li>2.0.8 - moved "robots" in common tags - added "geo" group - GoogleMaps(tm) links for location data - IMG tags report and warning for missing ALT attribute.</li>
+						<li>2.0.7 - OpenGraph checker - tools added: Norton Safe Web, GPlus Ripples explorer</li>
+						<li>2.0.6 - fixed case-sensitive issues - layout improvements - meta data is now grouped in "common", "opengraph", "twitter", "schema.org" and "other" - the pop-up reopens on the last used section - added check for invalid "value" attribute</li>
+						<li>2.0.5 - no follow highlight is back - options page, good for future additions! - added more social verification tools - added Nibbler too</li>
+						<li>2.0.4 - Restored and updated the "on-line tools" section - layout fixes</li>
+						<li>2.0.3 - Small fix with missing meta content - 5 stars rating for HTML check - layout fixes - badge refresh - doctype fix</li>
+						<li>2.0.2 - Added html, h1, h2 tags check.</li>
+						<li>2.0.1 - Small fix</li>
+						<li>2.0.0 - Rewrited to new guidelines - added rich snippets data - more warnings - moved data to popup</li>
+	
+						<li>1.8.3 - Style fixes, speed improvements, basic HTML5 report.</li>
+						<li>1.8.2 - Added favicons to external scripts URLs, added links to tags explainations.</li>
+						<li>1.8.1 - G+ profiles extractor.</li>
+						<li>1.8 - Added more unique prefixes to css classes, "always white text" fixed, custom font size, explained "description too long/short" values, removed "show visited links" it is not working anymore due to security issues, fixed head title (added warning and length count), improvements to the printable "page details", checked various sites for layout issues</li>
+						<li>1.7.10 - fixed graphic issues</li>
+						<li>1.7.9 - meta "property" added - basic xss fix</li>
+						<li>1.7.8.1 - minor fix</li>
+						<li>1.7.8 - added "Rich Snippets Testing Tool","Copyscape Plagiarism Checker","Keyword Density Analyzer" tool links - close button</li>
+						<li>1.7.7 - RDFa</li>
+						<li>1.7.6 - minor enhancements</li>
+						<li>1.7.5 - Fixed some tool links, edited some icons, added "content-language"</li>
+						<li>1.7.4 - Cleaned script tags, details page shows more, password safey warning, fixed font styles - meta links are clickable, linked images are showed - a bit faster, due to jquery upgrade</li>
+						<li>1.7	- Details page (printable)</li>
+						<li>1.6	- Options link - script tag</li>
+						<li>1.5.1 - Fixed a small bug with the webtools, and added two new sites.</li>
+						<li>1.5	- New icons - Links to web tools</li>
+						<li>1.4	- Fixed nofollow links with only images - introduced warnings - parsed head title - improved microformats - added A REV</li>
+						<li>1.3.1 - improved a[rel] handling, hidden link[archives], fixed refresh bug</li>
+						<li>1.3	- XFN fixes. - styles fix  - "commontags" - color config options</li>
+						<li>1.2	- Improved visited link style. - improved layout - bug fixed</li>
+						<li>1.1	- 2009 - Added "visited links" highlighter</li>
+						<li>1.0	- 2009 11 24 - First release</li>
+	
+					</ul>
+
+				</div>
+
+
+			</div>
+
+		</div>
+	</div>
+
+	<!-- <script src = "/scripts/popper.min.js"></script> -->
+	<script src = "/scripts/tipped.js"></script>
+	<script src = "/scripts/service.js"></script>
+	<script src = "/scripts/popup.js"></script>
+
+</body>
+</html>

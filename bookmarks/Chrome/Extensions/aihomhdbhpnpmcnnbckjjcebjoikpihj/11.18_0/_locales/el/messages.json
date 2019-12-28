@@ -1,0 +1,74 @@
+{
+   "appDesc": {
+      "message": "Μην σπαταλάτε το χρόνο σας περιμένοντας. Ο Universal Bypass παραλείπει αυτόματα ενοχλητικούς συνδέσμους συντομεύσεων."
+   },
+   "beforeNavigate": {
+      "message": "Είστε σχεδόν στο προορισμό σας."
+   },
+   "beforeNavigateDestination": {
+      "message": "Ο προορισμός σας είναι %"
+   },
+   "blockedSubtitle": {
+      "message": "Δεν θέλετε το Universal Bypass να αποτρέψει τους κακόβουλους φορείς από το να υποκλέψουν την IP σας;"
+   },
+   "blockedTitle": {
+      "message": "Το Universal Bypass εμπόδισε την IP σας από το να καταγραφεί."
+   },
+   "bypassCounter": {
+      "message": "Το Universal Bypass εχει ηδη παρακαμψει % ιστοσελιδες για εσενα."
+   },
+   "changelog": {
+      "message": "Αλλαγές"
+   },
+   "crowdBypassed": {
+      "message": "Ίσως να μην χρειαστεί να περιμένετε!"
+   },
+   "crowdBypassedIgnore": {
+      "message": "Δεν ήταν αυτό σωστό;"
+   },
+   "crowdBypassedInfo": {
+      "message": "Άλλοι χρήστες του Universal Bypass έχουν ήδη περιμένει εσάς και έχουν αναφέρει ότι αυτό οδηγεί σε %"
+   },
+   "faq": {
+      "message": "Συχνές Ερωτήσεις (FAQ)"
+   },
+   "firstrunNoScript": {
+      "message": "Ωστόσο, φαίνεται να χρησιμοποιείτε NoScript ή παρόμοιο, με τα οποία το Universal Bypass δεν είναι συμβατό."
+   },
+   "firstrunSubtitle": {
+      "message": "Είστε καταπληκτικός/ή!"
+   },
+   "firstrunTitle": {
+      "message": "Ευχαριστούμε που εγκαταστήσατε το Universal Bypass!"
+   },
+   "options": {
+      "message": "Επιλογές"
+   },
+   "optionsBlockIPLoggers": {
+      "message": "Μπλόκαρε IP loggers, αν αυτοί δεν μπορούν να παρακάμπτουν."
+   },
+   "optionsCrowdBypass": {
+      "message": "Δώσε και να πάρε τους προορισμούς των unbypassable shorteners."
+   },
+   "optionsEnabled": {
+      "message": "Ενεργοποίηση παρακάμψεων ιστοσελίδων."
+   },
+   "optionsLink": {
+      "message": "Αλλαγή επιλογών του Universal Bypass."
+   },
+   "optionsTrackerBypass": {
+      "message": "Παράκαμψη trackers χρησιμοποιώντας το Apimon.de."
+   },
+   "optionsUserscripts": {
+      "message": "Προσαρμοσμένες παρακάμψεις"
+   },
+   "privacyPolicy": {
+      "message": "Πολιτική Απορρήτου"
+   },
+   "support": {
+      "message": "Υποστήριξη Universal Bypass"
+   },
+   "version": {
+      "message": "Έκδοση"
+   }
+}

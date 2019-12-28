@@ -1,0 +1,116 @@
+{
+	"appDesc": {
+		"message": "Ojo ngentekne waktune sampeyan gawe manuti aturan. Universal Bypass bakal kanthi otomatis nglewati pemendek link sing ngganggu."
+	},
+	"firstrunTitle": {
+		"message": "Matur sembah nuwun kanggo sampeyan sing nginstal Universal Bypass!"
+	},
+	"firstrunSubtitle": {
+		"message": "Sampeyan pancen Joss tenan!"
+	},
+	"firstrunNoScript": {
+		"message": "Nanging, kayane sampeyan nggunakake ekstensi NoScript utawa seng meh padha, mulane Universal Bypass ora kompatibel karo iku."
+	},
+	"version": {
+		"message": "Versi"
+	},
+	"changelog": {
+		"message": "Cathetan perubahan"
+	},
+	"faq": {
+		"message": "Pitakon Seng Umum (FAQ)"
+	},
+	"bypassCounter": {
+		"message": "Universal Bypass wis nrabas % situs kanggo sampeyan."
+	},
+	"support": {
+		"message": "Dhukungan kanggo Universal Bypass."
+	},
+	"options": {
+		"message": "Pilihan"
+	},
+	"optionsLink": {
+		"message": "Ngganti setelan Universal Bypass."
+	},
+	"optionsEnabled": {
+		"message": "Ngaktifake trabasan situs web."
+	},
+	"optionsNavigationDelay": {
+		"message": "Arahne menyang tujuan sawise % detik. (Gunakake 0 supaya langsung diarahake.)"
+	},
+	"optionsTrackerBypass": {
+		"message": "Trabas pelacak nggunakake Apimon.de."
+	},
+	"optionsInstantNavigationTrackers": {
+		"message": "Langsung arahne menyang tujuan saka pelacak."
+	},
+	"optionsBlockIPLoggers": {
+		"message": "Blokir IP loggers yen ora bisa ditrabas."
+	},
+	"optionsCrowdBypass": {
+		"message": "Menehi lan entuk tujuan saka pemendek link sing ora bisa ditrabas."
+	},
+	"optionsCrowdAutoOpen": {
+		"message": "Mbukak tujuan crowd-sourced ing tab anyar sawise % detik. (0 = langsung.)"
+	},
+	"optionsInfoBox": {
+		"message": "Tampilake pesen informasi ing sawetara situs."
+	},
+	"privacyPolicy": {
+		"message": "Kebijakan Privasi"
+	},
+	"optionsUserscripts": {
+		"message": "Setel Trabasan kaya sing dikarepake"
+	},
+	"optionsUserscriptsDescription": {
+		"message": "Iki minangka fitur khusus kanggo pangembang nggawe skrip dhewe kanggo nrabas situs. Sakwise wes sempurno, bisa dikirim ing GitHub supaya bisa ditambahake ing Universal Bypass, supaya trabasane kasedhiya kanggo kabeh wong."
+	},
+	"beforeNavigate": {
+		"message": "Sampeyan meh ana ing tujuane sampeyan."
+	},
+	"beforeNavigateDestination": {
+		"message": "Tujuane sampeyan yaiku %"
+	},
+	"beforeNavigateTimer": {
+		"message": "Sampeyan bakal dialihne kanthi otomatis ing % detik."
+	},
+	"beforeNavigateTimerSingular": {
+		"message": "Sampeyan bakal dialihne kanthi otomatis ing 1 detik."
+	},
+	"beforeNavigateOptions": {
+		"message": "Opo sampeyan pingin dialihne langsung utawa ing x detik?"
+	},
+	"infoBoxHide": {
+		"message": "Klik kothak pesen iki kanggo ndhelikake. Sampeyan bisa mateni fitur kothak pesen informasi ing opsi Universal Bypass."
+	},
+	"crowdWait": {
+		"message": "Sayange, sampeyan minangka wong sing pertama ngliwati link iki, nanging sawise sampeyan sampun ngliwati, pangguna Universal Bypass liyane ora perlu ngliwati maneh."
+	},
+	"crowdDisabled": {
+		"message": "Situs web iki wes iso ditrabas nganggo fitur crowd bypass, sing fiture ga sampeyan aktifake ndek opsi."
+	},
+	"crowdBypassed": {
+		"message": "Sampeyan mungkin ora butuh ngenteni!"
+	},
+	"crowdBypassedInfo": {
+		"message": "Pangguna Universal Bypass liyane wis ngenteni kanggo sampeyan lan nglaporake yen link iki tujuane yaiku %"
+	},
+	"crowdBypassedTimer": {
+		"message": "Iki bakal di bukak ndek tab anyar ing % detik."
+	},
+	"crowdBypassedTimerSingular": {
+		"message": "Iki bakal di bukak ndek tab anyar ing 1 detik."
+	},
+	"crowdBypassedIgnore": {
+		"message": "Opo iki ora bener?"
+	},
+	"crowdBypassedOptions": {
+		"message": "Opo sampeyan pingin iki di bukak ndek tab anyar langsung utawa ing x detik?"
+	},
+	"blockedTitle": {
+		"message": "Universal Bypass nyegah IP sampeyan supaya ora mlebu log."
+	},
+	"blockedSubtitle": {
+		"message": "Ora pingin Universal Bypass nyegah situs kanggo njupuk IP ne sampeyan?"
+	}
+}

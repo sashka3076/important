@@ -1,0 +1,723 @@
+{
+   "Deck_name_cant_be_empty": {
+      "message": "Имя колоды не может быть пустым"
+   },
+   "Deck_with_given_name_already_exists": {
+      "message": "Колода с таким именем уже существует"
+   },
+   "Nothing_to_learn": {
+      "message": "Нечего учить"
+   },
+   "OK": {
+      "message": "ОК"
+   },
+   "add_new_translation": {
+      "message": "добавить новый перевод"
+   },
+   "additional": {
+      "message": "дополнительно"
+   },
+   "adjective": {
+      "message": "имя прилагательное"
+   },
+   "adverb": {
+      "message": "наречие"
+   },
+   "ago": {
+      "message": "назад"
+   },
+   "all": {
+      "message": "все"
+   },
+   "alphabetically": {
+      "message": "алфавиту"
+   },
+   "ankiFix_message": {
+      "message": "Экспорт снова доступен!"
+   },
+   "ankiFix_title": {
+      "message": "Экспорт в Anki"
+   },
+   "answer": {
+      "message": "ответ"
+   },
+   "antonym": {
+      "message": "антоним"
+   },
+   "article": {
+      "message": "артикль"
+   },
+   "auxiliary_verb": {
+      "message": "вспомогательный глагол"
+   },
+   "back": {
+      "message": "назад"
+   },
+   "cancel": {
+      "message": "отменить"
+   },
+   "card_edit": {
+      "message": "редактирования карточки"
+   },
+   "cardsRipeningExplanation": {
+      "message": "После повторения карточки стают временно недоступными. Через некоторое время Вам будет предложено повторить их, дабы удержать знание в памяти."
+   },
+   "cardsWaiting": {
+      "message": "Время изучать карточки! Доступно: $1"
+   },
+   "cards_per_session": {
+      "message": "карточек в сессии"
+   },
+   "cards_sorting": {
+      "message": "сортировка карточек"
+   },
+   "checkBrowserVersion": {
+      "message": "Проверить версию браузера"
+   },
+   "check_all": {
+      "message": "выделить все"
+   },
+   "classic": {
+      "message": "классический"
+   },
+   "collapse": {
+      "message": "свернуть"
+   },
+   "configureSync": {
+      "message": "Настроить синхронизацию"
+   },
+   "conjunction": {
+      "message": "союз"
+   },
+   "correct": {
+      "message": "верно"
+   },
+   "correct_answer": {
+      "message": "верный ответ"
+   },
+   "custom": {
+      "message": "другой"
+   },
+   "cut": {
+      "message": "вырезать"
+   },
+   "cutNPasteRelease": {
+      "message": "Отныне у Вас есть возможность перемещать карточки между колодами."
+   },
+   "cutNPasteTip": {
+      "message": "Теперь выберите колоду, в которую Вы б хотели переместить вырезанные карточки, и нажмите кнопку Вставить."
+   },
+   "days": {
+      "message": "дн"
+   },
+   "deck": {
+      "message": "колода"
+   },
+   "deckMenuActions_activate": {
+      "message": "Сделать целевой"
+   },
+   "deckMenuActions_activate_tip": {
+      "message": "Сохранять новые карточки в эту колоду"
+   },
+   "deckMenuActions_activated": {
+      "message": "Целевая"
+   },
+   "deckMenuActions_activated_tip": {
+      "message": "Новые карточки будут сохраняться в эту колоду"
+   },
+   "deckMenuActions_backup": {
+      "message": "Резервнаю копия"
+   },
+   "deckMenuActions_backup_create": {
+      "message": "Создать"
+   },
+   "deckMenuActions_backup_create_tip": {
+      "message": "Сохраните все свои колоды и прогресс"
+   },
+   "deckMenuActions_backup_restore": {
+      "message": "Восстановить"
+   },
+   "deckMenuActions_create": {
+      "message": "Создать колоду"
+   },
+   "deckMenuActions_export": {
+      "message": "Экспортировать"
+   },
+   "deckMenuActions_exportAs": {
+      "message": "Сохранить как"
+   },
+   "deckMenuActions_export_anki": {
+      "message": "Совместимый с Anki"
+   },
+   "deckMenuActions_export_disabled_tip": {
+      "message": "Колода пустая"
+   },
+   "deckMenuActions_import": {
+      "message": "Импортировать"
+   },
+   "deckMenuActions_import_tip": {
+      "message": "JSON, CSV"
+   },
+   "deckMenuActions_remove": {
+      "message": "Удалить колоду"
+   },
+   "deckMenuActions_remove_last_tip": {
+      "message": "Нельзя удалить последнюю колоду"
+   },
+   "deckMenuActions_remove_target_tip": {
+      "message": "Невозможно удалить целевую колоду"
+   },
+   "deckMenuActions_title": {
+      "message": "Действия"
+   },
+   "deck_description": {
+      "message": "описание колоды"
+   },
+   "decks": {
+      "message": "колоды"
+   },
+   "definition": {
+      "message": "определение"
+   },
+   "delete": {
+      "message": "удалить"
+   },
+   "detect": {
+      "message": "автоопределение"
+   },
+   "detectedAs": {
+      "message": "Переведено с $1"
+   },
+   "disableReminders": {
+      "message": "Отключить напоминания"
+   },
+   "dontNotifyOnUpdates": {
+      "message": "Больше не оповещать меня об обновлениях"
+   },
+   "easy": {
+      "message": "легко"
+   },
+   "edit": {
+      "message": "редактировать"
+   },
+   "enable": {
+      "message": "включить/выключить"
+   },
+   "ensureSyncIsOn1st": {
+      "message": "Убедитесь, что синхронизация расширений включена в "
+   },
+   "ensureSyncIsOn2nd": {
+      "message": "настройках Chrome"
+   },
+   "error": {
+      "message": "ошибка"
+   },
+   "example": {
+      "message": "пример"
+   },
+   "expand": {
+      "message": "развернуть"
+   },
+   "export": {
+      "message": "экспортировать"
+   },
+   "ext_author": {
+      "message": "Сергей skye Мурыгин, Юрчишин Мирослава"
+   },
+   "ext_description": {
+      "message": "Переводите слова и фразы во время просмотра веб-страниц, и с легкостью изучайте иностранные языки с помощью двусторонних карточек."
+   },
+   "ext_name": {
+      "message": "Rememberry - Переводите и Запоминайте"
+   },
+   "ext_short_name": {
+      "message": "Rememberry"
+   },
+   "failedToReadFile": {
+      "message": "Ошибка при считывании файла"
+   },
+   "fileTypeIsNotAllowed": {
+      "message": "Выбранный файл не JSON или CSV формата"
+   },
+   "filter": {
+      "message": "фильтр"
+   },
+   "forward": {
+      "message": "вперед"
+   },
+   "goToOptionsPage": {
+      "message": "Перейти на страницу настроек"
+   },
+   "hard": {
+      "message": "сложно"
+   },
+   "hotkey": {
+      "message": "горячая клавиша"
+   },
+   "hours": {
+      "message": "ч"
+   },
+   "improvedTranslationRelease": {
+      "message": "Отныне при переводе английских слов через всплывающее окно Вам будет показаны их синонимы, антонимы, примеры использования, и определение."
+   },
+   "in": {
+      "message": "в"
+   },
+   "incorrect": {
+      "message": "неверно"
+   },
+   "incorrectFileContent": {
+      "message": "Некорректное содержимое файла"
+   },
+   "info": {
+      "message": "Информация"
+   },
+   "initialTab": {
+      "message": "Начальная вкладка"
+   },
+   "interjection": {
+      "message": "возглас"
+   },
+   "just_now": {
+      "message": "только что"
+   },
+   "key_modifier": {
+      "message": "клавиша модификатор"
+   },
+   "languages": {
+      "message": "языки"
+   },
+   "learn": {
+      "message": "изучать"
+   },
+   "learned": {
+      "message": "добавлено"
+   },
+   "learningInSwitchTo": {
+      "message": "изучения"
+   },
+   "learning_mode": {
+      "message": "режим изучения"
+   },
+   "listening": {
+      "message": "прослушивания"
+   },
+   "loading": {
+      "message": "загрузка"
+   },
+   "loadingSemantization": {
+      "message": "Загружается семантизация"
+   },
+   "localFilesTip": {
+      "message": "Чтобы иметь возможность перевода с локальных страниц, проставте флажок 'Разрешить открывать файлы по ссылкам' под Rememberry на странице расширений."
+   },
+   "log_in": {
+      "message": "войти"
+   },
+   "log_out": {
+      "message": "выйти"
+   },
+   "login": {
+      "message": "логин"
+   },
+   "maxCardTextLengthExceeded": {
+      "message": "Невозможно сохранить карточку с текстом оригинала длиной более $1 символов."
+   },
+   "menuDecks": {
+      "message": "Колоды"
+   },
+   "menuLanguages": {
+      "message": "Языки"
+   },
+   "menuOther": {
+      "message": "Другие"
+   },
+   "menuShare": {
+      "message": "Поделиться"
+   },
+   "menuSubscription": {
+      "message": "Подписка"
+   },
+   "menuTriggers": {
+      "message": "Триггеры"
+   },
+   "minutes": {
+      "message": "мин"
+   },
+   "model": {
+      "message": "модель"
+   },
+   "modifiers": {
+      "message": "модификаторы"
+   },
+   "months": {
+      "message": "мес"
+   },
+   "more_than_a_month": {
+      "message": "больше месяца"
+   },
+   "more_than_year_ago": {
+      "message": "больше года назад"
+   },
+   "most_repeated": {
+      "message": "к-сву повторений"
+   },
+   "most_useful": {
+      "message": "полезности"
+   },
+   "mutualLanguagesSetting": {
+      "message": "Использовать те же языки при переводе через всплывающее окно и веб-страницу"
+   },
+   "newFeatureReleased": {
+      "message": "Обновление. Новая возможность"
+   },
+   "new_first": {
+      "message": "новизне"
+   },
+   "noAvailableCards": {
+      "message": "Нету доступных карточек в выбранной колоде"
+   },
+   "normal": {
+      "message": "средне"
+   },
+   "notifyOnUpdates": {
+      "message": "Оповещать меня о важных обновлениях"
+   },
+   "noun": {
+      "message": "имя существительное"
+   },
+   "number_of_available_cards": {
+      "message": "общее количество доступных карточек"
+   },
+   "number_of_available_cards_in_active_deck": {
+      "message": "количество доступных карточек в активной колоде"
+   },
+   "of": {
+      "message": "с"
+   },
+   "off": {
+      "message": "отключено"
+   },
+   "offlineMessage": {
+      "message": "Нет соединения с Интернетом"
+   },
+   "on": {
+      "message": "включено"
+   },
+   "openDecksMenu": {
+      "message": "Управление колодами"
+   },
+   "openExtensionsManager": {
+      "message": "Перейти к странице расширений"
+   },
+   "openTranslatorSite": {
+      "message": "Перевести через веб-сайт"
+   },
+   "original_term": {
+      "message": "оригинальное выражение"
+   },
+   "other": {
+      "message": "другие"
+   },
+   "particle": {
+      "message": "частица"
+   },
+   "password": {
+      "message": "пароль"
+   },
+   "paste": {
+      "message": "вставить"
+   },
+   "per_month": {
+      "message": "в месяц"
+   },
+   "plan": {
+      "message": "план"
+   },
+   "popup": {
+      "message": "окно приложения"
+   },
+   "popup_type": {
+      "message": "тип окна"
+   },
+   "preposition": {
+      "message": "предлог"
+   },
+   "preserve_credentials": {
+      "message": "запомнить данные авторизации"
+   },
+   "pronoun": {
+      "message": "местоимение"
+   },
+   "pronunciation_loading_error": {
+      "message": "Произошла ошибка при попытке загрузки произношения"
+   },
+   "randomly": {
+      "message": "случайным образом"
+   },
+   "rateIn": {
+      "message": "Оценить в"
+   },
+   "recentlyUsed": {
+      "message": "Недавние"
+   },
+   "reminder": {
+      "message": "напоминания"
+   },
+   "reminders": {
+      "message": "напоминания"
+   },
+   "repeated": {
+      "message": "повторено"
+   },
+   "return": {
+      "message": "вернуться"
+   },
+   "reverse": {
+      "message": "реверсный"
+   },
+   "ripened_cards": {
+      "message": "доступных карточек"
+   },
+   "save": {
+      "message": "сохранить"
+   },
+   "saveCardToDeck": {
+      "message": "Сохранить как карточку"
+   },
+   "seconds": {
+      "message": "сек"
+   },
+   "sentence": {
+      "message": "предложения"
+   },
+   "settings": {
+      "message": "настройки"
+   },
+   "settingsSyncReleaseMessage": {
+      "message": "С радостью сообщаем, что теперь у Вас есть возможность синхронизировать настройки Rememberry между всеми вашими Chrome браузерами."
+   },
+   "shareForeword": {
+      "message": "Если Вам нравится использовать Rememberry, пожалуйста расскажите о нем своим друзьям. Помогите им эффективно изучать иностранные языки!"
+   },
+   "shareWithFriends": {
+      "message": "Поделиться Rememberry с друзьями"
+   },
+   "showInsideBadge": {
+      "message": "Показывать в Иконке"
+   },
+   "show_answer": {
+      "message": "показать ответ"
+   },
+   "signInToSync1st": {
+      "message": "Войдите в Chrome"
+   },
+   "signInToSync2nd": {
+      "message": " чтобы использовать синхронизацию"
+   },
+   "sort_by": {
+      "message": "сортировать по"
+   },
+   "sort_direction": {
+      "message": "направление сортировки"
+   },
+   "source_language": {
+      "message": "язык оригинала"
+   },
+   "start": {
+      "message": "старт"
+   },
+   "subAfterPlan": {
+      "message": "режим, в котором Вам доступны все базовые и дополнительные возможности."
+   },
+   "subBasic": {
+      "message": "Бесплатный"
+   },
+   "subBeforePlan": {
+      "message": "Вы используете"
+   },
+   "subCustomText": {
+      "message": "Перевод произвольного текста"
+   },
+   "subExportTo": {
+      "message": "Экспорт в"
+   },
+   "subLearningModes": {
+      "message": "Режимы изучения"
+   },
+   "subLearningSessions": {
+      "message": "Сессии изучений"
+   },
+   "subNewCards": {
+      "message": "Новые карточки"
+   },
+   "subReminders": {
+      "message": "Напоминания"
+   },
+   "subSemantizations": {
+      "message": "Методы семантизации"
+   },
+   "subSubscriber": {
+      "message": "Подписчик"
+   },
+   "subTranslateSynNAnt": {
+      "message": "Перевод синонимов и антонимов"
+   },
+   "subTranslations": {
+      "message": "Переводы"
+   },
+   "subTrial": {
+      "message": "Пробный"
+   },
+   "switchLanguages": {
+      "message": "Поменять местами языки"
+   },
+   "switchPopupType": {
+      "message": "Переключить окно в режим $1"
+   },
+   "syncDecksLabel": {
+      "message": "Синхронизировать колоды"
+   },
+   "syncDecksNotAvailable": {
+      "message": "Пока не доступно. Мы сообщим Вам!"
+   },
+   "syncSectionTitle": {
+      "message": "Синхронизация"
+   },
+   "syncSettings": {
+      "message": "Синхронизировать настройки расширения"
+   },
+   "syncSettingsDescription": {
+      "message": "Синхронизировать настройки Rememberry между всеми Вашими браузерами Chrome с текущим профилем"
+   },
+   "synonym": {
+      "message": "синоним"
+   },
+   "target_language": {
+      "message": "язык перевода"
+   },
+   "termsPerPartOfSpeech": {
+      "message": "Количество переводов на часть речи"
+   },
+   "text_to_translate": {
+      "message": "текст для перевода"
+   },
+   "thanksForBeingWithUs": {
+      "message": "Спасибо что Вы с нами"
+   },
+   "time_left": {
+      "message": "осталось"
+   },
+   "tooLongOriginalsAreSkipped": {
+      "message": "Произношение доступно только для текста длиной менее $1 символов. Некоторые карточки были убраны."
+   },
+   "tooLongTTT": {
+      "message": "Пожалуйста используйте веб-сайты переводчики чтобы переводить большие тексты"
+   },
+   "total_cards": {
+      "message": "всего карточек"
+   },
+   "transcription_loading_error": {
+      "message": "Произошла ошибка при попытке загрузки транскрипции"
+   },
+   "translate": {
+      "message": "перевести"
+   },
+   "translateRequestError": {
+      "message": "Ошибка при получении перевода"
+   },
+   "translateWith": {
+      "message": "Перевести с помощью $1"
+   },
+   "translation": {
+      "message": "перевод"
+   },
+   "translationIconBesideSelection": {
+      "message": "Показывать иконку перевода при выделении текста"
+   },
+   "translationInSwitchTo": {
+      "message": "перевода"
+   },
+   "translations": {
+      "message": "переводы"
+   },
+   "trigger_action": {
+      "message": "тип запуска"
+   },
+   "trigger_click": {
+      "message": "клик"
+   },
+   "trigger_dblclick": {
+      "message": "двойной клик"
+   },
+   "trigger_none": {
+      "message": "нету"
+   },
+   "trigger_selection": {
+      "message": "выделение текста"
+   },
+   "triggers": {
+      "message": "триггеры"
+   },
+   "try_again": {
+      "message": "повторить попытку"
+   },
+   "typing": {
+      "message": "печать"
+   },
+   "undo": {
+      "message": "отменить последнее действие"
+   },
+   "unlimited": {
+      "message": "неограничено"
+   },
+   "updateChromeToLatest": {
+      "message": "Вы используете устаревшую версию браузера. Пожалуйста оновите браузер до последней версии чтобы получить возможность полноценно пользоваться всеми возможностями расширения."
+   },
+   "verb": {
+      "message": "глагол"
+   },
+   "warning": {
+      "message": "предупреждение"
+   },
+   "weAreSorry": {
+      "message": "Извините"
+   },
+   "webpage": {
+      "message": "веб-страница"
+   },
+   "welcomeAction": {
+      "message": "Удерживая $modifier$ сделайте $action$",
+      "placeholders": {
+         "action": {
+            "content": "$2"
+         },
+         "modifier": {
+            "content": "$1"
+         }
+      }
+   },
+   "welcomeActionWithoutModifier": {
+      "message": "Сделайте $action$",
+      "placeholders": {
+         "action": {
+            "content": "$1"
+         }
+      }
+   },
+   "welcomeConfigure": {
+      "message": "Настроить язык, горячие клавиши и другое"
+   },
+   "welcomeHowToLink": {
+      "message": "Посмотреть короткую видеопрезентацию"
+   },
+   "welcomeMessage": {
+      "message": "Теперь Вы можете переводить любой текст и сохранять его для дальнейшего изучения.\n$1 на любом слове на странице."
+   },
+   "welcomeTitle": {
+      "message": "Добро пожаловать!"
+   },
+   "your_answer": {
+      "message": "ваш ответ"
+   }
+}

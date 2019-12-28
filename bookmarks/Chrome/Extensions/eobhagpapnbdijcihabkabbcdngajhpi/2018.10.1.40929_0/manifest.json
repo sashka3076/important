@@ -1,0 +1,47 @@
+{
+   "app": {
+      "icon_color": "#4E8CF3",
+      "launch": {
+         "web_url": "https://translate.google.com/?hl=vi"
+      },
+      "linked_icons": [ {
+         "size": 16,
+         "url": "https://translate.google.com/favicon.ico"
+      }, {
+         "size": 24,
+         "url": "https://translate.google.com/favicon.ico"
+      }, {
+         "size": 32,
+         "url": "https://translate.google.com/favicon.ico"
+      }, {
+         "size": 48,
+         "url": "https://translate.google.com/favicon.ico"
+      }, {
+         "size": 64,
+         "url": "https://translate.google.com/favicon.ico"
+      }, {
+         "size": 96,
+         "url": "https://translate.google.com/favicon.ico"
+      }, {
+         "size": 128,
+         "url": "https://translate.google.com/favicon.ico"
+      }, {
+         "size": 256,
+         "url": "https://translate.google.com/favicon.ico"
+      } ]
+   },
+   "description": "Dịch vụ miễn phí của Google dịch nhanh các từ, cụm từ và trang web giữa tiếng Việt và hơn 100 ngôn ngữ khác.",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "24": "icons/24.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "Gz2419AHLNTiQV7jdXUqZX8vQifU2ds6EG94hFu0P+c=",
+   "name": "Google Dịch",
+   "version": "2018.10.1.40929"
+}

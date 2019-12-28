@@ -1,0 +1,33 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "visbug.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "icons/visbug.png"
+      },
+      "default_title": "VisBug"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "chromeos": "Alt+Shift+D",
+            "linux": "Alt+Shift+D",
+            "mac": "Alt+Shift+D",
+            "windows": "Alt+Shift+D"
+         }
+      }
+   },
+   "description": "Open source browser design tools",
+   "icons": {
+      "128": "icons/visbug.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAygzR8YsssGCLcAx7iflkFyt9QkHMCje0ZHWRQi3NkGRnkJNpgmohANJJQuTsr0eMI0ZFeDZbCNvn9KJUKYAWyoHjXmlPq+peq/H5ndBwIfAaipm/F6M2ufV0FZ4wAgNFg6PTGLbaTMz2ErRIIRQHa87KRnjbS+OxjlQXYQ9Q2VJFnbWQq9xrpeXX/YDQLf8+0K5lB8A332VMeaWIACiUFQ8IXNwgVzzlM7mUVoceRLLFcgraZ5aPBnoLrivIHQyqTLGkyqHsktKCmGnioHlJ+3TIPCas9jQRuYYVFwQ63b+6QnyRE2skAS8orbtZuyIuNawmnYMRqaJcroFHznMJKQIDAQAB",
+   "manifest_version": 2,
+   "name": "VisBug",
+   "permissions": [ "activeTab", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.13",
+   "web_accessible_resources": [ "tuts/*" ]
+}

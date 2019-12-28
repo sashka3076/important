@@ -1,0 +1,24 @@
+{
+   "background": {
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/keyframes-48.png",
+      "default_title": "Keyframes"
+   },
+   "description": "In-browser CSS Animation creator.",
+   "homepage_url": "http://keyframes.app",
+   "icons": {
+      "128": "icons/keyframes-128.png",
+      "16": "icons/keyframes-16.png",
+      "48": "icons/keyframes-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkvEsrijJL6/SB4mULpjIkv9RBVayiSUXFsqofFZ2zJXP7BUb0ksCER69yCP81ueBS3nCcjdpTYxPpkDsFbvIaSStVvJLhbPaI6xQCOU3DLmV/3zk2Jdj+0hiaDVPOQ8BIV63bIEUq7wvO3h+AOaqFFDZJrB4Z9pbIzEG9j30+orsqUA5/uMtQkqGFdrRQYbXrn6boyzLw4iIdLtl/Lcr08/5IhYwSAHOh8v4M1es54VsCB9bHd3PJG/0Y14S1ugD9y4AuQLe0Z+C71cjxEl4DB92E6eTqdR2rRf6YEVipbG8hWNk5X8h1nW41tbkEEVxFdSeLkIbuBi7wMOiegwfOQIDAQAB",
+   "manifest_version": 2,
+   "name": "Keyframes",
+   "permissions": [ "activeTab", "storage" ],
+   "short_name": "Keyframes",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.81",
+   "web_accessible_resources": [ "src/*" ]
+}

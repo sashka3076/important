@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="20px" viewBox="0 0 17 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48 (47235) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Custom-Preset" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-3.000000, -1.000000)">
+        <g id="Group" transform="translate(3.000000, 1.000000)" fill="#000000">
+            <circle id="Oval" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-Copy" cx="4" cy="7" r="1"></circle>
+            <circle id="Oval-Copy-3" cx="1" cy="9" r="1"></circle>
+            <circle id="Oval-Copy-4" cx="1" cy="5" r="1"></circle>
+            <circle id="Oval-Copy-5" cx="1" cy="1" r="1"></circle>
+            <rect id="Path" x="11" y="2" width="3" height="3"></rect>
+            <circle id="Oval-Copy-2" cx="7" cy="5" r="1"></circle>
+            <path d="M8,8 L12,8 L17,8 L17,18 C17,19.1045695 16.1045695,20 15,20 L10,20 C8.8954305,20 8,19.1045695 8,18 L8,8 Z M10,13 L10,17 L15,17 L15,13 L10,13 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

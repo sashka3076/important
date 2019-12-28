@@ -1,0 +1,2190 @@
+{
+   "account_creation_privacy_statement": {
+      "message": "Az Általános $LINK_TERMS_START$Szerződési Feltételeink$LINK_TERMS_END$ és a $LINK_UA_START$Licencegyezményünk$LINK_UA_END$ érvényesek és hatályosak. Az Adatvédelmi Nyilatkozatunkat $LINK_PS_START$itt$LINK_PS_END$ találja meg.",
+      "placeholders": {
+         "link_ps_end": {
+            "content": "\u003C/a>"
+         },
+         "link_ps_start": {
+            "content": "\u003Ca target=\"_blank\" href=\"https://www.ghostery.com/about-ghostery/browser-extension-privacy-policy/\" rel=\"noopener noreferrer\">"
+         },
+         "link_terms_end": {
+            "content": "\u003C/a>"
+         },
+         "link_terms_start": {
+            "content": "\u003Ca target=\"_blank\" href=\"https://www.ghostery.com/about-ghostery/ghostery-terms-and-conditions/\" rel=\"noopener noreferrer\">"
+         },
+         "link_ua_end": {
+            "content": "\u003C/a>"
+         },
+         "link_ua_start": {
+            "content": "\u003Ca target=\"_blank\" href=\"https://www.ghostery.com/about-ghostery/privacy-statements/\" rel=\"noopener noreferrer\">"
+         }
+      }
+   },
+   "ad": {
+      "message": "hirdetés"
+   },
+   "ad_blocking_DESC": {
+      "message": "Hirdetések blokkolása azokon az oldalakon, amelyeket meglátogat."
+   },
+   "ads": {
+      "message": "hirdetések"
+   },
+   "alert_ad_block_off": {
+      "message": "Fejlesztett hirdetésblokkolás KI van kapcsolva A hirdetések nem lesznek kiszűrve."
+   },
+   "alert_ad_block_on": {
+      "message": "Fejlesztett hirdetésblokkolás BE van kapcsolva A hirdetések ki lesznek szűrve."
+   },
+   "alert_anti_track_off": {
+      "message": "Fejlesztett Anti-Tracking KI van kapcsolva. A személyes adatpontok nem lesznek névtelenítve."
+   },
+   "alert_anti_track_on": {
+      "message": "Fejlesztett Anti-Tracking BE van kapcsolva. A személyes adatpontok névtelenítve lesznek."
+   },
+   "alert_ghostery_paused": {
+      "message": "Ghostery kiterjesztés szüneteltetve."
+   },
+   "alert_ghostery_resumed": {
+      "message": "Ghostery kiterjesztés visszakapcsolva."
+   },
+   "alert_reload": {
+      "message": "Töltse újra az oldalt a változások megtekintéséhez."
+   },
+   "alert_site_restricted": {
+      "message": "Oldal feketelistára téve. A trackerek blokkolva lesznek és az Anti-Tracking (követés tiltása) be lesz kapcsolva ezen az oldalon."
+   },
+   "alert_site_restricted_off": {
+      "message": "Az oldal nem szerepel többé a feketelistán."
+   },
+   "alert_site_trusted": {
+      "message": "Az oldal fehérlistára téve. A trackerek engedélyezve lesznek és az Anti-Tracking (követés tiltása) ki lesz kapcsolva ezen az oldalon."
+   },
+   "alert_site_trusted_off": {
+      "message": "Az oldal nem szerepel többé a fehérlistán."
+   },
+   "alert_smart_block_off": {
+      "message": "Okos blokkolás KI van kapcsolva. A tracker-szűrés nem lesz automatikusan beállítva."
+   },
+   "alert_smart_block_on": {
+      "message": "Okos blokkolás BE van kapcsolva. A tracker-szűrés az oldal teljesítményének optimalizálására lesz beállítva."
+   },
+   "all_basic_features_plus_COLON": {
+      "description": "Appears in a non-responsive modal. Character limit (including spaces and punctuation): 27.",
+      "message": "Minden alapvető funkció, plusz:"
+   },
+   "already_subscribed": {
+      "message": "Már feliratkozott"
+   },
+   "already_subscribed_sign_in": {
+      "description": "Character limit (including spaces and punctuation): 28.",
+      "message": "Már feliratkozott? Jelentkezzen be"
+   },
+   "anti_tracking_DESC": {
+      "message": "Névtelenítse a feloldott és ismeretlen trackereket a fokozottabb böngészési védelem érdekében."
+   },
+   "banner_check_your_email_title": {
+      "message": "Kérjük, nemsokára ellenőrizze a postafiókját a jelszava visszaállítására szolgáló hivatkozásért."
+   },
+   "banner_email_not_in_system_message": {
+      "message": "Sajnáljuk, de a megadott e-mail-cím nem található a rendszerünkben."
+   },
+   "blacklist_error_duplicate_url": {
+      "message": "Ez az oldal már korlátozott."
+   },
+   "blacklist_error_whitelist_url": {
+      "message": "Ezt az oldalt eltávolítottuk a Megbízható oldalak listájáról és hozzáadtuk a Korlátozott oldalak listájához"
+   },
+   "blocked_redirect_action_always_title": {
+      "description": "Title for the 'Allow always and reload' button on the blocked redirect page.",
+      "message": "Engedélyezés mindig és újratöltés."
+   },
+   "blocked_redirect_action_through_once_title": {
+      "description": "Title for the 'Allow once' button on the blocked redirect page.",
+      "message": "Címkék engedélyezése egyszer, amíg a végső állomáshoz nem érkezik az oldal."
+   },
+   "blocked_redirect_page_title": {
+      "description": "Page title for blocked_redirect.html which appears when a redirect is blocked.",
+      "message": "A Ghostery megakadályozott egy átirányítást."
+   },
+   "blocked_redirect_prevent": {
+      "description": "Text appearing on block_redirect.html when a redirect is blocked. Should appear inside \"redirect-prevent\" div.",
+      "message": "A Ghostery megakadályozott egy átirányítást a(z) $BREAK$ $SP_O_START$$ORIGIN$$SP_END$ oldalról a(z) $SP_D_START$$DESTINATION$$SP_END$ oldalra, $BREAK$ami a(z) $A_START$$APP$$A_END$ része. $BREAK$",
+      "placeholders": {
+         "a_end": {
+            "content": "\u003C/a>"
+         },
+         "a_start": {
+            "content": "\u003Ca id=\"name\" href=\"$4\" target=\"_blank\">"
+         },
+         "app": {
+            "content": "$3",
+            "example": "DoubleClick"
+         },
+         "break": {
+            "content": "\u003Cbr>"
+         },
+         "destination": {
+            "content": "$2"
+         },
+         "origin": {
+            "content": "$1"
+         },
+         "sp_d_start": {
+            "content": "\u003Cspan id=\"destination\">"
+         },
+         "sp_end": {
+            "content": "\u003C/span>"
+         },
+         "sp_o_start": {
+            "content": "\u003Cspan id=\"origin\">"
+         }
+      }
+   },
+   "blocked_redirect_url_content": {
+      "description": "Text appearing on block_redirect.html when a redirect is blocked and a final 'destination' URL is successfully found.",
+      "message": "Úgy tűnik, ez a címke a(z) $BREAK$ $A_START$$REDIRECT_URL$$A_END$ oldalra irányít át. Ha ez a hivatkozás megfelelőnek tűnik és szeretné folytatni, akkor kattintson az alábbi ikonra a(z) $APP$ alkalmazás engedélyezéséhez és az újratöltéshez.",
+      "placeholders": {
+         "a_end": {
+            "content": "\u003C/a>"
+         },
+         "a_start": {
+            "content": "\u003Ca href=\"$1\" class=\"ellipsis\" title=\"$1\">"
+         },
+         "app": {
+            "content": "$2",
+            "example": "DoubleClick"
+         },
+         "break": {
+            "content": "\u003Cbr>"
+         },
+         "redirect_url": {
+            "content": "$1"
+         }
+      }
+   },
+   "blocking_block_all": {
+      "message": "Összes blokkolása"
+   },
+   "blocking_block_shown": {
+      "message": "Összes megjelenített blokkolása"
+   },
+   "blocking_category_blocked": {
+      "description": "as in '5 (trackers) BLOCKED'",
+      "message": "Blokkolva"
+   },
+   "blocking_category_tracker": {
+      "message": "Tracker"
+   },
+   "blocking_category_tracker_found": {
+      "message": "Találat"
+   },
+   "blocking_category_trackers": {
+      "message": "Trackerek"
+   },
+   "blocking_category_whitelisted": {
+      "description": "as in '5 (trackers) WHITELISTED'",
+      "message": "Engedélyezett"
+   },
+   "blocking_trackers": {
+      "message": "Trackerek"
+   },
+   "blocking_unblock_all": {
+      "message": "Összes feloldása"
+   },
+   "blocking_unblock_shown": {
+      "message": "Összes megjelenített feloldása"
+   },
+   "blocks_ads": {
+      "description": "Appears in a non-responsive modal. Character limit (including spaces and punctuation): 27.",
+      "message": "Hirdetések blokkolása"
+   },
+   "blocks_trackers": {
+      "description": "Appears in a non-responsive modal. Character limit (including spaces and punctuation): 27.",
+      "message": "Nyomkövetők blokkolása"
+   },
+   "box_dismiss_0s": {
+      "message": "$SPAN_START$Soha$SPAN_END$ ne zárja be",
+      "placeholders": {
+         "span_end": {
+            "content": "\u003C/span>"
+         },
+         "span_start": {
+            "content": "\u003Cspan>"
+         }
+      }
+   },
+   "box_dismiss_15s": {
+      "message": "$SPAN_START$15 másodperc múlva$SPAN_END$ zárja be",
+      "placeholders": {
+         "span_end": {
+            "content": "\u003C/span>"
+         },
+         "span_start": {
+            "content": "\u003Cspan>"
+         }
+      }
+   },
+   "box_dismiss_30s": {
+      "message": "$SPAN_START$30 másodperc múlva$SPAN_END$ zárja be",
+      "placeholders": {
+         "span_end": {
+            "content": "\u003C/span>"
+         },
+         "span_start": {
+            "content": "\u003Cspan>"
+         }
+      }
+   },
+   "box_dismiss_5s": {
+      "message": "$SPAN_START$5 másodperc múlva$SPAN_END$ zárja be",
+      "placeholders": {
+         "span_end": {
+            "content": "\u003C/span>"
+         },
+         "span_start": {
+            "content": "\u003Cspan>"
+         }
+      }
+   },
+   "box_display_bl": {
+      "message": "Megjelenítés a $SPAN_START$bal alsó sarokban$SPAN_END$",
+      "placeholders": {
+         "span_end": {
+            "content": "\u003C/span>"
+         },
+         "span_start": {
+            "content": "\u003Cspan>"
+         }
+      }
+   },
+   "box_display_br": {
+      "message": "Megjelenítés a $SPAN_START$jobb alsó sarokban$SPAN_END$",
+      "placeholders": {
+         "span_end": {
+            "content": "\u003C/span>"
+         },
+         "span_start": {
+            "content": "\u003Cspan>"
+         }
+      }
+   },
+   "box_display_tl": {
+      "message": "Megjelenítés a $SPAN_START$bal felső sarokban$SPAN_END$",
+      "placeholders": {
+         "span_end": {
+            "content": "\u003C/span>"
+         },
+         "span_start": {
+            "content": "\u003Cspan>"
+         }
+      }
+   },
+   "box_display_tr": {
+      "message": "Megjelenítés a $SPAN_START$jobb felső sarokban$SPAN_END$",
+      "placeholders": {
+         "span_end": {
+            "content": "\u003C/span>"
+         },
+         "span_start": {
+            "content": "\u003Cspan>"
+         }
+      }
+   },
+   "box_hide": {
+      "message": "Szövegdoboz elrejtése"
+   },
+   "box_hide_expanded": {
+      "message": "Lila szövegdoboz elrejtése"
+   },
+   "box_looking": {
+      "message": "Megtekintés"
+   },
+   "box_options_expanded": {
+      "message": "Opciók"
+   },
+   "box_settings": {
+      "message": "Beállítások"
+   },
+   "box_settings_expanded": {
+      "message": "Ghostery beállításaim"
+   },
+   "box_tracker": {
+      "message": "Tracker"
+   },
+   "box_trackers": {
+      "message": "Trackerek"
+   },
+   "box_warning_compatibility": {
+      "message": "Hibás oldal trackerek"
+   },
+   "box_warning_nonsecure": {
+      "message": "Nem biztonságos trackerek"
+   },
+   "box_warning_slow": {
+      "message": "Lassú trackerek"
+   },
+   "browse_button_label": {
+      "message": "Böngészés..."
+   },
+   "browser_button_tooltip": {
+      "description": "Ghostery's browser button tooltip.",
+      "message": "Ghostery keresési eredményeinek megtekintése"
+   },
+   "button_cancel": {
+      "description": "Part of a confirmation dialog. Clicking this cancels the action.",
+      "message": "Mégsem"
+   },
+   "category_advertising": {
+      "description": "Ghostery organizes tags by category. This is one of several tag categories.",
+      "message": "Hirdetés"
+   },
+   "category_advertising_desc": {
+      "description": "User-facing description for the Advertising tag category.",
+      "message": "Beleértve a hirdetési szolgáltatásokat, mint például adatgyűjtés, viselkedéselemzés vagy ismételt célzott hirdetések."
+   },
+   "category_audio_video_player": {
+      "description": "Ghostery organizes tags by category. This is one of several tag categories.",
+      "message": "Zene-/filmlejátszó"
+   },
+   "category_audio_video_player_desc": {
+      "description": "User-facing description for the Audio/Video Player tag category.",
+      "message": "Engedélyezi a weboldalak számára, hogy zene- és filmtartalmakat tegyenek közzé, terjesszenek és optimalizáljanak."
+   },
+   "category_comments": {
+      "description": "Ghostery organizes tags by category. This is one of several tag categories.",
+      "message": "Hozzászólások"
+   },
+   "category_comments_desc": {
+      "description": "User-facing description for the Comments tag category.",
+      "message": "Engedélyezi a hozzászólás szekciókat cikkek és termékértékelések számára."
+   },
+   "category_customer_interaction": {
+      "description": "Ghostery organizes tags by category. This is one of several tag categories.",
+      "message": "Ügyfélkommunikáció"
+   },
+   "category_customer_interaction_desc": {
+      "description": "User-facing description for the Customer Interaction tag category.",
+      "message": "Beleértve a beszélgetést, email alapú üzenetváltást, ügyfélszolgálatot és egyéb kommunikációs eszközöket."
+   },
+   "category_essential": {
+      "description": "Ghostery organizes tags by category. This is one of several tag categories.",
+      "message": "Alapvető"
+   },
+   "category_essential_desc": {
+      "description": "User-facing description for the Essential tag category.",
+      "message": "Beleértve a weboldalak működéséhez kritikus trackereket, mint például a címkekezelők és adatvédelmi értesítések."
+   },
+   "category_pornvertising": {
+      "description": "Ghostery organizes tags by category. This is one of several tag categories.",
+      "message": "Felnőtt hirdetés"
+   },
+   "category_pornvertising_desc": {
+      "description": "User-facing description for the Adult Advertising tag category.",
+      "message": "Beleértve a felnőtt tartalommal rendelkező oldalakhoz tervezett hirdetési technológiákat."
+   },
+   "category_site_analytics": {
+      "description": "Ghostery organizes tags by category. This is one of several tag categories.",
+      "message": "Webanalitika"
+   },
+   "category_site_analytics_desc": {
+      "description": "User-facing description for the Site Analytics tag category.",
+      "message": "Beleértve az adatanalitikát, oldallátogatottságot és teljesítménymutató trackereket."
+   },
+   "category_social_media": {
+      "description": "Ghostery organizes tags by category. This is one of several tag categories.",
+      "message": "Közösségi média"
+   },
+   "category_social_media_desc": {
+      "description": "User-facing description for the Social Media tag category.",
+      "message": "Beleértve a közösségi médiák platformjaihoz kapcsolódó funkciókat."
+   },
+   "category_uncategorized": {
+      "message": "Nem kategorizált"
+   },
+   "category_uncategorized_desc": {
+      "message": "Ezek a trackerek még nincsenek kategorizálva."
+   },
+   "choose_your_ghostery_privacy_plan": {
+      "message": "Válasszon Ghostery adatvédelmi csomagot"
+   },
+   "choose_your_privacy_plan": {
+      "message": "Válasszon adatvédelmi csomagot"
+   },
+   "click2play_allow_always_tooltip": {
+      "description": "Tooltip that appears over the 'allow always' click2play button.",
+      "message": "Engedélyezés és újratöltés."
+   },
+   "click2play_allow_once_button_tooltip": {
+      "description": "Tooltip that appears over the click2play replacement for 'social' buttons.",
+      "message": "A Ghostery blokkolta a(z) $APP_NAME$-t. Kattintson ide a csak egyszeri engedélyezéshez és újratöltéshez.",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Twitter Button"
+         }
+      }
+   },
+   "click2play_allow_once_tooltip": {
+      "description": "Tooltip that appears over the 'allow once' click2play button.",
+      "message": "Engedélyezés egyszer és újratöltés."
+   },
+   "click2play_blocked": {
+      "message": "A Ghostery blokkolta a(z) $APP_NAME$-t.",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "SoundCloud"
+         }
+      }
+   },
+   "click2play_comment_form": {
+      "message": "A Ghostery blokkolta a(z) $NAME$ közzétett hozzászólásokat.",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Disqus"
+         }
+      }
+   },
+   "click2play_review_form": {
+      "message": "A Ghostery blokkolta a(z) $NAME$ közzétett értékeléseket.",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Disqus"
+         }
+      }
+   },
+   "click2play_survey_form": {
+      "message": "A Ghostery blokkolta a(z) $NAME$ közzétett felméréseket.",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Disqus"
+         }
+      }
+   },
+   "click2play_video_form": {
+      "message": "A Ghostery blokkolta a(z) $NAME$ filmlejátszót.",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Disqus"
+         }
+      }
+   },
+   "collapse_all": {
+      "message": "Összes összecsukása"
+   },
+   "confirm_email_colon": {
+      "message": "Emailcím megerősítése:"
+   },
+   "cookie": {
+      "message": "cookie"
+   },
+   "cookies": {
+      "message": "cookie-k"
+   },
+   "create_account": {
+      "message": "Fiók létrehozása"
+   },
+   "create_account_form_legal_consent_checkbox_label": {
+      "message": "Elfogadom a $LINK_TERMS_START$Feltételeket$LINK_END$, a $LINK_LICENSE_START$Nyilvános licencmegállapodást$LINK_END$ és az  $LINK_PRIVACY_START$Adatvédelmi szabályzatban$LINK_END$ ismertetett adatkezelési gyakorlatot.",
+      "placeholders": {
+         "link_end": {
+            "content": "\u003C/a>"
+         },
+         "link_license_start": {
+            "content": "\u003Ca target=\"_blank\" href=\"https://www.mozilla.org/en-US/MPL/2.0/\" rel=\"noopener noreferrer\">"
+         },
+         "link_privacy_start": {
+            "content": "\u003Ca target=\"_blank\" href=\"https://www.ghostery.com/about-ghostery/browser-extension-privacy-policy/\" rel=\"noopener noreferrer\">"
+         },
+         "link_terms_start": {
+            "content": "\u003Ca target=\"_blank\" href=\"https://www.ghostery.com/about-ghostery/ghostery-terms-and-conditions/\" rel=\"noopener noreferrer\">"
+         }
+      }
+   },
+   "customize_setup": {
+      "message": "Telepítés személyre szabása"
+   },
+   "data_protection": {
+      "description": "Appears in a non-responsive modal. Character limit (including spaces and punctuation): 27.",
+      "message": "Adatvédelem"
+   },
+   "detailed_view": {
+      "message": "Részletes nézet"
+   },
+   "dollar_sign": {
+      "message": "&#36;"
+   },
+   "done": {
+      "message": "Kész"
+   },
+   "email_address_in_use": {
+      "message": "Az emailcím már használatban van.  Kérjük, válasszon másikat. "
+   },
+   "email_colon": {
+      "message": "Emailcím:"
+   },
+   "enable_when_blacklisted": {
+      "message": "E funkció használatához vonja vissza az oldal korlátozását."
+   },
+   "enable_when_not_scanned": {
+      "message": "E funkció használatához navigáljon egy másik weboldalra."
+   },
+   "enable_when_paused": {
+      "message": "E funkció használatához térjen vissza a Ghostery-hez."
+   },
+   "enable_when_whitelisted": {
+      "message": "E funkció használatához vonja vissza az oldal megbízhatóságát"
+   },
+   "enhanced_ad_blocking": {
+      "message": "Fejlesztett hirdetésblokkolás"
+   },
+   "enhanced_anti_tracking": {
+      "message": "Fejlesztett Anti-Tracking"
+   },
+   "error_email_forgot": {
+      "message": "Hmm, nem ez az emailcím nem található. Megpróbál egy másikat?"
+   },
+   "expand_all": {
+      "message": "Összes kibontása"
+   },
+   "faster_cleaner_browsing": {
+      "description": "Appears in a non-responsive modal. Character limit (including spaces and punctuation): 27.",
+      "message": "Gyorsabb, átláthatóbb böngészés"
+   },
+   "file_was_not_selected": {
+      "message": "Nincs fájl kiválasztva"
+   },
+   "fingerprint": {
+      "message": "ujjlenyomat"
+   },
+   "fingerprints": {
+      "message": "ujjlenyomatok"
+   },
+   "first_name_field_label": {
+      "message": "Keresztnév (opcionális):"
+   },
+   "forgot_password_message": {
+      "message": "Elfelejtette a jelszavát? Semmi gond, bárkivel előfordulhat. Egy emailt fogunk Önnek küldeni, amelybe a jelszó visszaállítására vonatkozó útmutatást talál majd."
+   },
+   "get_ghostery_plus": {
+      "message": "Ghostery Plus beszerzése"
+   },
+   "get_ghostery_plus_bang": {
+      "message": "Szerezze be a Ghostery Plust!"
+   },
+   "ghostery_basic": {
+      "message": "Alapvető"
+   },
+   "ghostery_is_ready": {
+      "message": "A Ghostery készen áll!"
+   },
+   "ghostery_plus": {
+      "message": "Ghostery Plus"
+   },
+   "ghostery_rewards": {
+      "message": "Ghostery Rewards"
+   },
+   "global_settings_saved": {
+      "message": "Globális beállítások mentve"
+   },
+   "global_settings_saved_category": {
+      "message": "Globális kategória-beállítások mentve"
+   },
+   "global_settings_saved_tracker": {
+      "message": "Globális tracker-beállítások mentve"
+   },
+   "historical_blocking_stats": {
+      "message": "Blokkolási  előzmények statisztikája"
+   },
+   "historical_stats": {
+      "message": "Naplózott statisztikák"
+   },
+   "historical_tracker_stats": {
+      "description": "Appears in a non-responsive modal. Character limit (including spaces and punctuation): 25.",
+      "message": "Naplózott tracker statisztikák"
+   },
+   "hub_create_account_already_have_account": {
+      "message": "Már van Ghostery fiókja?"
+   },
+   "hub_create_account_checkbox_promotions": {
+      "message": "Küldjenek nekem friss Ghostery híreket és promóciókat!"
+   },
+   "hub_create_account_header_title": {
+      "message": "Szeretne létrehozni egy Ghostery-fiókot beállításai szinkronizálásához böngészői és eszközei között?"
+   },
+   "hub_create_account_label_email_last_name": {
+      "message": "Vezetéknév (opcionális):"
+   },
+   "hub_create_account_label_first_name": {
+      "message": "Keresztnév (opcionális):"
+   },
+   "hub_create_account_label_password_invalid": {
+      "message": "Csak ezek a különleges karakterek engedélyezettek: !@#$%^&*=+()\u003C>{}[];:,./?"
+   },
+   "hub_create_account_label_password_invalid_length": {
+      "message": "8–50 karaktert használjon."
+   },
+   "hub_create_account_link_login": {
+      "message": "Jelentkezzen be itt!"
+   },
+   "hub_create_account_toast_error": {
+      "message": "Az emailcím már használatban van.  Kérjük, válasszon másikat."
+   },
+   "hub_create_account_toast_success": {
+      "message": "Fiók sikeresen létrehozva"
+   },
+   "hub_home_feature_setup_button": {
+      "message": "Telepítés szerkesztése"
+   },
+   "hub_home_feature_setup_button_alt": {
+      "message": "Egyéni telepítés kész"
+   },
+   "hub_home_feature_setup_text": {
+      "message": "Beállításainak és blokkolási szempontjainak szerkesztése."
+   },
+   "hub_home_feature_supporter_text": {
+      "message": "Bővítsen Ghostery Plus verzióra és oldjon fel különleges funkciókat!"
+   },
+   "hub_home_feature_tutorial_button_alt": {
+      "message": "Oktatás befejezve"
+   },
+   "hub_home_feature_tutorial_text": {
+      "message": "A Ghostery főbb funkcióinak áttekintése."
+   },
+   "hub_home_feature_tutorial_title": {
+      "message": "Oktatás megtekintése"
+   },
+   "hub_home_header_checkbox_label": {
+      "message": "További névtelen analitikai adatok megosztása a Ghostery teljesítményének fejlesztése érdekében."
+   },
+   "hub_home_header_info": {
+      "message": "Az új felhasználók feliratkoznak a Human Web és Ghostery Rewards szolgáltatásokra. Ezeket a beállításokat egyedi telepítés során vagy a kiegészítőben változtathatja meg."
+   },
+   "hub_home_header_info_cliqz": {
+      "message": "Az új felhasználók részt a Human Web programban. Ez a beállítás az egyéni konfigurációban vagy a bővítményben módosítható. "
+   },
+   "hub_home_header_info_link": {
+      "message": "Tudjon meg többet!"
+   },
+   "hub_home_header_info_opted_in_rewards": {
+      "message": "Az új felhasználók részt vesznek a Ghostery Rewards programban, a Human Web programban azonban nem. Ezek a beállítások az egyéni konfigurációban vagy a bővítményben módosíthatók. "
+   },
+   "hub_home_header_info_opted_out": {
+      "message": "Az új felhasználók esetében a Ghostery Rewards és a Human Web funkciók alapértelmezett módon nincsenek aktiválva. Az egyéni telepítésben vagy a bővítményben aktiválhatja ezeket az ajánlott funkciókat."
+   },
+   "hub_home_header_tagline": {
+      "message": "Ön most az alapértelmezett beállítások szerint védett."
+   },
+   "hub_home_header_tagline_2": {
+      "message": "Kezdje meg a böngészést!"
+   },
+   "hub_home_header_text": {
+      "message": "A Ghostery készen áll!"
+   },
+   "hub_home_page_title": {
+      "message": "Ghostery Központ - Kezdőlap"
+   },
+   "hub_home_subheader_optimize": {
+      "message": "Optimalizálja a Ghostery felhasználói élményét"
+   },
+   "hub_login_header_title": {
+      "message": "Jelentkezzen be a fiókjába!"
+   },
+   "hub_login_label_password_invalid": {
+      "message": "8–50 karaktert használjon."
+   },
+   "hub_login_link_create_account": {
+      "message": "Regisztráljon!"
+   },
+   "hub_login_link_dont_have_account": {
+      "message": "Nem rendelkezik fiókkal?"
+   },
+   "hub_login_toast_success": {
+      "message": "Sikeres bejelentkezés! Az Ön beállításai importálva."
+   },
+   "hub_products_header_description": {
+      "message": "Maradjon védve és fejlessze az online élményeit a teljeskörű adatvédelmi rendszerünkkel!"
+   },
+   "hub_products_header_title": {
+      "message": "Böngésszen okosabban a Ghostery termékek használatával!"
+   },
+   "hub_products_main_promo_description": {
+      "message": "Böngésszen hirdetés- és trackermentesen a frissített és fejlesztett mobil böngészőnkkel! Most már adatvédett keresőmotorral ellátva!"
+   },
+   "hub_products_main_promo_title": {
+      "message": "Mobil adatvédett böngésző"
+   },
+   "hub_products_page_title": {
+      "message": "Ghostery Központ - Próbáljon ki más Ghostery termékeket"
+   },
+   "hub_products_second_promo_description": {
+      "message": "Keressen adatvédetten, tekintse meg a tracker statisztikákat, és kezelje a Rewards szolgálatatást az új lapfül funkcióval! Hamarosan elérhető!"
+   },
+   "hub_products_second_promo_title": {
+      "message": "Ghostery Start Tab"
+   },
+   "hub_products_third_promo_description": {
+      "message": "Védje adatait online és szabaduljon meg a hirdetésektől az eddigi legegyszerűbb termékünkkel, kizárólag Safarira fejlesztve!"
+   },
+   "hub_products_third_promo_title": {
+      "message": "Ghostery Lite"
+   },
+   "hub_rewards_closer": {
+      "message": "A Ghostery Rewards szolgáltatást a kiegészítőben vagy egyedi telepítés által kapcsolhatja be."
+   },
+   "hub_rewards_experience_description": {
+      "message": "Különös értékű jutalmakat kaphat miközben böngészik és vásárol"
+   },
+   "hub_rewards_experience_title": {
+      "message": "Okosabb vásárlási élmény"
+   },
+   "hub_rewards_header_description": {
+      "message": "Az új Rewards funkció hatékony és teljesen adatvédett, innovatív megoldást kínál arra, hogy online árengedményeket kapjon. Kapcsolja be és próbálja ki!"
+   },
+   "hub_rewards_header_title": {
+      "message": "Próbálja ki a Ghostery Rewards szolgáltatást!"
+   },
+   "hub_rewards_page_title": {
+      "message": "Ghostery Központ - Rewards (Jutalmak)"
+   },
+   "hub_rewards_privacy_description": {
+      "message": "Nem kerül sor személyes adatok begyűjtésére, profilok építésére vagy harmadik fél általi adathasználatra"
+   },
+   "hub_rewards_privacy_title": {
+      "message": "Adatvédelem-központú"
+   },
+   "hub_rewards_relevant_description": {
+      "message": "A különleges ajánlatok időszerűek, relevánsak és exkluzívak felhasználóink számára"
+   },
+   "hub_rewards_relevant_title": {
+      "message": "Egyedi és releváns"
+   },
+   "hub_setup_antisuite_description_antitracking": {
+      "message": "Névtelenítse a feloldott és ismeretlen trackereket a fokozottabb böngészési védelem érdekében."
+   },
+   "hub_setup_antisuite_feature_enabled": {
+      "message": "Engedélyezve"
+   },
+   "hub_setup_blocking_description_custom": {
+      "message": "Válassza ki, mely trackerek legyenek blokkolva"
+   },
+   "hub_setup_blocking_description_everything": {
+      "message": "Minden tracker blokkolva"
+   },
+   "hub_setup_blocking_description_nothing": {
+      "message": "A trackerek nincsenek blokkolva"
+   },
+   "hub_setup_blocking_description_recommended": {
+      "message": "Hirdető, oldalelemző és felnőtt hirdetéseket tartalmazó trackerek blokkolva"
+   },
+   "hub_setup_blocking_text_custom": {
+      "message": "Válasszon a listából"
+   },
+   "hub_setup_blocking_text_everything": {
+      "message": "Blokkoljon mindent"
+   },
+   "hub_setup_blocking_text_nothing": {
+      "message": "Semmit se blokkoljon"
+   },
+   "hub_setup_blocking_text_recommended": {
+      "message": "Blokkolás alapértelmezés szerint"
+   },
+   "hub_setup_enter_modal_text": {
+      "message": "Az egyéni telepítőbe történő belépéssel felülírja az eddigi Ghostery beállításokat. Kívánja folytatni?"
+   },
+   "hub_setup_exit_flow": {
+      "message": "Kilépés az egyéni telepítőből"
+   },
+   "hub_setup_feature_already_active": {
+      "message": "Ez a funkció alapértelmezés szerint már aktív a Cliqzben. $LINK_LM_START$További tájékoztatás$LINK_LM_END$",
+      "placeholders": {
+         "link_lm_end": {
+            "content": "\u003C/a>"
+         },
+         "link_lm_start": {
+            "content": "\u003Ca href=\"https://www.ghostery.com/faqs/what-are-the-new-ghostery-8-features/\" target=\"_blank\" rel=\"noopener noreferrer\">"
+         }
+      }
+   },
+   "hub_setup_feature_products_button": {
+      "message": "Igen, kérem!"
+   },
+   "hub_setup_feature_products_description": {
+      "message": "Szerezzen teljeskörű védelmet a mindenre kiterjedő adatvédelmi rendszerünkkel!"
+   },
+   "hub_setup_feature_products_title": {
+      "message": "További Ghostery termékek megtekintése"
+   },
+   "hub_setup_feature_supporter_description": {
+      "message": "Támogassa a Ghosteryt és oldjon fel különleges extra funkciókat!"
+   },
+   "hub_setup_feature_tutorial_description": {
+      "message": "A Ghostery főbb funkcióinak áttekintése."
+   },
+   "hub_setup_feature_tutorial_title": {
+      "message": "Oktatás megtekintése"
+   },
+   "hub_setup_ghosteryrewards_description_rewards": {
+      "message": "Oldjon fel különleges ajánlatokat böngészés közben, és vásároljon a személyes adatainak megosztása nélkül."
+   },
+   "hub_setup_ghosteryrewards_name_rewards": {
+      "message": "Rewards"
+   },
+   "hub_setup_header_title_antisuite": {
+      "message": "Szeretne okosabban böngészni az ajánlott funkcióinkkal?"
+   },
+   "hub_setup_header_title_blocking": {
+      "message": "A Ghostery trackerek blokkolására képes, hogy böngészését tisztábbá, gyorsabbá és biztonságosabbá tegye.$NEW_LINE$Mit szeretne blokkolni?",
+      "placeholders": {
+         "new_line": {
+            "content": "\u003Cbr />"
+         }
+      }
+   },
+   "hub_setup_header_title_done": {
+      "message": "Egyéni telepítés kész!"
+   },
+   "hub_setup_header_title_humanweb": {
+      "message": "Szeretne segíteni a Ghostery fejlesztésében?"
+   },
+   "hub_setup_humanweb_header": {
+      "message": "Névtelen Human Web adatokat használunk fel a Ghostery teljesítményének fejlesztésére. Sohasem gyűjtünk személyes adatokat. $LINK_LM_START$Tudjon meg többet$LINK_LM_END$",
+      "placeholders": {
+         "link_lm_end": {
+            "content": "\u003C/a>"
+         },
+         "link_lm_start": {
+            "content": "\u003Ca href=\"https://www.ghostery.com/faqs/human-web-data-collected/\" target=\"_blank\" rel=\"noopener noreferrer\">"
+         }
+      }
+   },
+   "hub_setup_humanweb_label": {
+      "message": "Támogassa a Ghostery-t ezeknek az információknak a megosztásával"
+   },
+   "hub_setup_modal_button_ask_again": {
+      "message": "Ne kérdezze meg többször"
+   },
+   "hub_setup_modal_button_no": {
+      "message": "Nem"
+   },
+   "hub_setup_modal_button_yes": {
+      "message": "Igen"
+   },
+   "hub_setup_page_title": {
+      "message": "Ghostery Központ - Beállítás"
+   },
+   "hub_setup_page_title_antisuite": {
+      "message": "Ghostery Központ - Anti-Suite"
+   },
+   "hub_setup_page_title_blocking": {
+      "message": "Ghostery Központ - Blokkolás beállítása"
+   },
+   "hub_setup_page_title_done": {
+      "message": "Ghostery Központ - Beállítás kész"
+   },
+   "hub_setup_page_title_humanweb": {
+      "message": "Ghostery Központ - Human Web beállítása"
+   },
+   "hub_setup_ready_heading": {
+      "message": "Optimalizálja a Ghostery felhasználói élményét"
+   },
+   "hub_side_navigation_home": {
+      "message": "Kezdőlap"
+   },
+   "hub_side_navigation_products": {
+      "message": "További Ghostery termékek megtekintése"
+   },
+   "hub_side_navigation_rewards": {
+      "message": "A Ghostery Rewards kipróbálása"
+   },
+   "hub_side_navigation_tutorial": {
+      "message": "Oktatás megtekintése"
+   },
+   "hub_signedin_as_email": {
+      "message": "Bejelentkezve mint:"
+   },
+   "hub_signedin_exit": {
+      "message": "Vissza a kezdőlapra"
+   },
+   "hub_signedin_header_title": {
+      "message": "Ön már bejelentkezett"
+   },
+   "hub_supporter_feature_more_description": {
+      "message": "Kövessen minket további nagyszerű funkciókért és belső információkért, ahogy egyre élvezetesebbé tesszük az ön Ghostery élményét!"
+   },
+   "hub_supporter_feature_more_title": {
+      "message": "...és még sok minden más várható a jövőben!"
+   },
+   "hub_supporter_feature_stats_description": {
+      "message": "Naplózott blokkolási eredmények grafikonokkal és statisztikákkal trendek felfedéséhez és annak vizsgálatára, hogy milyen hatással volt a Ghostery az ön böngészésére."
+   },
+   "hub_supporter_feature_support_description": {
+      "message": "Segítségre van szüksége? Hibás oldalt talált? Kapjon gyorsan válaszokat kérdéseire és megoldásokat a problémáira az Elsőbbségi támogató szolgáltatásunkkal, amely csak a Plus fiókkal történő bejelentkezés esetén érhető el."
+   },
+   "hub_supporter_feature_theme_description": {
+      "message": "Állítsa be egyénileg a Ghostery színeit egy új vizuális élményért! Népszerű kérés alapján bevezetve. Próbálja ki a különleges Éjféli sablonunkat, amelyet még sok fog követni."
+   },
+   "hub_supporter_header_description": {
+      "message": "Fejezze ki támogató szándékát és oldjon fel különleges extra funkciókat!"
+   },
+   "hub_supporter_header_title": {
+      "message": "Bővítés Ghostery Plusra"
+   },
+   "hub_supporter_manifesto": {
+      "message": "Arra törekszünk, hogy a legjobb adatvédelmi szolgáltatást nyújtsuk felhasználóinknak költségek nélkül. Annak ellenére, hogy adatvédelmi szolgáltatásunk ingyenes, ön dönthet úgy, hogy támogatja munkánkat egy alacsony összegű havi feliratkozással. Csatlakozzon ön is a küldetésünkhöz azzal, hogy kibővíti szolgáltatásunkat a Ghostery Plus verzióra - és egyúttal nagyszerű extra funkciókhoz férhet hozzá!"
+   },
+   "hub_supporter_page_title": {
+      "message": "Ghostery Központ - Ghostery Plus"
+   },
+   "hub_supporter_perk_more_description": {
+      "message": "Hárítsa el a hibákat gyorsan az Elsőbbségi támogató szolgáltatásunkkal - és további szolgáltatások lesznek elérhetőek"
+   },
+   "hub_supporter_perk_more_title": {
+      "message": "Kiemelt támogatás és további szolgáltatások"
+   },
+   "hub_supporter_perk_stats_description": {
+      "message": "Tekintse meg a blokkolási statisztikákat és figyelje meg, hogyan vált be önnek a Ghostery"
+   },
+   "hub_supporter_perk_themes_description": {
+      "message": "Állítsa kedve szerint a Ghostery színeit - próbálja ki az Éjféli (Midnight) sablonunkat!"
+   },
+   "hub_supporter_price": {
+      "message": "$SUP_START$&#36;$SUP_END$$SPAN_START$2$SPAN_END$ havonta",
+      "placeholders": {
+         "span_end": {
+            "content": "\u003C/span>"
+         },
+         "span_start": {
+            "content": "\u003Cspan>"
+         },
+         "sup_end": {
+            "content": "\u003C/sup>"
+         },
+         "sup_start": {
+            "content": "\u003Csup>"
+         }
+      }
+   },
+   "hub_tutorial_antisuite_antitracking_description": {
+      "message": "Adatpontok eltávolítása, amelyeket a weboldalak használnak, hogy azonosítsák önt."
+   },
+   "hub_tutorial_antisuite_title": {
+      "message": "Szerezzen extra védelmet és automatikus felügyeletet a fejlesztett adatvédelmi funkcióinkkal:"
+   },
+   "hub_tutorial_blocking_allow": {
+      "message": "Trackerek engedélyezése mindig a jelenlegi oldalon."
+   },
+   "hub_tutorial_blocking_block": {
+      "message": "Tracker blokkolása mindig a jelenlegi oldalon."
+   },
+   "hub_tutorial_blocking_block_always": {
+      "message": "Trackerek blokkolása mindig az összes oldalon."
+   },
+   "hub_tutorial_blocking_tagline": {
+      "message": "Vegye át az irányítást az adatvédelmi és böngészési élményei felett a listában található trackerek blokkolásával vagy feloldásával."
+   },
+   "hub_tutorial_blocking_title": {
+      "message": "Válassza ki, hogy mit és hogyan szeretne blokkolni"
+   },
+   "hub_tutorial_detailed_expanded_view": {
+      "message": "Részletes, kibontott nézet"
+   },
+   "hub_tutorial_exit_flow": {
+      "message": "Kilépés az oktatásból"
+   },
+   "hub_tutorial_layout_tagline": {
+      "message": "Váltson az egyszerűsített és a részletes nézet között attól függően, hogy mit szeretne megjeleníttetni a Ghosteryvel."
+   },
+   "hub_tutorial_layout_title": {
+      "message": "Egyszerű és részletes nézetek"
+   },
+   "hub_tutorial_page_title": {
+      "message": "Ghostery Központ - Oktatás"
+   },
+   "hub_tutorial_page_title_anti_suite": {
+      "message": "Ghostery Központ - Oktatás a további funkciókról"
+   },
+   "hub_tutorial_page_title_blocking": {
+      "message": "Ghostery Központ - Oktatás a blokkolásról"
+   },
+   "hub_tutorial_page_title_layout": {
+      "message": "Ghostery Központ - Oktatás az elrendezésről"
+   },
+   "hub_tutorial_page_title_trackerlist": {
+      "message": "Ghostery Központ - Oktatás a trackerekről"
+   },
+   "hub_tutorial_page_title_trust": {
+      "message": "Ghostery Központ - Oktatás a megbízhatóságról és korlátozásról"
+   },
+   "hub_tutorial_page_title_video": {
+      "message": "Ghostery Központ - Oktatás áttekintése"
+   },
+   "hub_tutorial_trackerlist_tagline": {
+      "message": "A Ghostery segít önnek, hogy naprakész információkkal rendelkezzen arról, hogy a vállalatok mely adatait kívánják követni az ön által látogatott összes oldal trackereinek kilistázásával."
+   },
+   "hub_tutorial_trackerlist_title": {
+      "message": "Trackerek listája"
+   },
+   "hub_tutorial_trust_restrict_site": {
+      "message": "Trackerek blokkolása mindig az oldalon."
+   },
+   "hub_tutorial_trust_tagline": {
+      "message": "Tegyen weboldalakat fehér- vagy feketelistára egyetlen kattintással."
+   },
+   "hub_tutorial_trust_title": {
+      "message": "Oldalak megbízhatónak állítása és korlátozása"
+   },
+   "hub_tutorial_trust_trust_site": {
+      "message": "Trackerek engedélyezése mindig az oldalon."
+   },
+   "hub_tutorial_video_tagline": {
+      "message": "Trackerek és hirdetések blokkolása, adatainak védelme, és a weboldalak betöltésének felgyorsítása."
+   },
+   "hub_tutorial_video_title": {
+      "message": "Amit a Ghostery önért tehet"
+   },
+   "invalid_email_forgot": {
+      "message": "Sajnáljuk, de valós emailcímet kell megadnia."
+   },
+   "invalid_email_login": {
+      "message": "Sajnáljuk, de valós emailcímet kell megadnia."
+   },
+   "last_name_field_label": {
+      "message": "Vezetéknév (opcionális):"
+   },
+   "learn_more": {
+      "message": "Tudjon meg többet"
+   },
+   "license_email": {
+      "message": "Emailcím"
+   },
+   "license_footer": {
+      "message": "Ghostery$COPY$; egy Cliqz-vállalat. Tudjon meg többet a $LINK_START$Cliqz$LINK_END$-ről. A $COPY$Cliqz International GmbH, a Cliqz GmbH teljes tulajdonú alvállalata. Minden jog fenntartva.",
+      "placeholders": {
+         "copy": {
+            "content": "&copy;"
+         },
+         "link_end": {
+            "content": "\u003C/a>"
+         },
+         "link_start": {
+            "content": "\u003Ca href=\"https://cliqz.com\" target=\"_blank\">"
+         }
+      }
+   },
+   "license_generic": {
+      "message": "Szabványos licenc szöveg"
+   },
+   "license_information_missing": {
+      "message": "Licenc-adattár adatok hiányoznak"
+   },
+   "license_licenses": {
+      "message": "Licencek"
+   },
+   "license_module": {
+      "message": "Modul"
+   },
+   "license_publisher": {
+      "message": "Kiadmányozó"
+   },
+   "license_repository": {
+      "message": "Adattár"
+   },
+   "license_text": {
+      "message": "Licenc szövege"
+   },
+   "license_type": {
+      "message": "Licenc típus(ok)"
+   },
+   "license_unknown": {
+      "message": "ismeretlen"
+   },
+   "license_url": {
+      "message": "URL"
+   },
+   "name": {
+      "description": "The title of this extension (Ghostery).",
+      "message": "$EXTENSION_NAME$ – Adatavédelmi Reklámblokkoló",
+      "placeholders": {
+         "extension_name": {
+            "content": "Ghostery"
+         }
+      }
+   },
+   "new_color_themes": {
+      "description": "Appears in a non-responsive modal. Character limit (including spaces and punctuation): 25.",
+      "message": "Új színsablonok"
+   },
+   "new_themes": {
+      "message": "Új sablonok"
+   },
+   "next": {
+      "message": "Következő"
+   },
+   "no_such_email_password_combo": {
+      "message": "Úgy tűnik, hogy rendszerünkben nem található ez az e-mail- és jelszó- kombináció. Próbálja meg újból."
+   },
+   "no_thanks_turn_promos_off": {
+      "description": "Text link in a non-responsive modal. Character limit (including spaces and punctuation): 28.",
+      "message": "Köszönöm, nem. Kikapcsolom a promóciókat."
+   },
+   "none": {
+      "description": "Used to say that this item does not belong to any of the groups, as in \"Groups: None\" (as opposed to \"Groups: Group A, Group B, Group C\").",
+      "message": "Egyik sem"
+   },
+   "not_http_page": {
+      "message": "Ellenőrizze, hogy a jelenlegi lapfüle http vagy https oldalt nyitott-e meg"
+   },
+   "notification_library_update": {
+      "message": "Találtunk néhány új trackert és hozzáadtuk a Ghostery Adatbázishoz."
+   },
+   "notification_library_update_link": {
+      "message": "Nézze meg, mik az újdonságok"
+   },
+   "notification_upgrade": {
+      "message": "Elkötelezett és rendkívül vonzó csapatunk keményen dolgozott a Ghostery új verziójának kiadásán."
+   },
+   "notification_upgrade_link": {
+      "message": "A friss verzió pazar új funkcióikat és hibajavításokat tartalmaz."
+   },
+   "notification_upgrade_link_v8": {
+      "message": "Mutassa meg most!"
+   },
+   "notification_upgrade_title_v8": {
+      "message": "Bemutatjuk a Ghostery 8-at!"
+   },
+   "notification_upgrade_v8": {
+      "message": "Állítsa be az új innovatív funkcióinkat és tudjon meg többet az eddigi legnagyobb kiadásunkról."
+   },
+   "off": {
+      "message": "Ki"
+   },
+   "offers_code_copied": {
+      "message": "Másolva"
+   },
+   "offers_hub_copy_btn": {
+      "message": "Kód másolása"
+   },
+   "on": {
+      "message": "Be"
+   },
+   "page_load": {
+      "message": "Oldal betöltése"
+   },
+   "panel_about_imprint": {
+      "message": "Impresszum"
+   },
+   "panel_about_license": {
+      "message": "Mozilla Nyilvános Licencszerződés"
+   },
+   "panel_about_licenses": {
+      "message": "Szoftverlicencek"
+   },
+   "panel_about_panel_header": {
+      "message": "Néhány szó a Ghostery böngészőkiegészítőről"
+   },
+   "panel_about_privacy_statement": {
+      "message": "Adatvédelmi szabályzat"
+   },
+   "panel_about_release_notes": {
+      "message": "Az összes"
+   },
+   "panel_about_terms_and_conditions": {
+      "message": "Felhasználási Feltételek"
+   },
+   "panel_about_version_header": {
+      "message": "Ghostery a $BROWSER$ $VERSION$ verziójához",
+      "placeholders": {
+         "browser": {
+            "content": "$1",
+            "example": "Firefox"
+         },
+         "version": {
+            "content": "$2",
+            "example": "6.4"
+         }
+      }
+   },
+   "panel_click_to_reload": {
+      "message": "Kattintson az újratöltéshez és a változások megtekintéséhez."
+   },
+   "panel_detail_history_text": {
+      "message": "Ez a funkció hamarosan érkezik."
+   },
+   "panel_detail_history_title": {
+      "message": "Előzmények"
+   },
+   "panel_detail_menu_history_title": {
+      "message": "Előzmények"
+   },
+   "panel_detail_menu_list_title": {
+      "message": "Lista nézet"
+   },
+   "panel_detail_menu_performance_title": {
+      "message": "Teljesítmény"
+   },
+   "panel_detail_menu_premium_title": {
+      "message": "Prémium"
+   },
+   "panel_detail_menu_rewards_title": {
+      "message": "Rewards"
+   },
+   "panel_detail_performance_text": {
+      "message": "Ez a funkció hamarosan érkezik."
+   },
+   "panel_detail_performance_title": {
+      "message": "Weboldal teljesítménye"
+   },
+   "panel_detail_premium_text": {
+      "message": "Ez a funkció hamarosan érkezik."
+   },
+   "panel_detail_premium_title": {
+      "message": "Ghostery Prémium"
+   },
+   "panel_detail_rewards_cliqz_text": {
+      "message": "A funkció már aktív a Cliqz MyOffrz vezérlőpultjában."
+   },
+   "panel_detail_rewards_coming_soon": {
+      "message": "Ez a funkció hamarosan érkezik."
+   },
+   "panel_detail_rewards_loading": {
+      "message": "Rewards betöltése…"
+   },
+   "panel_detail_rewards_none_found": {
+      "message": "Rewards nem található"
+   },
+   "panel_detail_rewards_off": {
+      "message": "A Ghostery Rewards KI van kapcsolva"
+   },
+   "panel_email_verification_sent": {
+      "message": "$BOLD_HTML_STARTS$ Sikerült! $BOLD_HTML_END$ Egy fiókhitelesítő emailt küldtünk a(z) $EMAIL$ emailcímre",
+      "placeholders": {
+         "bold_html_end": {
+            "content": "\u003C/strong>"
+         },
+         "bold_html_starts": {
+            "content": "\u003Cstrong>"
+         },
+         "email": {
+            "content": "$1",
+            "example": "info@ghostery.com"
+         }
+      }
+   },
+   "panel_forgot_password": {
+      "message": "Elfelejtette a jelszavát?"
+   },
+   "panel_header_verify_account": {
+      "message": "Fiók hitelesítése"
+   },
+   "panel_help_contact_header": {
+      "message": "Hogyan veheti fel velünk a kapcsolatot"
+   },
+   "panel_help_faq": {
+      "message": "Gyakran Ismételt Kérdések"
+   },
+   "panel_help_feedback": {
+      "message": "Töltse ki kérdőívünket"
+   },
+   "panel_help_panel_header": {
+      "message": "A Ghostery böngészőkiegészítő súgója"
+   },
+   "panel_help_questions_header": {
+      "message": "Kérdések és hozzászólások"
+   },
+   "panel_help_setup": {
+      "message": "A Ghostery beállítása"
+   },
+   "panel_insights_audit_tags": {
+      "description": "Appears in a non-responsive modal. Character limit (including spaces and punctuation): 30.",
+      "message": "Marketing címkék szerkesztése az oldalon"
+   },
+   "panel_insights_promotion_call_to_action": {
+      "message": "Próbálja ki ingyenesen"
+   },
+   "panel_insights_promotion_description": {
+      "description": "Appears in a non-responsive modal. Character limit (including spaces and punctuation): 90.",
+      "message": "Gyorsítsa fel és tegye átláthatóvá a digitális felhasználói élményt professzionális címkeelemző eszközünkkel."
+   },
+   "panel_insights_promotion_explore_trends": {
+      "description": "Appears in a non-responsive modal. Character limit (including spaces and punctuation): 29.",
+      "message": "Ismerkedés a globális digitális trendekkel"
+   },
+   "panel_insights_promotion_header": {
+      "description": "Appears in a non-responsive modal. Character limit (including spaces and punctuation): 35.",
+      "message": "A Ghostery Insights kipróbálása"
+   },
+   "panel_insights_promotion_trace_poor_performance": {
+      "description": "Appears in a non-responsive modal. Character limit (including spaces and punctuation): 33.",
+      "message": "Elégtelen teljesítmény forrásainak azonosítása"
+   },
+   "panel_insights_promotion_watch_pings": {
+      "description": "Appears in a non-responsive modal. Character limit (including spaces and punctuation): 29.",
+      "message": "Értesítések valós időben való megtekintése"
+   },
+   "panel_menu_about": {
+      "message": "Rólunk"
+   },
+   "panel_menu_help": {
+      "message": "Súgó"
+   },
+   "panel_menu_report_broken_site": {
+      "message": "Hibás oldal jelentése"
+   },
+   "panel_menu_settings": {
+      "message": "Beállítások"
+   },
+   "panel_menu_submit_tracker": {
+      "message": "Új tracker beküldése"
+   },
+   "panel_needs_reload": {
+      "message": "A Ghostery folyamatban lévő frissítéseket talált."
+   },
+   "panel_signin_success": {
+      "message": "Ön jelenleg úgy jelentkezett be mint: "
+   },
+   "panel_signin_success_title": {
+      "message": "Gratulálunk! Az Ön Ghostery fiókja készen áll a használatra."
+   },
+   "panel_stats_ads_blocked": {
+      "message": "Hirdetések blokkolva"
+   },
+   "panel_stats_cumulative": {
+      "message": "Összesített"
+   },
+   "panel_stats_daily": {
+      "message": "Napi"
+   },
+   "panel_stats_header_title_daily": {
+      "message": "Naplózott tracker statisztikák (napi átlag)"
+   },
+   "panel_stats_header_title_monthly": {
+      "message": "Naplózott tracker statisztikák (havi átlag)"
+   },
+   "panel_stats_menu_cumulative": {
+      "message": "Összesített"
+   },
+   "panel_stats_menu_daily": {
+      "message": "Napi"
+   },
+   "panel_stats_menu_monthly": {
+      "message": "Havi"
+   },
+   "panel_stats_monthly": {
+      "message": "Havi"
+   },
+   "panel_stats_pitch_modal_already": {
+      "message": "Ön már támogatója a Ghosterynek?"
+   },
+   "panel_stats_pitch_modal_sign_in": {
+      "message": "Jelentkezzen be itt"
+   },
+   "panel_stats_pitch_modal_text": {
+      "message": "Oldja fel a naplózott statisztikáit (és egyéb hasznos szolgáltatásunkat) Ghostery Plusra történő fejlesztéssel, csak $SPAN_START$&#36;2/hónap.$SPAN_END$$LINK_START$Tudjon meg többet$LINK_END$",
+      "placeholders": {
+         "link_end": {
+            "content": "\u003C/a>"
+         },
+         "link_start": {
+            "content": "\u003Cbr>\u003Ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.ghostery.com/products/plus/\">"
+         },
+         "span_end": {
+            "content": "\u003C/span>"
+         },
+         "span_start": {
+            "content": "\u003Cspan>"
+         }
+      }
+   },
+   "panel_stats_pitch_modal_tooltip": {
+      "message": "Összes naplózott statisztika törlése eddig az időpontig."
+   },
+   "panel_stats_reset": {
+      "message": "Visszaállítás"
+   },
+   "panel_stats_reset_modal_no": {
+      "message": "Nem, napló megtartása"
+   },
+   "panel_stats_reset_modal_text": {
+      "message": "A statisztika napló nullázva lesz. Nincs lehetőség ezeknek az adatoknak a helyreállítására. Kívánja folytatni?"
+   },
+   "panel_stats_reset_modal_yes": {
+      "message": "Igen, nullázás"
+   },
+   "panel_stats_trackers_anonymized": {
+      "message": "Névtelenített adatpontok "
+   },
+   "panel_stats_trackers_blocked": {
+      "message": "Blokkolt trackerek"
+   },
+   "panel_stats_trackers_seen": {
+      "message": "Érzékelt trackerek"
+   },
+   "panel_tracker_block_tooltip": {
+      "message": "Blokkolás az összes oldalon"
+   },
+   "panel_tracker_breaking_page": {
+      "message": "$COUNT$ blokkolt $TRACKERS$",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "4"
+         },
+         "trackers": {
+            "content": "$2",
+            "example": "trackers"
+         }
+      }
+   },
+   "panel_tracker_breaking_page_end": {
+      "message": " hibát okoznak az oldalon."
+   },
+   "panel_tracker_found_sources_title": {
+      "message": "Törölt tracker URL-ek:"
+   },
+   "panel_tracker_restrict_tooltip": {
+      "message": "Korlátozás ezen az oldalon"
+   },
+   "panel_tracker_scrub_tooltip": {
+      "message": "Anonimizálás ezen a weboldalon"
+   },
+   "panel_tracker_slow_non_secure": {
+      "message": "$COUNT$ lassú és/vagy nem biztonságos $TRACKERS$",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "4"
+         },
+         "trackers": {
+            "content": "$2",
+            "example": "trackers"
+         }
+      }
+   },
+   "panel_tracker_slow_non_secure_end": {
+      "message": " ezen az oldalon."
+   },
+   "panel_tracker_total_tooltip": {
+      "message": "Észlelt követők + módosított kérelmek száma összesen."
+   },
+   "panel_tracker_trust_tooltip": {
+      "message": "Megbízható ezen az oldalon"
+   },
+   "panel_tracker_warning_compatibility_tooltip": {
+      "message": "Blokkolt tracker hibát okoz az oldalon"
+   },
+   "panel_tracker_warning_nonsecure_tooltip": {
+      "message": "A tracker nem biztonságos"
+   },
+   "panel_tracker_warning_slow_nonsecure_tooltip": {
+      "message": "A tracker lassú és nem biztonságos"
+   },
+   "panel_tracker_warning_slow_tooltip": {
+      "message": "A tracker lassú"
+   },
+   "panel_tracker_warning_smartblock_tooltip": {
+      "message": "Tracker blokkolva az Okos Blokkolás (Smart Blocking) által"
+   },
+   "panel_tracker_warning_smartunblock_tooltip": {
+      "message": "Tracker feloldva az Okos Blokkolás (Smart Blocking) által"
+   },
+   "panel_view_trackers": {
+      "message": "Trackerek megtekintése"
+   },
+   "password_characters_requirements": {
+      "message": "Csak ezek a különleges karakterek engedélyezettek: !@#$%^&*=+()\u003C>{}[];:,./?"
+   },
+   "password_colon": {
+      "message": "Jelszó:"
+   },
+   "password_field_label": {
+      "message": "Jelszó"
+   },
+   "password_field_label_required": {
+      "message": "Jelszó megadása szükséges."
+   },
+   "password_requirements": {
+      "message": "8–50 karaktert használjon."
+   },
+   "pause_1_hour": {
+      "message": "1 órára"
+   },
+   "pause_1_hour_condensed": {
+      "message": "1 óra"
+   },
+   "pause_24_hours": {
+      "message": "24 órára"
+   },
+   "pause_24_hours_condensed": {
+      "message": "24 óra"
+   },
+   "pause_30_min": {
+      "message": "30 percre"
+   },
+   "pause_30_min_condensed": {
+      "message": "30 perc"
+   },
+   "per_month": {
+      "message": "havonta"
+   },
+   "please_enter_a_valid_email": {
+      "message": "Kérjük, érvényes emailcímet adjon meg."
+   },
+   "plus_monthly_subscription_price_number": {
+      "message": "2"
+   },
+   "popup_apply_code_button": {
+      "message": "Kód alkalmazása"
+   },
+   "popup_cancel_button": {
+      "message": "Mégsem"
+   },
+   "previous": {
+      "message": "Előző"
+   },
+   "priority_support": {
+      "description": "Appears in a non-responsive modal. Character limit (including spaces and punctuation): 25.",
+      "message": "Kiemelt támogatás"
+   },
+   "promos_turned_off_notification": {
+      "description": "translation must take into account that 'Settings' is appended to this string",
+      "message": "A promóciókat kikapcsoltuk. Visszakapcsolhatja őket"
+   },
+   "recommended": {
+      "message": "Javasolt"
+   },
+   "refresh_and_try_again": {
+      "message": "Frissítse az oldalt és próbálja újra"
+   },
+   "requests_modified": {
+      "message": "Igénylések módosítva:"
+   },
+   "requests_modified_tooltip": {
+      "message": "Az Anti-Tracking és a Hirdetésblokkolás által módosított követési igénylések és elemek száma összesen"
+   },
+   "rewards_about": {
+      "message": "Néhány szó a Rewards szolgáltatásról"
+   },
+   "rewards_best_offer": {
+      "message": "legjobb ajánlat"
+   },
+   "rewards_code_copied": {
+      "message": "kód másolva"
+   },
+   "rewards_code_copied_toast_notification": {
+      "message": "Rewards kód másolva!"
+   },
+   "rewards_copy_code": {
+      "message": "kód másolása"
+   },
+   "rewards_delete": {
+      "message": "Törölje ezt a jutalmat"
+   },
+   "rewards_disable": {
+      "message": "Rewards kikapcsolása"
+   },
+   "rewards_disable_confirm": {
+      "message": "OK, értem."
+   },
+   "rewards_disable_notification": {
+      "message": "A Ghostery Rewards most ki van kapcsolva. Bármikor bekapcsolhatja a Beállításokban vagy a Rewards vezérlőpultban."
+   },
+   "rewards_exclusive": {
+      "message": "kizárólagos"
+   },
+   "rewards_expires_in_day": {
+      "message": "1 napig elérhető"
+   },
+   "rewards_expires_in_days": {
+      "message": "$COUNT$ napig elérhető",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "rewards_expires_in_hour": {
+      "message": "1 óráig elérhető"
+   },
+   "rewards_expires_in_hours": {
+      "message": "$COUNT$ óráig elérhető",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "rewards_expires_in_min": {
+      "message": "1 percig elérhető"
+   },
+   "rewards_expires_in_mins": {
+      "message": "$COUNT$ percig elérhető",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "rewards_expires_in_sec": {
+      "message": "1 másodpercig elérhető"
+   },
+   "rewards_expires_in_secs": {
+      "message": "$COUNT$ másodpercig elérhető",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "rewards_first_prompt": {
+      "message": "Kívánja folytatni a Ghostery Reward szolgáltatás használatával?"
+   },
+   "rewards_first_prompt_extended": {
+      "message": "Szeretne ajánlatokat és kedvezményeket kapni a megbízható Ghostery partnerektől?"
+   },
+   "rewards_first_prompt_headline": {
+      "message": "Új Reward felfedezve!"
+   },
+   "rewards_new_text": {
+      "message": "Új Reward felfedezve!"
+   },
+   "rewards_no": {
+      "message": "nem"
+   },
+   "rewards_off": {
+      "message": "ki"
+   },
+   "rewards_off_toast_notification": {
+      "message": "A Ghostery Rewards KI van kapcsolva"
+   },
+   "rewards_on": {
+      "message": "be"
+   },
+   "rewards_on_toast_notification": {
+      "message": "A Ghostery Rewards BE van kapcsolva"
+   },
+   "rewards_second_prompt": {
+      "message": "Szeretne leiratkozni a jövőben a Ghostery Rewards szolgáltatásról?"
+   },
+   "rewards_settings": {
+      "message": "Ghostery Rewards Beállítások"
+   },
+   "rewards_terms_conditions": {
+      "message": "Felhasználási Feltételek"
+   },
+   "rewards_yes": {
+      "message": "igen"
+   },
+   "select_basic": {
+      "message": "Alapvető kiválasztása"
+   },
+   "select_file_for_import": {
+      "message": "Válasszon egy .ghost kiterjesztésű fájlt az importáláshoz"
+   },
+   "select_plus": {
+      "message": "Plus kiválasztása"
+   },
+   "send_button_label": {
+      "message": "Küldés"
+   },
+   "server_error_message": {
+      "message": "Úgy tűnik, műszaki hiba lépett fel. Próbálja meg később."
+   },
+   "settings": {
+      "message": "Beállítások"
+   },
+   "settings_account": {
+      "message": "Fiók"
+   },
+   "settings_account_email": {
+      "message": "Emailcím"
+   },
+   "settings_account_name": {
+      "message": "Név"
+   },
+   "settings_allow_offers": {
+      "message": "Részvétel a Ghostery Rewards programban"
+   },
+   "settings_allow_trackers": {
+      "message": "Oldaltulajdonosok által létrehozott trackerek engedélyezése"
+   },
+   "settings_allow_trackers_tooltip": {
+      "message": "Például, a Facebook trackerének a facebook.com oldalon történő blokkolásával lehet, hogy használhatatlanná válik az oldal."
+   },
+   "settings_announcements": {
+      "message": "Bejelentést tesz közzé"
+   },
+   "settings_auto_update": {
+      "message": "Automatikus frissítés engedélyezése a Ghostery tracker könyvtárból"
+   },
+   "settings_block_trackers": {
+      "message": "A Ghostery-hez hozzáadott új trackerek blokkolása alapértelmezés szerint"
+   },
+   "settings_blocking": {
+      "message": "Blokkolás"
+   },
+   "settings_bottom_left_corner": {
+      "message": "Bal alsó sarok"
+   },
+   "settings_bottom_right_corner": {
+      "message": "Jobb alsó sarok"
+   },
+   "settings_dismiss_after": {
+      "message": "Bezárás ezután:"
+   },
+   "settings_display_in": {
+      "message": "Megjelenítés itt:"
+   },
+   "settings_edit_account": {
+      "message": "Fiók szerkesztése"
+   },
+   "settings_export_error": {
+      "message": "A beállításait nem sikerült exportálni. Kérjük, próbálja meg újra."
+   },
+   "settings_export_header": {
+      "message": "Beállítások exportálása"
+   },
+   "settings_export_reserved_page_error": {
+      "message": "A Ghostery nem tudja a beállításokat exportálni, ha a jelenlegi oldal a fenntartott böngészőlapok egyike. Kérjük, navigáljon el egy másik oldalra és próbálja meg újból."
+   },
+   "settings_export_success": {
+      "message": "Az Ön beállításait sikeresen exportáltuk a letöltési mappába ekkor:"
+   },
+   "settings_export_text": {
+      "message": "A Ghostery-beállítások másolatának mentése és másik számítógépre történő átküldése."
+   },
+   "settings_filter_all": {
+      "message": "Minden tracker"
+   },
+   "settings_filter_all_label": {
+      "message": "Mind"
+   },
+   "settings_filter_blocked": {
+      "message": "Blokkolt trackerek"
+   },
+   "settings_filter_blocked_label": {
+      "message": "Blokkolva"
+   },
+   "settings_filter_new": {
+      "message": "Új trackerek"
+   },
+   "settings_filter_new_label": {
+      "message": "Új"
+   },
+   "settings_filter_unblocked": {
+      "message": "Feloldott trackerek"
+   },
+   "settings_filter_unblocked_label": {
+      "message": "Feloldva"
+   },
+   "settings_general_settings": {
+      "message": "Általános beállítások"
+   },
+   "settings_global_blocking": {
+      "message": "Globális blokkolás"
+   },
+   "settings_hide_alert_trusted": {
+      "message": "Rejtse el a lila szövegdobozt a megbízható oldalakon"
+   },
+   "settings_highlight_trackers": {
+      "message": "Interaktív trackerek kiemelése"
+   },
+   "settings_highlight_trackers_tooltip": {
+      "message": "Olykor előfordulhat, hogy egyes funkciók, mint például a közösségi média megosztások, hozzászólások vagy filmlejátszók nem működnek, ha bizonyos trackereket blokkolnak. Ha szeretné engedélyezni valamelyik blokkolt funkciót, akkor kattintson erre az ikonra az oldalon:"
+   },
+   "settings_human_web_tooltip": {
+      "message": "A Ghostery alapértelmezés szerint alkalmazza a Human Web analitikát, egy forradalmian új technológiát, amely nagyszámú felhasználói tudással segít biztonságosabb internetet építeni"
+   },
+   "settings_import_dialog_error": {
+      "message": "A Ghostery nem tudja a tallózás párbeszédablakot megjeleníteni, ha a jelenlegi oldal a fenntartott böngészőlapok egyike. Kérjük, navigáljon el egy másik oldalra és próbálja meg újból."
+   },
+   "settings_import_file_error": {
+      "message": "Nem megfelelő fájltípus. Kérjük, válasszon .ghost kiterjesztésű fájlt és próbálja újra."
+   },
+   "settings_import_header": {
+      "message": "Beállítások importálása"
+   },
+   "settings_import_success": {
+      "message": "Az Ön beállításait sikeresen importáltuk ekkor:"
+   },
+   "settings_import_text": {
+      "message": "Válasszon ki egy .ghost kiterjesztésű biztonsági mentésfájlt."
+   },
+   "settings_import_warning": {
+      "message": "FIGYELMEZTETÉS: Ez a művelet felül fogja írni a jelenlegi Ghostery-beállításait."
+   },
+   "settings_individual_trackers": {
+      "message": "Egyéni trackerek megbízhatóvá vagy tiltottá minősítése egy oldalon"
+   },
+   "settings_individual_trackers_tooltip": {
+      "message": "Válassza ki, mely meghatározott trackerekben bízik meg mindig, vagy melyek legyenek mindig blokkolva meghatározott weboldalakon."
+   },
+   "settings_last_update": {
+      "message": "Utoljára szinkronizálva:"
+   },
+   "settings_never": {
+      "message": "Soha"
+   },
+   "settings_new_features": {
+      "message": "Új funkció bocsát ki"
+   },
+   "settings_new_promotions": {
+      "message": "Termékpromóciókkal rendelkezik"
+   },
+   "settings_new_trackers": {
+      "message": "Új trackereket az hozzá a könyvtárához"
+   },
+   "settings_notifications": {
+      "message": "Értesítések"
+   },
+   "settings_notify_me": {
+      "message": "Értesítsen, ha a Ghostery:"
+   },
+   "settings_notify_me_tooltip": {
+      "message": "Engedélyezés a Ghostery számára, hogy üzeneteket jelenítsen meg a böngészőmben új termékekkel, funkciókkal, frissítésekkel és ügyfelek általi visszajelzésekkel kapcsolatban."
+   },
+   "settings_offers_tooltip": {
+      "message": "A Ghostery Rewards olyan személyesre tervezett funkció, amely böngészés közben árengedményeket és akciókat szolgáltat önnek partnervállalainktól."
+   },
+   "settings_opt_in": {
+      "message": "Feliratkozás / Leiratkozás"
+   },
+   "settings_purple_box": {
+      "message": "Lila szövegdoboz"
+   },
+   "settings_replace_social": {
+      "message": "Cserélje le a blokkolt közösségi média gombokat Ghostery ikonokra"
+   },
+   "settings_required_trackers": {
+      "message": "Jelenítse meg, ha engedélyeznem kell egy trackert az oldal funkcióinak használatához"
+   },
+   "settings_restricted_sites": {
+      "message": "Korlátozott oldalak"
+   },
+   "settings_restricted_sites_description": {
+      "message": "Az itt felsorolt weboldalak korlátozottak lesznek és rajtuk minden tracker blokkolva lesz."
+   },
+   "settings_searh_by_tracker": {
+      "message": "Keresés tracker szerint"
+   },
+   "settings_seconds": {
+      "message": "mp"
+   },
+   "settings_share_human_web": {
+      "message": "Human Web adatok megosztása"
+   },
+   "settings_share_usage": {
+      "message": "Kiegészítő használati analitikájának megosztása"
+   },
+   "settings_share_usage_tooltip": {
+      "message": "Használati analitikát gyűjtünk, hogy jobban megértsük, milyen funkciókat kedvelnek a felhasználók. Például, ha Ön a szüneteltetésre kattint, akkor egy értesítést gyűjtünk be, hogy Ön használta ezt a funkciót."
+   },
+   "settings_show_patterns": {
+      "message": "Tracker URL-ek megjelenítése"
+   },
+   "settings_show_patterns_tooltip": {
+      "message": "A trackerre történő kattintás után a tracker leírása alatt találhatók a tracker URL-jei."
+   },
+   "settings_show_purple_box": {
+      "message": "Jelenítse meg a lila szövegdobozt a böngészőm sarkában"
+   },
+   "settings_show_purple_box_tooltip": {
+      "message": "A böngészője sarkában megjelenő lila szövegdoboz egy valósidejű listát tartalmaz a trackerekről. Ez a funkció segíti Önt, hogy figyelemmel kísérje, mely trackerek adódtak hozzá a weboldalhoz."
+   },
+   "settings_show_reload_banner": {
+      "message": "Jelenítsen meg a kiegészítő felső területén oldal-újratöltési banner-értesítéseket"
+   },
+   "settings_show_tracker_count_badge": {
+      "message": "Jelenítsen meg trackerszámláló jelvényt a böngésző eszköztárában lévő Ghostery ikonon"
+   },
+   "settings_show_trackers_banner": {
+      "message": "Jelenítsen meg a kiegészítő felső területén tracker-riasztási banner-értesítéseket"
+   },
+   "settings_sign_create_text": {
+      "message": "A fiókjához tartozó beállítások szinkronizálódni fognak erre az eszközre. Hozzon létre egy fiókot a Ghostery-beállításai egyszerű szinkronizálásához az összes eszközére és platformjára."
+   },
+   "settings_signin_create_header": {
+      "message": "Bejelentkezés / Fiók létrehozása"
+   },
+   "settings_sites_placeholder": {
+      "message": "pelda.hu"
+   },
+   "settings_support_ghostery": {
+      "message": "Ghostery támogatás"
+   },
+   "settings_support_ghostery_by": {
+      "message": "Támogassa a Ghostery-t"
+   },
+   "settings_top_left_corner": {
+      "message": "Bal felső sarok"
+   },
+   "settings_top_right_corner": {
+      "message": "Jobb felső sarok"
+   },
+   "settings_trackers": {
+      "message": "Trackerek"
+   },
+   "settings_trust_and_restrict": {
+      "message": "Megbízhatóság és korlátozás"
+   },
+   "settings_trusted_restricted_sites": {
+      "message": "Megbízhatóság és korlátozás"
+   },
+   "settings_trusted_sites": {
+      "message": "Megbízható oldalak"
+   },
+   "settings_trusted_sites_description": {
+      "message": "Az itt felsorolt weboldalak megbízhatóak lesznek és rajtuk minden tracker engedélyezve lesz."
+   },
+   "settings_update_failed": {
+      "message": "Frissítés sikertelen. Kérjük, próbálja meg később"
+   },
+   "settings_update_now": {
+      "message": "Frissítés most"
+   },
+   "settings_update_success": {
+      "message": "Sikerült!"
+   },
+   "settings_update_up_to_date": {
+      "message": "Még mindig naprakész"
+   },
+   "short_description": {
+      "description": "A short description of this extension (Ghostery).",
+      "message": "Ennek a kiegészítőnek a rövid leírása. Blokkolja a reklámokat, leállítja a trackereket (követőalkalmazások) és felgyorsítja a weboldalakat."
+   },
+   "sign_in": {
+      "message": "Bejelentkezés"
+   },
+   "sign_out": {
+      "message": "Kijelentkezés"
+   },
+   "simple_view": {
+      "message": "Egyszerű nézet"
+   },
+   "smart_blocking": {
+      "message": "Okos blokkolás"
+   },
+   "smart_blocking_DESC": {
+      "message": "Automatikusan blokkolja vagy feloldja a trackereket az oldal teljesítményének optimalizálásához."
+   },
+   "start": {
+      "message": "Indítás"
+   },
+   "subscribe_pitch": {
+      "message": "Annak ellenére, hogy a Ghostery ingyenes, ön dönthet úgy, hogy támogatja munkánkat egy alacsony,  havi &#36;2 összegű feliratkozással, és cserébe nagyszerű extra funkciókhoz férhet hozzá, mint például a színsablonok, elsőbbségi támogató szolgáltatás és még sok minden más. Csatlakozzon a küldetésünkhöz és iratkozzon fel!"
+   },
+   "subscribe_pitch_button_label": {
+      "message": "Szerezze be a Ghostery Plust!"
+   },
+   "subscribe_pitch_learn_more": {
+      "message": "Tudjon meg többet"
+   },
+   "subscribe_pitch_no_thanks": {
+      "message": "Köszönöm, nem. Talán később."
+   },
+   "subscribe_pitch_sign_here": {
+      "message": "Ön már feliratkozott? Jelentkezzen be itt"
+   },
+   "subscribe_pitch_sign_in": {
+      "message": "Már feliratkozott? Jelentkezzen be"
+   },
+   "subscription_active": {
+      "message": "Aktív"
+   },
+   "subscription_auto_renewal": {
+      "message": "Automatikus megújítás"
+   },
+   "subscription_charge_date": {
+      "message": "Következő fizetési nap"
+   },
+   "subscription_days_left": {
+      "message": "Önnek $DAYS$ napja marad a feliratkozásából.",
+      "placeholders": {
+         "days": {
+            "content": "$1"
+         }
+      }
+   },
+   "subscription_expired": {
+      "message": "Fiók lejárt"
+   },
+   "subscription_inactive": {
+      "message": "Inaktív"
+   },
+   "subscription_info": {
+      "message": "Feliratkozás részletei"
+   },
+   "subscription_manage": {
+      "message": "Feliratkozásom kezelése"
+   },
+   "subscription_midnight_theme": {
+      "message": "Éjféli sablon"
+   },
+   "subscription_one_day_left": {
+      "message": "Az ön feliratkozása holnap lejár"
+   },
+   "subscription_plan": {
+      "message": "Terv"
+   },
+   "subscription_resubscribe": {
+      "message": "Újbóli feliratkozás"
+   },
+   "subscription_status": {
+      "message": "Állapot"
+   },
+   "subscription_submit_issue": {
+      "message": "Probléma jelentése"
+   },
+   "subscription_support": {
+      "message": "Hibás oldalt talált? Segítségre van szüksége a blokkolással kapcsolatban? Küldjön nekünk üzenetet!"
+   },
+   "subscription_themes": {
+      "message": "Ghostery sablonok"
+   },
+   "subscription_themes_title": {
+      "message": "Sablonok"
+   },
+   "subscription_themes_tooltip": {
+      "message": "Változtassa meg a Ghostery színsablonját!"
+   },
+   "subscription_upgrade_to": {
+      "message": "Frissítés erre:"
+   },
+   "summary_alert": {
+      "description": "as in '1 ALERT'",
+      "message": "Riasztás"
+   },
+   "summary_alerts": {
+      "description": "as in '5 ALERTS'",
+      "message": "Riasztás"
+   },
+   "summary_blocked": {
+      "description": "as in '5 (trackers) BLOCKED'",
+      "message": "Blokkolva"
+   },
+   "summary_description_not_scanned_1": {
+      "message": "A Ghostery csak  \"http\" és \"https\" oldalakat vizsgál."
+   },
+   "summary_description_not_scanned_2": {
+      "message": "Navigáljon másik oldalra és ígérjük, hogy elvégezzük a feladatot."
+   },
+   "summary_page_not_scanned": {
+      "message": "Oldal nincs vizsgálva"
+   },
+   "summary_pause_ghostery": {
+      "message": "Ghostery szüneteltetése"
+   },
+   "summary_pause_ghostery_tooltip": {
+      "message": "Ghostery kiterjesztés szüneteltetése."
+   },
+   "summary_restrict_site": {
+      "message": "Korlátozott oldal"
+   },
+   "summary_restrict_site_active": {
+      "message": "Korlátozott oldal"
+   },
+   "summary_resume_ghostery": {
+      "message": "Ghostery folytatása"
+   },
+   "summary_resume_ghostery_tooltip": {
+      "message": "Ghostery kiterjesztés szüneteltetve. Kattintson a visszatéréshez."
+   },
+   "summary_show_menu": {
+      "message": "menü megjelenítése"
+   },
+   "summary_trust_site": {
+      "message": "Megbízható oldal"
+   },
+   "summary_trust_site_active": {
+      "message": "Megbízható oldal"
+   },
+   "summary_undo": {
+      "message": "Visszavonás"
+   },
+   "support": {
+      "message": "Támogatás"
+   },
+   "tooltip_ad_block_on": {
+      "message": "A hirdetések ki lesznek kiszűrve."
+   },
+   "tooltip_anti_track_on": {
+      "message": "A személyes adatpontok névtelenítve."
+   },
+   "tooltip_body_in_cliqz": {
+      "message": "Ez a funkció alapértelmezetten már aktív a Cliqz-en belül."
+   },
+   "tooltip_pause": {
+      "message": "Ghostery szüneteltetése"
+   },
+   "tooltip_restrict": {
+      "message": "Trackerek blokkolása mindig ezen az oldalon."
+   },
+   "tooltip_restrict_on": {
+      "message": "A trackerek blokkolva vannak és az Anti-Tracking (követés tiltása) be van kapcsolva ezen az oldalon. Kattintson a visszavonáshoz."
+   },
+   "tooltip_resume": {
+      "message": "Ghostery folytatása"
+   },
+   "tooltip_smart_block_on": {
+      "message": "A tracker-szűrés az oldal teljesítményének optimalizálására van beállítva."
+   },
+   "tooltip_trust": {
+      "message": "Trackerek engedélyezése mindig ezen az oldalon."
+   },
+   "tooltip_trust_on": {
+      "message": "A trackerek engedélyezve vannak és az Anti-Tracking (követés tiltása) ki van kapcsolva ezen az oldalon. Kattintson a visszavonáshoz."
+   },
+   "tracker_description_getting": {
+      "message": "Tracker leírásának lekérdezése..."
+   },
+   "tracker_description_learn_more": {
+      "message": "Folytatás a tracker teljes profiljával"
+   },
+   "tracker_description_none_found": {
+      "message": "Nem található leírás a trackerhez."
+   },
+   "trackers_blocked": {
+      "message": "Blokkolt trackerek:"
+   },
+   "unblocked": {
+      "description": "Select this to show only unblocked (unchecked) tags in the tag browser. Should read as 'Show unblocked'.",
+      "message": "feloldva"
+   },
+   "unknown": {
+      "message": "Ismeretlen"
+   },
+   "unknown_description": {
+      "message": "Ismeretlen követőket távolított el a követőblokkoló"
+   },
+   "upgrade_cta_TEXT": {
+      "description": "Body text in a non-responsive modal. Character limit (including spaces and punctuation): 135.",
+      "message": "Vegye igénybe a trackerinformációkat, a támogatáshoz való elsőbbségi hozzáférést és az új színtémákat. Ehhez frissítsen a Ghostery Plus alkalmazásra havi &#36;2 összegért."
+   },
+   "upgrade_to_plus": {
+      "description": "Button text in a non-responsive modal. Character limit (including spaces and punctuation): 35.",
+      "message": "Frissítés Plus csomagra"
+   },
+   "upgrade_your_ghostery_experience": {
+      "description": "Header text for a non-responsive modal. Character limit (including spaces and punctuation): 40.",
+      "message": "Még jobb Ghostery-élmény"
+   },
+   "white_black_list_error_invalid_url": {
+      "message": "Kérjük, érvényes URL-címet adjon meg."
+   },
+   "whitelist_error_blacklist_url": {
+      "message": "Ezt az oldalt eltávolítottuk a Korlátozott oldalak listájáról és hozzáadtuk a Megbízható oldalak listájához."
+   },
+   "whitelist_error_duplicate_url": {
+      "description": "Options page site whitelisting error message shown when whitelisting a URL that is already in the whitelist.",
+      "message": "Ez az oldal már a fehérlistán van."
+   },
+   "your_email_do_not_match": {
+      "message": "Az emailcímek nem egyeznek."
+   }
+}

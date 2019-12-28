@@ -1,0 +1,116 @@
+// HR
+// HR
+// HR
+.kf-sidebar hr{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 1px;
+    background: transparent;
+    background-color: transparent;
+    margin: 5px 0 10px 0;
+}
+
+// Buttons
+// Buttons
+// Buttons
+@btnHeight: 36px;
+@btnHeight-small: 26px;
+
+.kf-btn{
+    border: none;
+    // border-radius: 18px;
+    border-radius: 3px;
+    padding: 1.5px 15px 0px 15px;
+    transform: translateY(0px);
+    font-family: @poppins;
+    background-color: @blue;
+    background: @blue;
+    color: white;
+    display: inline-flex;
+    flex-direction: row;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+    transition: box-shadow 0.25s, background-color 0.25s, transform 0.1s !important;
+    box-shadow: @extraLightBaseShadow;
+    font-size: 12.5px;
+    font-weight: 500;
+    letter-spacing: 0.35px;
+    padding: 6px 12px;
+
+    &:hover{
+        transition: box-shadow 0.25s, background-color 0.25s, transform 0.1s !important;
+    }
+
+    &:hover:not(:disabled){
+        cursor: pointer;
+        transition: @transition;
+        color: white;
+        background-color: darken(@blue, 4%);
+        background: darken(@blue, 4%);
+    }
+
+    // Disabled
+    &:disabled,
+    &.disabled{
+        opacity: 0.45;
+        box-shadow: none !important;
+        transition: box-shadow 0.25s, background-color 0.25s, transform 0.1s !important;
+        &:hover{
+            box-shadow: none !important;
+            transform: none !important;
+            cursor: default;
+        }
+    }
+
+    // Focused
+    &:active{
+        transform: translateY(1px);
+        box-shadow: none !important;
+    }
+
+
+    &.red{
+        background: @red;
+        background-color: @red;
+        &:hover:not(:disabled){
+            background: darken(@red, 4%);
+            background-color: darken(@red, 4%);
+        }
+    }
+
+    &.green{
+        background: @green;
+        background-color: @green;
+        color: @black;
+        &:hover:not(:disabled){
+            color: @black;
+            background: darken(@green, 8%);
+            background-color: darken(@green, 8%);
+        }
+    }
+
+    &.black{
+        background: @black;
+        background-color: @black;
+        &:hover:not(:disabled){
+            background: darken(@black, 4%);
+            background-color: darken(@black, 4%);
+        }
+
+    }
+
+    // Full width button
+    &.full{
+        width: 100%;
+    }
+
+    // Centered button
+    &.center{
+        text-align: center;
+        justify-content: center;
+    }
+}

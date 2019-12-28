@@ -1,0 +1,723 @@
+{
+   "Deck_name_cant_be_empty": {
+      "message": "Deck name can't be empty"
+   },
+   "Deck_with_given_name_already_exists": {
+      "message": "Deck with given name already exists"
+   },
+   "Nothing_to_learn": {
+      "message": "Nothing to learn"
+   },
+   "OK": {
+      "message": "ОК"
+   },
+   "add_new_translation": {
+      "message": "add new translation"
+   },
+   "additional": {
+      "message": "additional"
+   },
+   "adjective": {
+      "message": "adjective"
+   },
+   "adverb": {
+      "message": "adverb"
+   },
+   "ago": {
+      "message": "ago"
+   },
+   "all": {
+      "message": "all"
+   },
+   "alphabetically": {
+      "message": "alphabetically"
+   },
+   "ankiFix_message": {
+      "message": "Available again! Export to Anki-CSV, and import from Anki"
+   },
+   "ankiFix_title": {
+      "message": "Export to Anki"
+   },
+   "answer": {
+      "message": "answer"
+   },
+   "antonym": {
+      "message": "antonym"
+   },
+   "article": {
+      "message": "article"
+   },
+   "auxiliary_verb": {
+      "message": "auxiliary verb"
+   },
+   "back": {
+      "message": "back"
+   },
+   "cancel": {
+      "message": "cancel"
+   },
+   "card_edit": {
+      "message": "card edit"
+   },
+   "cardsRipeningExplanation": {
+      "message": "Once you've repeated your cards they become temporarily unavailable. After some time you'll be asked to repeat them in order to hold knowledge."
+   },
+   "cardsWaiting": {
+      "message": "$1 cards are waiting for you!"
+   },
+   "cards_per_session": {
+      "message": "cards per session"
+   },
+   "cards_sorting": {
+      "message": "cards sorting"
+   },
+   "checkBrowserVersion": {
+      "message": "Check browser version"
+   },
+   "check_all": {
+      "message": "check all"
+   },
+   "classic": {
+      "message": "classic"
+   },
+   "collapse": {
+      "message": "collapse"
+   },
+   "configureSync": {
+      "message": "Configure sync"
+   },
+   "conjunction": {
+      "message": "conjunction"
+   },
+   "correct": {
+      "message": "correct"
+   },
+   "correct_answer": {
+      "message": "correct answer"
+   },
+   "custom": {
+      "message": "custom"
+   },
+   "cut": {
+      "message": "cut"
+   },
+   "cutNPasteRelease": {
+      "message": "From now you can move your cards between decks."
+   },
+   "cutNPasteTip": {
+      "message": "Now choose deck where you want to put these cards and click Paste button."
+   },
+   "days": {
+      "message": "days"
+   },
+   "deck": {
+      "message": "deck"
+   },
+   "deckMenuActions_activate": {
+      "message": "Make targeted"
+   },
+   "deckMenuActions_activate_tip": {
+      "message": "Save new cards to this deck"
+   },
+   "deckMenuActions_activated": {
+      "message": "Targeted"
+   },
+   "deckMenuActions_activated_tip": {
+      "message": "New cards will be saved to this deck"
+   },
+   "deckMenuActions_backup": {
+      "message": "Backup"
+   },
+   "deckMenuActions_backup_create": {
+      "message": "Create"
+   },
+   "deckMenuActions_backup_create_tip": {
+      "message": "Save all your decks and learning progress"
+   },
+   "deckMenuActions_backup_restore": {
+      "message": "Restore"
+   },
+   "deckMenuActions_create": {
+      "message": "Create deck"
+   },
+   "deckMenuActions_export": {
+      "message": "Export"
+   },
+   "deckMenuActions_exportAs": {
+      "message": "Save as"
+   },
+   "deckMenuActions_export_anki": {
+      "message": "Compatible with Anki"
+   },
+   "deckMenuActions_export_disabled_tip": {
+      "message": "Deck is empty"
+   },
+   "deckMenuActions_import": {
+      "message": "Import"
+   },
+   "deckMenuActions_import_tip": {
+      "message": "JSON, CSV"
+   },
+   "deckMenuActions_remove": {
+      "message": "Remove deck"
+   },
+   "deckMenuActions_remove_last_tip": {
+      "message": "Can't remove last deck"
+   },
+   "deckMenuActions_remove_target_tip": {
+      "message": "Can't remove targeted deck"
+   },
+   "deckMenuActions_title": {
+      "message": "Actions"
+   },
+   "deck_description": {
+      "message": "deck description"
+   },
+   "decks": {
+      "message": "decks"
+   },
+   "definition": {
+      "message": "definition"
+   },
+   "delete": {
+      "message": "delete"
+   },
+   "detect": {
+      "message": "detect"
+   },
+   "detectedAs": {
+      "message": "Translated from $1"
+   },
+   "disableReminders": {
+      "message": "Disable reminders"
+   },
+   "dontNotifyOnUpdates": {
+      "message": "Don't notify me about updates anymore"
+   },
+   "easy": {
+      "message": "easy"
+   },
+   "edit": {
+      "message": "edit"
+   },
+   "enable": {
+      "message": "enable"
+   },
+   "ensureSyncIsOn1st": {
+      "message": "Ensure extensions sync is enabled in your "
+   },
+   "ensureSyncIsOn2nd": {
+      "message": "Chrome settings"
+   },
+   "error": {
+      "message": "error"
+   },
+   "example": {
+      "message": "example"
+   },
+   "expand": {
+      "message": "expand"
+   },
+   "export": {
+      "message": "export"
+   },
+   "ext_author": {
+      "message": "Serhii skye Muryhin, Myroslava Yurchyshyn"
+   },
+   "ext_description": {
+      "message": "Translate words and phrases while browsing the web, and easily replenish your foreign languages dictionary using flashcards."
+   },
+   "ext_name": {
+      "message": "Rememberry - Translate Selection & Memorize"
+   },
+   "ext_short_name": {
+      "message": "Rememberry"
+   },
+   "failedToReadFile": {
+      "message": "Failed to read file content"
+   },
+   "fileTypeIsNotAllowed": {
+      "message": "Selected file is not of JSON or CSV type"
+   },
+   "filter": {
+      "message": "filter"
+   },
+   "forward": {
+      "message": "forward"
+   },
+   "goToOptionsPage": {
+      "message": "Go to settings page"
+   },
+   "hard": {
+      "message": "hard"
+   },
+   "hotkey": {
+      "message": "hotkey"
+   },
+   "hours": {
+      "message": "hours"
+   },
+   "improvedTranslationRelease": {
+      "message": "We are constantly improving, and now after you translate English words via popup you'll see it's synonyms, antonyms, examples and definition."
+   },
+   "in": {
+      "message": "in"
+   },
+   "incorrect": {
+      "message": "incorrect"
+   },
+   "incorrectFileContent": {
+      "message": "Incorrect file content"
+   },
+   "info": {
+      "message": "Info"
+   },
+   "initialTab": {
+      "message": "Initial tab"
+   },
+   "interjection": {
+      "message": "interjection"
+   },
+   "just_now": {
+      "message": "just now"
+   },
+   "key_modifier": {
+      "message": "key modifier"
+   },
+   "languages": {
+      "message": "languages"
+   },
+   "learn": {
+      "message": "learn"
+   },
+   "learned": {
+      "message": "learned"
+   },
+   "learningInSwitchTo": {
+      "message": "learning"
+   },
+   "learning_mode": {
+      "message": "learning mode"
+   },
+   "listening": {
+      "message": "listening"
+   },
+   "loading": {
+      "message": "loading"
+   },
+   "loadingSemantization": {
+      "message": "Loading semantization"
+   },
+   "localFilesTip": {
+      "message": "If you wish to translate within local pages you need to enable 'Allow access to file URLs' checkbox under Rememberry field in Extensions Manager."
+   },
+   "log_in": {
+      "message": "log in"
+   },
+   "log_out": {
+      "message": "log out"
+   },
+   "login": {
+      "message": "login"
+   },
+   "maxCardTextLengthExceeded": {
+      "message": "Can't save a card with original text longer than $1 symbols."
+   },
+   "menuDecks": {
+      "message": "Decks"
+   },
+   "menuLanguages": {
+      "message": "Languages"
+   },
+   "menuOther": {
+      "message": "Other"
+   },
+   "menuShare": {
+      "message": "Share"
+   },
+   "menuSubscription": {
+      "message": "Subscription"
+   },
+   "menuTriggers": {
+      "message": "Triggers"
+   },
+   "minutes": {
+      "message": "minutes"
+   },
+   "model": {
+      "message": "model"
+   },
+   "modifiers": {
+      "message": "modifiers"
+   },
+   "months": {
+      "message": "months"
+   },
+   "more_than_a_month": {
+      "message": "more than a month"
+   },
+   "more_than_year_ago": {
+      "message": "more than year ago"
+   },
+   "most_repeated": {
+      "message": "most repeated"
+   },
+   "most_useful": {
+      "message": "most useful"
+   },
+   "mutualLanguagesSetting": {
+      "message": "Use same languages both in popup and webpage translations"
+   },
+   "newFeatureReleased": {
+      "message": "Update. New feature"
+   },
+   "new_first": {
+      "message": "new first"
+   },
+   "noAvailableCards": {
+      "message": "No available cards in selected deck"
+   },
+   "normal": {
+      "message": "normal"
+   },
+   "notifyOnUpdates": {
+      "message": "Notify me on important updates"
+   },
+   "noun": {
+      "message": "noun"
+   },
+   "number_of_available_cards": {
+      "message": "number of available cards"
+   },
+   "number_of_available_cards_in_active_deck": {
+      "message": "number of available cards in active deck"
+   },
+   "of": {
+      "message": "of"
+   },
+   "off": {
+      "message": "off"
+   },
+   "offlineMessage": {
+      "message": "You are offline"
+   },
+   "on": {
+      "message": "on"
+   },
+   "openDecksMenu": {
+      "message": "Manage decks"
+   },
+   "openExtensionsManager": {
+      "message": "Open Extensions Manager"
+   },
+   "openTranslatorSite": {
+      "message": "Translate via web-site"
+   },
+   "original_term": {
+      "message": "original term"
+   },
+   "other": {
+      "message": "other"
+   },
+   "particle": {
+      "message": "particle"
+   },
+   "password": {
+      "message": "password"
+   },
+   "paste": {
+      "message": "paste"
+   },
+   "per_month": {
+      "message": "per month"
+   },
+   "plan": {
+      "message": "plan"
+   },
+   "popup": {
+      "message": "popup"
+   },
+   "popup_type": {
+      "message": "popup type"
+   },
+   "preposition": {
+      "message": "preposition"
+   },
+   "preserve_credentials": {
+      "message": "preserve credentials"
+   },
+   "pronoun": {
+      "message": "pronoun"
+   },
+   "pronunciation_loading_error": {
+      "message": "An error occurred while trying to load pronunciation"
+   },
+   "randomly": {
+      "message": "randomly"
+   },
+   "rateIn": {
+      "message": "Rate in"
+   },
+   "recentlyUsed": {
+      "message": "Recent"
+   },
+   "reminder": {
+      "message": "reminder"
+   },
+   "reminders": {
+      "message": "reminders"
+   },
+   "repeated": {
+      "message": "repeated"
+   },
+   "return": {
+      "message": "return"
+   },
+   "reverse": {
+      "message": "reverse"
+   },
+   "ripened_cards": {
+      "message": "available cards"
+   },
+   "save": {
+      "message": "save"
+   },
+   "saveCardToDeck": {
+      "message": "Save as a card"
+   },
+   "seconds": {
+      "message": "seconds"
+   },
+   "sentence": {
+      "message": "sentence"
+   },
+   "settings": {
+      "message": "settings"
+   },
+   "settingsSyncReleaseMessage": {
+      "message": "We are happy to announce that now you can sync Rememberry settings across all your Chrome browsers."
+   },
+   "shareForeword": {
+      "message": "Please spread a word about Rememberry. Help your friends effectively learn foreign languages!"
+   },
+   "shareWithFriends": {
+      "message": "Share Rememberry with friends"
+   },
+   "showInsideBadge": {
+      "message": "Show inside Badge"
+   },
+   "show_answer": {
+      "message": "show answer"
+   },
+   "signInToSync1st": {
+      "message": "Sign in to Chrome"
+   },
+   "signInToSync2nd": {
+      "message": " in order to use synchronization"
+   },
+   "sort_by": {
+      "message": "sort by"
+   },
+   "sort_direction": {
+      "message": "sort direction"
+   },
+   "source_language": {
+      "message": "source language"
+   },
+   "start": {
+      "message": "start"
+   },
+   "subAfterPlan": {
+      "message": "mode, which gives you full access to all basic and extra features."
+   },
+   "subBasic": {
+      "message": "Free"
+   },
+   "subBeforePlan": {
+      "message": "You are using"
+   },
+   "subCustomText": {
+      "message": "Translate custom text"
+   },
+   "subExportTo": {
+      "message": "Export to"
+   },
+   "subLearningModes": {
+      "message": "Learning modes"
+   },
+   "subLearningSessions": {
+      "message": "Learning sessions"
+   },
+   "subNewCards": {
+      "message": "New cards"
+   },
+   "subReminders": {
+      "message": "Reminders"
+   },
+   "subSemantizations": {
+      "message": "Semantization methods"
+   },
+   "subSubscriber": {
+      "message": "Subscriber"
+   },
+   "subTranslateSynNAnt": {
+      "message": "Translate synonyms & antonyms"
+   },
+   "subTranslations": {
+      "message": "Translations"
+   },
+   "subTrial": {
+      "message": "Trial"
+   },
+   "switchLanguages": {
+      "message": "Switch languages"
+   },
+   "switchPopupType": {
+      "message": "Switch to $1 popup"
+   },
+   "syncDecksLabel": {
+      "message": "Synchronize decks"
+   },
+   "syncDecksNotAvailable": {
+      "message": "Not available yet. We'll notify you!"
+   },
+   "syncSectionTitle": {
+      "message": "Sync"
+   },
+   "syncSettings": {
+      "message": "Synchronize extension settings"
+   },
+   "syncSettingsDescription": {
+      "message": "Synchronize Rememberry settings across all your Chrome browsers logged in with current profile"
+   },
+   "synonym": {
+      "message": "synonym"
+   },
+   "target_language": {
+      "message": "target language"
+   },
+   "termsPerPartOfSpeech": {
+      "message": "Translations per part of speech"
+   },
+   "text_to_translate": {
+      "message": "text to translate"
+   },
+   "thanksForBeingWithUs": {
+      "message": "Thank you for being with us"
+   },
+   "time_left": {
+      "message": "time left"
+   },
+   "tooLongOriginalsAreSkipped": {
+      "message": "Pronunciation is available only for text as long as $1 symbols. Some cards were filtered."
+   },
+   "tooLongTTT": {
+      "message": "Please use translation web-sites in order to translate big texts"
+   },
+   "total_cards": {
+      "message": "total cards"
+   },
+   "transcription_loading_error": {
+      "message": "An error occurred while trying to load transcription"
+   },
+   "translate": {
+      "message": "translate"
+   },
+   "translateRequestError": {
+      "message": "Translate request error"
+   },
+   "translateWith": {
+      "message": "Translate with $1"
+   },
+   "translation": {
+      "message": "translation"
+   },
+   "translationIconBesideSelection": {
+      "message": "Show translation icon beside selection"
+   },
+   "translationInSwitchTo": {
+      "message": "translation"
+   },
+   "translations": {
+      "message": "translations"
+   },
+   "trigger_action": {
+      "message": "trigger action"
+   },
+   "trigger_click": {
+      "message": "click"
+   },
+   "trigger_dblclick": {
+      "message": "double click"
+   },
+   "trigger_none": {
+      "message": "none"
+   },
+   "trigger_selection": {
+      "message": "selection"
+   },
+   "triggers": {
+      "message": "triggers"
+   },
+   "try_again": {
+      "message": "try again"
+   },
+   "typing": {
+      "message": "typing"
+   },
+   "undo": {
+      "message": "undo"
+   },
+   "unlimited": {
+      "message": "unlimited"
+   },
+   "updateChromeToLatest": {
+      "message": "The browser you are using is too old. Please upgrade to the latest version of your browser in order to use all features of our extension."
+   },
+   "verb": {
+      "message": "verb"
+   },
+   "warning": {
+      "message": "warning"
+   },
+   "weAreSorry": {
+      "message": "Sorry"
+   },
+   "webpage": {
+      "message": "webpage"
+   },
+   "welcomeAction": {
+      "message": "Hold $modifier$ key and $action$",
+      "placeholders": {
+         "action": {
+            "content": "$2"
+         },
+         "modifier": {
+            "content": "$1"
+         }
+      }
+   },
+   "welcomeActionWithoutModifier": {
+      "message": "Make $action$",
+      "placeholders": {
+         "action": {
+            "content": "$1"
+         }
+      }
+   },
+   "welcomeConfigure": {
+      "message": "Configure language, trigger action and more"
+   },
+   "welcomeHowToLink": {
+      "message": "Watch brief how-to"
+   },
+   "welcomeMessage": {
+      "message": "Now you can translate any text and save it for learning.\n$1 on unknown word in web page to view translation."
+   },
+   "welcomeTitle": {
+      "message": "Welcome!"
+   },
+   "your_answer": {
+      "message": "your answer"
+   }
+}

@@ -1,0 +1,26 @@
+{
+   "allpage": {
+      "message": "Kompletter Screenshot"
+   },
+   "captureregion": {
+      "message": "Bereich erfassen"
+   },
+   "description": {
+      "message": "Capture visible content of a tab (full page), a region of a web page, or the whole page as a PNG, PDF"
+   },
+   "editcontent": {
+      "message": "Inhalt bearbeiten"
+   },
+   "history": {
+      "message": "Zeige die Geschichte"
+   },
+   "name": {
+      "message": "Full page simple screenshot"
+   },
+   "noall": {
+      "message": "Kann Webseite nicht scrollen (Die Erweiterung funktioniert nicht in der Erweiterungsgallerie und auch nicht auf internen Chrome-Seiten)"
+   },
+   "visiblescreenshot": {
+      "message": "Sichtbarer Screenshot"
+   }
+}

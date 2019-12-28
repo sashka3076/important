@@ -1,0 +1,116 @@
+{
+   "appDesc": {
+      "message": "Ne perdez pas votre temps avec la conformité. Universal Bypass contourne automatiquement les raccourcisseurs de liens ennuyeux."
+   },
+   "beforeNavigate": {
+      "message": "Vous y êtes presque !"
+   },
+   "beforeNavigateDestination": {
+      "message": "Votre destination est %"
+   },
+   "beforeNavigateOptions": {
+      "message": "Voulez-vous être redirigé instantanément ou après x secondes ?"
+   },
+   "beforeNavigateTimer": {
+      "message": "Vous serez automatiquement redirigé dans % secondes."
+   },
+   "beforeNavigateTimerSingular": {
+      "message": "Vous serez automatiquement redirigé dans 1 seconde."
+   },
+   "blockedSubtitle": {
+      "message": "Vous ne souhaitez pas que Universal Bypass empêche des personnes malveillantes d'obtenir votre adresse IP ?"
+   },
+   "blockedTitle": {
+      "message": "Universal Bypass a empêché l’enregistrement de votre adresse IP."
+   },
+   "bypassCounter": {
+      "message": "Universal Bypass a déjà contourné % sites pour vous."
+   },
+   "changelog": {
+      "message": "Journal des modifications"
+   },
+   "crowdBypassed": {
+      "message": "Vous n'aurez peut-être pas à attendre !"
+   },
+   "crowdBypassedIgnore": {
+      "message": "Cela n'était-il pas exact ?"
+   },
+   "crowdBypassedInfo": {
+      "message": "D'autres utilisateurs de Universal Bypass ont déjà cliqué sur ce lien et ont rapporté que cela mène à %"
+   },
+   "crowdBypassedOptions": {
+      "message": "Voulez-vous que ce lien soit ouvert instantanément dans un nouvel onglet ou après x secondes ?"
+   },
+   "crowdBypassedTimer": {
+      "message": "Ce lien sera ouvert dans un nouvel onglet dans % secondes."
+   },
+   "crowdBypassedTimerSingular": {
+      "message": "Ce lien sera ouvert dans un nouvel onglet dans 1 seconde."
+   },
+   "crowdDisabled": {
+      "message": "L'URL de destination de ce site Web pourrait être partagée avec d'autres utilisateurs, mais vous avez désactivé cette fonctionnalité dans les options."
+   },
+   "crowdWait": {
+      "message": "Malheureusement, vous êtes la première personne à cliquer sur ce lien, mais après avoir attendu, les autres utilisateurs de Universal Bypass n'auront plus à le faire."
+   },
+   "faq": {
+      "message": "Questions fréquemment posées (FAQ)"
+   },
+   "firstrunNoScript": {
+      "message": "Cependant, il semblerait que vous utilisiez le module NoScript ou quelque chose de similaire, avec lequel Universal Bypass n'est pas compatible."
+   },
+   "firstrunSubtitle": {
+      "message": "Vous êtes fantastique !"
+   },
+   "firstrunTitle": {
+      "message": "Merci d'avoir installé Universal Bypass !"
+   },
+   "infoBoxHide": {
+      "message": "Cliquez sur cette fenêtre pour la masquer. Vous pouvez désactiver la fonction de message d’information dans les options de Universal Bypass."
+   },
+   "options": {
+      "message": "Options"
+   },
+   "optionsBlockIPLoggers": {
+      "message": "Bloquer les enregistreurs d'adresse IP s'ils ne peuvent pas être contournés."
+   },
+   "optionsCrowdAutoOpen": {
+      "message": "Ouvrir les destinations partagées par les utilisateurs dans un nouvel onglet après % seconde(s). (0 = ouverture instantanée.)"
+   },
+   "optionsCrowdBypass": {
+      "message": "Donner et obtenir les destinations des raccourcisseurs incontournables."
+   },
+   "optionsEnabled": {
+      "message": "Activer les contournements de sites Web."
+   },
+   "optionsInfoBox": {
+      "message": "Afficher des messages d'information sur certains sites."
+   },
+   "optionsInstantNavigationTrackers": {
+      "message": "Me rediriger instantanément vers les destinations des traqueurs."
+   },
+   "optionsLink": {
+      "message": "Modifier les options de Universal Bypass."
+   },
+   "optionsNavigationDelay": {
+      "message": "M'envoyer à destination après % seconde(s). (Utilisez le 0 pour être automatiquement redirigé.)"
+   },
+   "optionsTrackerBypass": {
+      "message": "Contourner les traqueurs en utilisant Apimon.de."
+   },
+   "optionsUserscripts": {
+      "message": "Contournements personnalisés"
+   },
+   "optionsUserscriptsDescription": {
+      "message": "Il s'agit d'une fonctionnalité avancée permettant aux développeurs de créer leurs propres scripts pour contourner des sites Web. Une fois mis au point, ils peuvent ensuite être soumis sur GitHub pour être ajoutés à Universal Bypass, afin qu'ils soient accessibles à tous."
+   },
+   "privacyPolicy": {
+      "message": "Politique de confidentialité"
+   },
+   "support": {
+      "message": "Soutenir Universal Bypass."
+   },
+   "version": {
+      "message": "Version"
+   }
+}

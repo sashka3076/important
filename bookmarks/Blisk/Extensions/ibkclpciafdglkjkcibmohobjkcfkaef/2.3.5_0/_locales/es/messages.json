@@ -1,0 +1,157 @@
+{
+   "characters": {
+      "message": "caracteres"
+   },
+   "clickdonate": {
+      "message": "Haga clic aquí para donar a través de PayPal"
+   },
+   "descriptiontoolong": {
+      "message": "description demasiado largo (&gt;170 caracteres)"
+   },
+   "descriptiontooshort": {
+      "message": "description demasiado corta (&lt; 50 caracteres)"
+   },
+   "doctypeis": {
+      "message": "Doctype es"
+   },
+   "donationtitle": {
+      "message": "Ayúdanos con una donación"
+   },
+   "empty": {
+      "message": "vacío"
+   },
+   "extDescription": {
+      "description": "Chrome extension description.",
+      "message": "Útil para inspeccionar los metadatos que se encuentran dentro de las páginas web, usualmente no son visibles mientras se navega."
+   },
+   "extName": {
+      "description": "Chrome extension name.",
+      "message": "META SEO inspector"
+   },
+   "headtitle": {
+      "message": "head title"
+   },
+   "html4tags": {
+      "message": "pero hay HTML4 tags obsoletas también"
+   },
+   "html5tags": {
+      "message": "hay HTML5 tags"
+   },
+   "info": {
+      "message": "INFO"
+   },
+   "invalidvalue": {
+      "message": "atributo 'value' inválido"
+   },
+   "items": {
+      "message": "items"
+   },
+   "justthink": {
+      "message": "Solo piense cuánto tiempo ha ahorrado con esta herramienta, tan rápido que solo necesita un clic para obtener toda la información que desea.\u003Cbr>También piense en cuánto ahorró al no comprar herramientas similares, sino más lentas y de pago."
+   },
+   "keywordsuseless": {
+      "message": "meta tag 'keywords' es obsoleta"
+   },
+   "menu_about": {
+      "message": "info"
+   },
+   "menu_onlinetools": {
+      "message": "herramientas"
+   },
+   "menu_options": {
+      "message": "opciones"
+   },
+   "menu_pagedata": {
+      "message": "datos"
+   },
+   "missing": {
+      "message": "falta"
+   },
+   "missingaltp1": {
+      "message": "imagenes (de"
+   },
+   "missingaltp2": {
+      "message": "con atributo ALT faltante"
+   },
+   "missingdescription": {
+      "message": "falta description"
+   },
+   "missingh1tag": {
+      "message": "falta &lt;h1&gt; tag"
+   },
+   "missingh2tag": {
+      "message": "falta &lt;h2&gt; tag"
+   },
+   "missingheadtitle": {
+      "message": "perdida HEAD TITLE"
+   },
+   "missinghtmltag": {
+      "message": "falta &lt;html&gt; tag"
+   },
+   "missingtitlep1": {
+      "message": "images (out of"
+   },
+   "missingtitlep2": {
+      "message": "with missing TITLE attribute"
+   },
+   "nohtml5tags": {
+      "message": "no hay HTML5 tags"
+   },
+   "noobsoletetags": {
+      "message": "y no se encontraron HTML tags obsoletas"
+   },
+   "notdefined": {
+      "message": "no definida"
+   },
+   "nothtml5": {
+      "message": "no HTML5"
+   },
+   "pleaseconsider": {
+      "message": "Gracias por considerar hacer una donación para apoyar esta extensión de Chrome."
+   },
+   "section_common": {
+      "message": "COMÚN"
+   },
+   "section_commontags": {
+      "message": "TAGS COMUNES"
+   },
+   "section_htmlreport": {
+      "message": "INFORME HTML5"
+   },
+   "section_htmltags": {
+      "message": "OVERVIEW"
+   },
+   "section_othermetadata": {
+      "message": "OTROS META DATA"
+   },
+   "section_presentation": {
+      "message": "PRESENTACIÓN"
+   },
+   "section_resourcehints": {
+      "message": "SUGERENCIAS DE RECURSOS"
+   },
+   "section_siteverification": {
+      "message": "VERIFICACIÓN"
+   },
+   "section_structureddata": {
+      "message": "DATOS ESTRUCTURADOS"
+   },
+   "streaming": {
+      "message": "streaming, no descargable"
+   },
+   "titlenotinhead": {
+      "message": "TITLE encontrado, pero no dentro de HEAD"
+   },
+   "titletoolong": {
+      "message": "head TITLE demasiado largo (>65 caracteres)"
+   },
+   "toomanyh1": {
+      "message": "demasiados &lt;h1&gt; tags"
+   },
+   "warning": {
+      "message": "ADVERTENCIA"
+   },
+   "wepromise": {
+      "message": "Nos comprometemos a mantener esta extensión actualizada siguiendo las últimas tendencias de SEO y escuchar sus comentarios."
+   }
+}

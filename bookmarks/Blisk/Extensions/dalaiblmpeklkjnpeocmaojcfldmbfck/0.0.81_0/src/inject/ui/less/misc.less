@@ -1,0 +1,106 @@
+// main: keyframes.less
+
+
+// Toast
+// Toast
+// Toast
+#kfToast{
+    z-index: 999999999999999999999999999999;
+    position: fixed;
+    top: 20px;
+    background-color: @blue;
+    width: 220px;
+    height: auto;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    box-shadow: @hoverShadow;
+    color: @white;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.45px;
+    line-height: 16px;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: -240px;
+}
+
+// Code Window
+#kfCodeLightbox{
+    z-index: 99999999999999999999999999997;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: @transition;
+    background-color: fade(@black, 50%);
+    display: none;
+
+    &:hover{
+        background-color: fade(@black, 45%);
+        cursor: pointer;
+        transition: @transition;
+    }
+}
+.kf-code-window{
+    z-index: 99999999999999999999999999998;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    position: fixed;
+    bottom: 0;
+    left: 15%;
+    background-color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: @baseShadow;
+    height: auto;
+    max-height: 90%;
+    min-height: 35%;
+    box-sizing: border-box;
+    padding: 20px;
+    white-space: pre-line;
+
+    .kf-code-box{
+        display: none;
+        width: auto;
+        margin: 0 auto;
+        flex-grow: 3;
+        max-width: 100%;
+        overflow: auto;
+        font-family: @mono;
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: 500;
+        letter-spacing: 0.25px;
+        box-sizing: border-box;
+        padding: 25px 25px;
+        white-space: pre-wrap;
+    }
+
+    #closeKfCodeWindow{
+        border: none;
+        padding: 0;
+        font-size: 62px;
+        position: fixed;
+        top: 0;
+        width: 50px;
+        // left: 50%;
+        right: 0;
+        transition: @transition;
+        margin-left: -25px;
+        text-align: center;
+        color: fade(@white, 70%);
+
+        &:hover{
+            cursor: pointer;
+            color: @white;
+            transition: @transition;
+        }
+    }
+}
