@@ -2,6 +2,15 @@ https://ss64.com/bash/
 
 tar xvfz
 
+sed -i 's/ani/animation/g' index.js
+	sed = Stream EDitor
+	-i thay thế nội dung ngay trong file gốc
+	s = Lệnh thay thế
+	ani = một từ, một biểu thức chính quy mô tả về đoạn text mà bạn muốn thay thế.
+	animation = Đoạn text sẽ thay thế vào.
+	g = global (Thay thế tất cả các trường hợp tìm thấy)
+
+
 find path -name filename
 find -size +100M
 	- Listing all the files whose size if more than 1000 MB
