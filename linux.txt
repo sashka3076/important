@@ -21,4 +21,5 @@ lscript1	=>  https://github.com/arismelachroinos/lscript
 fluxion		=>  https://github.com/FluxionNetwork/fluxion
 Tool-X		=>  https://github.com/Rajkumrdusad/Tool-X
 ffff		=>  https://github.com/sowdust/ffff
-
+stacer		=>  System optimizer & Monitor
+rambox		=>  All Social
