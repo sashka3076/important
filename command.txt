@@ -10,6 +10,8 @@ sed -i 's/ani/animation/g' index.js
 	animation = Đoạn text sẽ thay thế vào.
 	g = global (Thay thế tất cả các trường hợp tìm thấy)
 
+shred -zvu log.txt
+	Remove file! Can not recover 
 
 find path -name filename
 find -size +100M
