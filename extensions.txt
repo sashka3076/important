@@ -1,0 +1,76 @@
+1. Wisesub - Subtitles translation 
+Đây là extension đã thay đổi cuộc đời học tiếng Anh của em, nó cho phép dịch từng chữ, dịch cả câu, bật phụ đề song ngữ Anh-Việt trực tiếp ngay trên sub của Youtube và cả Netflix. Từ ngày có nó thì em thích xem Youtube hẳn, từ vựng, phát âm và nghe đều tăng lên rất nhiều. Highly recommend mọi người dùng thử nha.
+https://chrome.google.com/webstore/detail/wisesub-subtitles-transla/aadjhkfoplpffcekjfmckmooaahacbcj?hl=vi
+
+2. Ddict Translate: Translator - Dictionary 
+Giúp mọi người dịch trực tiếp văn bản trên web, trước đây em có dùng Google dịch, Mate... và một vài cái khác nhưng em vẫn thích extension này nhất vì em thấy nó đơn giản, dễ dùng, hoạt động nhanh và dịch rất mượt. Nếu mọi người muốn dịch Anh-Anh thì có thể tham khảo extension của Oxford: Oxford Dictionary Lookup
+https://chrome.google.com/webstore/detail/ddict-translate-translato/bpggmmljdiliancllaapiggllnkbjocb?hl=vi
+
+3. DF Tube (Distraction Free for YouTube™)
+Dành cho những ai hay bị mất tập trung bởi những video gợi ý bên dưới hay những cmt bla bla ở youtube như em, cái này sẽ gạt hết đi những cái đó tùy theo lựa chọn của mỗi người.
+https://chrome.google.com/webstore/detail/df-tube-distraction-free/mjdepdfccjgcndkmemponafgioodelna
+
+4. Fika - Reader mode 
+Đã bao giờ mọi người bị rối mắt bởi những hình ảnh, những banner đầy ở trên web mỗi lần đọc bài viết nào đó trên web chưa ạ, nếu có rồi thì hãy sử dụng cái này. Tất cả những thông tin không cần thiết đều sẽ bị bay đi trong chưa đầy 1s :))) Thêm nữa còn hiện cả những mục quan trọng cho mọi người dễ theo dõi bài viết hơn.
+https://chrome.google.com/webstore/detail/fika-reader-mode/fbcdnjeoghampomjjaahjgjghdjdbbcj
+
+5. Print friendly & PDF 
+Em hay lang thang tìm tài liệu trên Google và mỗi lần thấy cái gì đó cần thiết, muốn in ra giấy thì lại đau đầu vì những thông tin không cần thiết ở trang web. Có cái này rồi thì mọi người có thể xóa hết những thông tin không cần thiết đi, còn có thể thay đổi cỡ chữ, cách dòng để cho ra một bản in chất lượng nhất.
+https://chrome.google.com/webstore/detail/print-friendly-pdf/ohlencieiipommannpdfcmfdpjjmeolj?hl=vi
+
+6. CrxMouse Chrome™ Gestures 
+Cái này có thể tiết kiệm cả tấn thời gian cuộc đời của mỗi người. Đại loại nó giúp chúng ta làm những tác vụ mất thời gian như tải lại trang, đi đến trang trước, lùi về trang sau, đóng Chrome bla bla... chỉ bằng những cử chỉ chuột phải đơn giản. Em cũng không biết nói sao nữa nhưng nhất định mọi người phải thử ạ :))) Dùng thích lắm luôn. Thời gian đầu có thể sẽ không quen nhưng tối đa chỉ cần một tuần là mọi người sẽ dùng oke và thậm chí còn nghiện nó như em nghiện nó bây giờ.
+https://chrome.google.com/webstore/detail/crxmouse-chrome-gestures/jlgkpaicikihijadgifklkbpdajbkhjo?hl=vi
+
+7. Marinara: Trợ lý Pomodoro® 
+Đây là extension giúp em học theo phương pháp Pomodoro tốt hơn và có hiệu quả hơn. Cho những ai chưa nghe qua phương pháp Pomodoro bao giờ thì hãy đọc ở link này: https://anhtuanle.com/tag/pomodoro/
+---
+https://chrome.google.com/webstore/detail/marinara-pomodoro%C2%AE-assist/lojgmehidjdhhbmpjfamhpkpodfcodef?hl=vi
+
+8. Stream video downloader 
+Cái này để tải những video bản quyền, ví dụ như video học online của Hocmai, không phải em có ý định ăn cắp hay gì đó xấu xa, hiện tại em đang học online ở trang web Hocmai, và em thường xem video buổi tối, nhưng buổi tối thì lượng người học vào nhiều nên web rất lag, thế nên em thường tải trước video về để tối học. Mong mọi người cũng sẽ sử dụng extension này vì mục đích tốt như em :3
+https://chrome.google.com/webstore/detail/stream-video-downloader/imkngaibigegepnlckfcbecjoilcjbhf
+
+9. Tab Resize - split screen layouts 
+Cái này có thể mở được cùng lúc 2 tab, 3 tab hay 4 tab, rất tiện để làm việc đa nhiệm. Em thường để 1 bên là trang web Quizlet, một bên là trang web từ vựng để nhập qua nhập lại đỡ mất thời gian hơn.
+https://chrome.google.com/webstore/detail/tab-resize-split-screen-l/bkpenclhmiealbebdopglffmfdiilejc
+------------
+Một số extension khác em cũng rất thích nhưng bài cũng hơi dài quá rồi nên em tổng hợp lại dưới đây:
+
+10. AdGuard AdBlocker: Chặn quảng cáo, tăng độ bảo mật khi lướt web, chặn mã độc 
+https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg?hl=vi
+
+11. Click&Clean: Dọn rác trong nháy mắt, nhắc nhở bảo mật Chrome thường xuyên, nhắc nhở cập nhật trình duyệt Chrome 
+https://chrome.google.com/webstore/detail/clickclean/ghgabhipcejejjmhhchfonmamedcbeod?hl=vi
+
+12. Extension Manager: Tắt bật extension trực tiếp trên extension nếu cảm thấy quá rối mắt vì nhiều extension (ví dụ như em :))) )
+https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco
+
+13. Multi Session Box - Multi login any website: Cho phép đăng nhập nhiều tài khoản cùng lúc mà không cần đăng xuất ra đăng nhập lại
+https://chrome.google.com/webstore/detail/multi-session-box-multi-l/hojmmbfmaddjdkkcgbiipkphdcfmkhge
+
+14. Video Speed Controller: Điều chỉnh tốc độ video ở những trang web không có chức năng này  
+https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk
+15. J2TEAM Security: Tăng độ bảo mật khi sử dụng Facebook và có vài chức năng đi kèm như unseen inbox, unseen story... 
+https://chrome.google.com/webstore/detail/j2team-security/hmlcjjclebjnfohgmgikjfnbmfkigocc
+
+16. Bitwarden: Cái này giúp em lưu được password, tạo được pass mạnh, điền tự động pass cực kỳ đỡ tốn thời gian, từ ngày có nó em không cần phải nhớ pass của mình nữa luôn. Trước em dùng qua Lastpass, 1pass, Dashlane,.. Nhưng ưng cái này nhất vì độ bảo iiimật và đặc biệt là open-source
+https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb
+
+17. Multiple Tools for Facebook: 7749 tools cần thiết cho Facebook, không dùng thì phí lắm mng ạ :((
+https://chrome.google.com/webstore/detail/multiple-tools-for-facebo/eojdckfcadamkapabechhbnkleligand
+18. Translate Man Plus: Dịch văn bản ngay trên hình ảnh, cực kỳ tiện lợi cho việc học tiếng Anh
+https://chrome.google.com/webstore/detail/translate-man-plus/fmiefmaepcnjahoajkfckenfngfehhma
+
+19. Volume Control - Kiểm soát âm lượng: Boost được âm thanh lên đến 500%
+https://chrome.google.com/webstore/detail/volume-control/lhhgpflelfbhnihnbjigpgdbahgkbghp?hl=vi
+
+20. Weava Highlighter - PDF & Web: Cho phép highlight trên web và PDF
+https://chrome.google.com/webstore/detail/weava-highlighter-pdf-web/cbnaodkpfinfiipjblikofhlhlcickei
+
+21. Toby for Chrome: Nếu ai có quá nhiều bookmark và thấy rối mắt thì extension này sẽ là lựa chọn chắc chắn nên thử. Bản thân em coi đây là một extension không thể thiếu luôn.
+https://chrome.google.com/webstore/detail/toby-for-chrome/hddnkoipeenegfoeaoibdmnaalmgkpip
+
+22. Dark reader: ứng dụng làm tối mọi web cho anh em cú đêm
+https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=vi
+

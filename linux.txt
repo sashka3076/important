@@ -23,3 +23,84 @@ Tool-X		=>  https://github.com/Rajkumrdusad/Tool-X
 ffff		=>  https://github.com/sowdust/ffff
 stacer		=>  System optimizer & Monitor
 rambox		=>  All Social
+
+-----------------------------------------------------------
+
+powercfg /batteryreport
+https://hyper.is/
+https://dev.to/
+https://web.dev/
+http://zipezip.com/
+codota.com/
+https://learngitbranching.js.org/
+
+Template Bootstrap
+https://laptrinhwebvn.com/
+
+Free Picture
+https://www.freepik.com/
+https://www.pexels.com/
+https://toppng.com/
+https://unsplash.com/oauth/applications
+
+Hacking:
+http://weevil.info/
+http://testphp.vulnweb.com/artists.php\?artist\=1
+http://www.passwordtool.hu/
+
+Share code:
+https://gist.github.com/
+https://pastebin.com/
+https://leetcode.com/
+
+API:
+https://fortniteapi.com/
+https://jsonplaceholder.typicode.com/
+https://reqres.in/
+https://www.mockaroo.com/
+https://github.com/feliixx/mgodatagen
+https://www.openbrewerydb.org/
+https://kanye.rest/
+https://randomuser.me/
+https://www.edamam.com/
+https://swapi.co/
+https://dog.ceo/
+https://restcountries.eu/
+
+
+fast.io
+surge
+ngrok
+json-server
+https://serveo.net/
+https://zerohost.vn/
+https://www.netlify.com/
+https://github.com/localtunnel/localtunnel
+https://github.com/ramboxapp/community-edition
+https://github.com/johnpapa/lite-server
+
+
+Tối ưu hóa Win 10:
+https://gist.github.com/alirobe/7f3b34ad89a159e6daa1
+
+Kernel:
+Manjaro Linux
+
+
+sources.list
+//deb http://http.kali.org/kali kali-rolling main contrib non-free
+//deb-src http://http.kali.org/kali kali-rolling main contrib non-free
+//deb http://old.kali.org/kali sana main non-free contrib
+//deb http://ftp.de.debian.org/debian wheezy main
+
+deb https://http.kali.org/kali kali-rolling main non-free contrib
+deb-src https://http.kali.org/kali kali-rolling main non-free contrib
+
+deb https://deb.debian.org/debian stretch main
+deb-src https://deb.debian.org/debian stretch main
+
+deb https://deb.debian.org/debian stretch-updates main
+deb-src https://deb.debian.org/debian stretch-updates main
+
+deb http://security.debian.org/debian-security/ stretch/updates main
+deb-src http://security.debian.org/debian-security/ stretch/updates main
