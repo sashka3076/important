@@ -10,8 +10,6 @@ tasklist /fi "pid eq 2216"
 netstat -abno
 -a Displays all connections and listening ports.
 
--b Displays the executable involved in creating each connection or listening port. In some cases well-known executables host multiple independent components, and in these cases the sequence of components involved in creating the connection or listening port is displayed. In this case the executable name is in [] at the bottom, on top is the component it called, and so forth until TCP/IP was reached. Note that this option can be time-consuming and will fail unless you have sufficient permissions.
-
 -n Displays addresses and port numbers in numerical form.
 
 -o Displays the owning process ID associated with each connection.
@@ -34,3 +32,7 @@ HideShutDown   value = 1
 
 
 https://stackoverflow.com/questions/48198/how-can-you-find-out-which-process-is-listening-on-a-port-on-windows
+
+
+ (not full access)
+https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed
