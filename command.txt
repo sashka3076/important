@@ -22,6 +22,7 @@ find / -type s
 nc -zv localhost 80
 	- Check if port 80 is open or not.
 
+netstat -lptn G 80
 lsof -iTCP:80 -sTCP:LISTEN
 	- name of process/service using a specific port 80
 	- it will list all services/processes running on port.
