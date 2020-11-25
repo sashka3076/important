@@ -2,6 +2,9 @@ https://ss64.com/bash/
 
 tar xvfz
 
+!!  Auto previous command
+popd  back previous directory
+
 sed -i 's/ani/animation/g' index.js
 	sed = Stream EDitor
 	-i thay thế nội dung ngay trong file gốc
