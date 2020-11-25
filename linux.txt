@@ -23,7 +23,7 @@ Tool-X		=>  https://github.com/Rajkumrdusad/Tool-X
 ffff		=>  https://github.com/sowdust/ffff
 stacer		=>  System optimizer & Monitor
 rambox		=>  All Social
-aria2    => Same IDM (Support Download)
+https://aria2.github.io/  => Same IDM (Support Download)
 efibootmgr   => Boot Manager
 
 
