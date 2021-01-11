@@ -25,6 +25,7 @@ stacer		=>  System optimizer & Monitor
 rambox		=>  All Social
 https://aria2.github.io/  => Same IDM (Support Download)
 efibootmgr   => Boot Manager
+cockpit      => Manager linux server with UI
 
 
 -----------------------------------------------------------
